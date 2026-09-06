@@ -1,0 +1,11 @@
+Task ID;Datum;Wochentag;Aufgabe;Team;Start;Ende;Soll-Dauer (Min);Status;Progress %;Ist-Dauer (Min);Abweichung (Min);Abhängigkeiten;Evidenz;Notizen
+1;2026-09-07;Montag;Evaluierung-Baseline;Research & Evaluation;09:00;10:30;90;Planned;0;;;;;
+2;2026-09-07;Montag;Evidenz erfassen;Research & Evaluation;10:45;11:45;60;Planned;0;;;;;
+3;2026-09-08;Dienstag;Frontend-Dashboard verfeinern;Frontend / UX;13:00;14:30;90;Planned;0;;;;;
+4;2026-09-08;Dienstag;Backend-Datenvertrag;Backend / Data;14:45;16:15;90;Planned;0;;;;;
+5;2026-09-09;Mittwoch;QA-Regression-Suite;QA / Automation;09:00;10:30;90;Planned;0;;;;;
+6;2026-09-09;Mittwoch;Security-Gates prüfen;DevOps / Security;10:45;11:45;60;Planned;0;;;;;
+7;2026-09-10;Donnerstag;Dokumentations-Sprint;Docs / Governance;13:00;14:00;60;Planned;0;;;;;
+8;2026-09-10;Donnerstag;Wöchentlicher Architektur-Review;All Teams;15:00;16:00;60;Planned;0;;;;;
+9;2026-09-11;Freitag;Produktivitätsexperiment;Research & Evaluation;09:00;09:45;45;Planned;0;;;;;
+10;2026-09-11;Freitag;Wöchentlicher KPI-Review;All Teams;16:15;17:00;45;Planned;0;;;;;
