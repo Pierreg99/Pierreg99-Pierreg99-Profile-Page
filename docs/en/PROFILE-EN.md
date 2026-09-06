@@ -4,7 +4,7 @@
 
 <img src="../../assets/cryo-header.svg" alt="CRYO / Pierreg99" width="100%" />
 
-[GitHub](https://github.com/Pierreg99) · [Technical Stack](./TECH-STACK-EN.md) · [Quality Audit](./TECHNICAL-QUALITY-AUDIT-EN.md) · [Academic Evaluation](../../academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md)
+[GitHub](https://github.com/Pierreg99) · [Technical Stack](./TECH-STACK-EN.md) · [Quality Audit](./TECHNICAL-QUALITY-AUDIT-EN.md) · [Academic Evaluation](./ACADEMIC-EVALUATION-EN.md)
 
 </div>
 
@@ -13,6 +13,14 @@
 **Cryopg.it / Pierreg99** builds experimental and product-oriented systems across **Artificial Intelligence, software engineering, web, games, 3D and knowledge systems**.
 
 The focus is modular architecture, automation, creative interfaces, AI agents, persistence, testability and documented iteration.
+
+## Stack Overview
+
+<img src="../../assets/stack-icons.svg" alt="CRYO stack icon wall" width="100%" />
+
+<img src="../../assets/stack-progress.svg" alt="CRYO technology evidence progress" width="100%" />
+
+[Open the full visual stack →](./TECH-STACK-EN.md)
 
 ## Technical Domains
 
@@ -43,4 +51,4 @@ The focus is modular architecture, automation, creative interfaces, AI agents, p
 
 ## Navigation
 
-[Technical Stack](./TECH-STACK-EN.md) · [Technical Quality Audit](./TECHNICAL-QUALITY-AUDIT-EN.md) · [Tasks, Time & Progress](../../academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md)
+[Technical Stack](./TECH-STACK-EN.md) · [Technical Quality Audit](./TECHNICAL-QUALITY-AUDIT-EN.md) · [Academic Evaluation](./ACADEMIC-EVALUATION-EN.md) · [Tasks, Time & Progress](../../academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md)
