@@ -4,6 +4,8 @@
 
 <img src="../../assets/cryo-header.svg" alt="CRYO / Pierreg99" width="100%" />
 
+<img src="../../assets/animations/cryo-pulse.gif" alt="Animated CRYO pulse indicator" width="100%" />
+
 [GitHub](https://github.com/Pierreg99) · [Technical Stack](./TECH-STACK-EN.md) · [Quality Audit](./TECHNICAL-QUALITY-AUDIT-EN.md) · [Academic Evaluation](./ACADEMIC-EVALUATION-EN.md) · [Public Language Report](./PUBLIC-LANGUAGE-PROFILE-EN.md)
 
 </div>
@@ -42,6 +44,8 @@ The public snapshot contains 15 repositories and uses each repository's **GitHub
 | **HTML** | 2 | **13.33%** |
 
 <img src="../../assets/public-project-language-profile.svg" alt="Public language profile: JavaScript 40 percent, TypeScript 33.33 percent, Python 13.33 percent, HTML 13.33 percent" width="100%" />
+
+<img src="../../assets/animations/cryo-orbit.gif" alt="Animated CRYO engineering orbit" width="100%" />
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![JavaScript](https://img.shields.io/badge/JavaScript-ES202x-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)](https://developer.mozilla.org/docs/Web/JavaScript) [![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 
@@ -94,9 +98,13 @@ The immersive domain covers **Three.js, React Three Fiber, Blender, browser game
 <img src="../../assets/stack-icons.svg" alt="CRYO stack icon wall" width="100%" />
 <img src="../../assets/stack-progress.svg" alt="CRYO technology evidence progress" width="100%" />
 
+## Animated Layer
+
+The GIFs live natively under `assets/animations/` and add lightweight self-contained motion accents to the static SVG masterworks.
+
 ## Evidence Boundary
 
-The page separates repository evidence, GitHub primary-language metadata, technical documentation and custom visual symbolism. Custom language symbols are presentation artwork and do not claim to be official brand logos.
+The page separates repository evidence, GitHub primary-language metadata, technical documentation and custom visual symbolism. Custom language symbols and animations are presentation artwork and do not claim to be official brand logos.
 
 Portfolio scores are evidence signals, not certification or personnel assessment.
 
