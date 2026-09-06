@@ -1,6 +1,22 @@
-# Changelog — CRYO / Pierreg99
+# CHANGELOG — CRYO / Pierreg99
 
-All notable profile-interface, documentation, visual-asset and stack-system changes are tracked here.
+## 2026-09-07
+
+### Added
+- Original vector language-symbol sheet for Python, TypeScript, JavaScript and extended ecosystem symbols.
+- Standalone German programming-language reference.
+- Standalone English programming-language reference.
+- Original asset catalog documenting SVG and PNG roles.
+- Explicit evidence separation between verified core languages and contextual ecosystem symbols.
+
+### Improved
+- Visual navigation now exposes a dedicated Programming Languages section.
+- Stack documentation points to standalone language references.
+- Asset naming and presentation roles are documented for future exports.
+
+### Verification
+- Core portfolio language evidence remains Python, TypeScript and JavaScript.
+- Extended language symbols are presented as context unless independently verified in repository evidence.
 
 ## 2026-09-06
 
@@ -11,7 +27,7 @@ All notable profile-interface, documentation, visual-asset and stack-system chan
 - Immersive engineering orbit graphic.
 - Capability radar graphic.
 - Build/delivery timeline graphic.
-- Programming Languages Atlas with explicit symbols for Python, TypeScript, JavaScript, HTML, CSS, SQL, YAML, JSON, Shell and Markdown.
+- Programming Languages Atlas.
 - CRYO brand mark SVG.
 - Separate DE/EN navigation for profile, stack, audit, evaluation and comparison documents.
 
@@ -19,11 +35,3 @@ All notable profile-interface, documentation, visual-asset and stack-system chan
 - README redesigned as a visual documentation and stack hub.
 - Technical stack documentation expanded across AI, frontend, backend, data, 3D, tooling, testing and delivery.
 - Language separation enforced at document level.
-
-### Architecture
-- `docs/de/` contains German-only documentation.
-- `docs/en/` contains English-only documentation.
-- `assets/` contains reusable visual presentation assets.
-
-### Notes
-The visual scores and progress indicators represent portfolio/evidence signals, not formal certifications or psychometric measurements.
