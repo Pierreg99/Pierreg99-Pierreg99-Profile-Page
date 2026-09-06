@@ -1,0 +1,31 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">CRYO technology evidence progress</title>
+<desc id="desc">Portfolio evidence progress bars for programming, AI, frontend, backend, data, 3D, testing and delivery.</desc>
+<rect width="1200" height="560" rx="24" fill="#06080d"/>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+<text x="48" y="48" fill="#f8fafc" font-size="24" font-weight="800">TECHNOLOGY EVIDENCE / PROGRESS</text>
+<text x="48" y="74" fill="#64748b" font-size="13">Portfolio evidence scale · not a certification or personnel rating</text>
+<g transform="translate(48 105)">
+<text x="0" y="20" fill="#e2e8f0" font-size="15" font-weight="700">Programming Languages</text><rect x="0" y="34" width="500" height="12" rx="6" fill="#1e293b"/><rect x="0" y="34" width="460" height="12" rx="6" fill="#67e8f9"/><text x="515" y="45" fill="#67e8f9" font-size="14" font-weight="800">92%</text>
+<text x="0" y="86" fill="#e2e8f0" font-size="15" font-weight="700">AI / Agent Engineering</text><rect x="0" y="100" width="500" height="12" rx="6" fill="#1e293b"/><rect x="0" y="100" width="450" height="12" rx="6" fill="#60a5fa"/><text x="515" y="111" fill="#60a5fa" font-size="14" font-weight="800">90%</text>
+<text x="0" y="152" fill="#e2e8f0" font-size="15" font-weight="700">Frontend / UI</text><rect x="0" y="166" width="500" height="12" rx="6" fill="#1e293b"/><rect x="0" y="166" width="435" height="12" rx="6" fill="#818cf8"/><text x="515" y="177" fill="#818cf8" font-size="14" font-weight="800">87%</text>
+<text x="0" y="218" fill="#e2e8f0" font-size="15" font-weight="700">Backend / APIs</text><rect x="0" y="232" width="500" height="12" rx="6" fill="#1e293b"/><rect x="0" y="232" width="450" height="12" rx="6" fill="#a78bfa"/><text x="515" y="243" fill="#a78bfa" font-size="14" font-weight="800">90%</text>
+<text x="0" y="284" fill="#e2e8f0" font-size="15" font-weight="700">Data / Persistence</text><rect x="0" y="298" width="500" height="12" rx="6" fill="#1e293b"/><rect x="0" y="298" width="440" height="12" rx="6" fill="#38bdf8"/><text x="515" y="309" fill="#38bdf8" font-size="14" font-weight="800">88%</text>
+<text x="0" y="350" fill="#e2e8f0" font-size="15" font-weight="700">3D / Interactive</text><rect x="0" y="364" width="500" height="12" rx="6" fill="#1e293b"/><rect x="0" y="364" width="450" height="12" rx="6" fill="#c084fc"/><text x="515" y="375" fill="#c084fc" font-size="14" font-weight="800">90%</text>
+<text x="0" y="416" fill="#e2e8f0" font-size="15" font-weight="700">Testing / QA</text><rect x="0" y="430" width="500" height="12" rx="6" fill="#1e293b"/><rect x="0" y="430" width="415" height="12" rx="6" fill="#94a3b8"/><text x="515" y="441" fill="#cbd5e1" font-size="14" font-weight="800">83%</text>
+<text x="0" y="482" fill="#e2e8f0" font-size="15" font-weight="700">Delivery / Tooling</text><rect x="0" y="496" width="500" height="12" rx="6" fill="#1e293b"/><rect x="0" y="496" width="450" height="12" rx="6" fill="#67e8f9"/><text x="515" y="507" fill="#67e8f9" font-size="14" font-weight="800">90%</text>
+</g>
+<g transform="translate(700 105)"><rect width="450" height="403" rx="20" fill="#0b1220" stroke="#334155"/>
+<text x="24" y="38" fill="#f8fafc" font-size="17" font-weight="800">READ THE SCALE</text>
+<text x="24" y="74" fill="#94a3b8" font-size="13">90–100  ·  strong visible evidence</text>
+<text x="24" y="102" fill="#94a3b8" font-size="13">80–89   ·  broad and repeatable evidence</text>
+<text x="24" y="130" fill="#94a3b8" font-size="13">70–79   ·  usable evidence / room to deepen</text>
+<text x="24" y="158" fill="#94a3b8" font-size="13">&lt;70      ·  limited public evidence</text>
+<line x1="24" y1="188" x2="426" y2="188" stroke="#334155"/>
+<text x="24" y="222" fill="#67e8f9" font-size="13" font-weight="700">CURRENT PROFILE SIGNALS</text>
+<text x="24" y="254" fill="#e2e8f0" font-size="14">Technical capability      88%</text>
+<text x="24" y="282" fill="#e2e8f0" font-size="14">Architecture breadth      91%</text>
+<text x="24" y="310" fill="#e2e8f0" font-size="14">Production evidence       74%</text>
+<text x="24" y="350" fill="#64748b" font-size="12">Scores mirror the current audit framework.</text>
+<text x="24" y="373" fill="#64748b" font-size="12">They describe observable repository evidence.</text>
+</g></g></svg>
