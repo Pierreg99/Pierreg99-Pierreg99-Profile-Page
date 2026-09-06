@@ -2,6 +2,12 @@
 
 ## 07.09.2026
 
+### Icon-Rendering-Fix
+- Direkte Shields-Icon-Ebene in README sowie deutsche und englische Profilseite integriert.
+- Sichtbare Icons für Python, TypeScript, JavaScript, React, Vite, Node.js, PostgreSQL, MySQL, SQLite, Three.js, Blender, Tailwind CSS, ESLint, Vitest, Playwright und GitHub wiederhergestellt.
+- Die immersiven SVG-Icon-Wände bleiben erhalten und werden nun durch einen renderer-sicheren Badge-Fallback ergänzt.
+- Die Evidenzgrenze bleibt bestehen: Python, TypeScript und JavaScript sind weiterhin die ausdrücklich verifizierten Kernsprachen.
+
 ### Masterwork-Integration
 - `assets/immersive-dashboard.svg` als zentrales Master-Dashboard ergänzt.
 - `assets/language-technology-matrix.svg` als evidenzbewusste Brücke zwischen Sprache und Technologie ergänzt.
@@ -20,7 +26,7 @@
 ### Evidenz
 - Öffentlicher Kernnachweis bleibt Python, TypeScript und JavaScript.
 - Erweiterte Symbole bleiben kontextuell, sofern keine unabhängige Repository-Evidenz vorliegt.
-- Portfolio-Scores bleiben Evidenzsignale und sind keine Zertifizierung oder Personaleignungsbewertung.
+- Portfolio-Scores bleiben Evidenzsignale und keine Zertifizierung oder Personaleignungsbewertung.
 
 ## 06.09.2026
 
