@@ -1,0 +1,11 @@
+Task ID,Date,Weekday DE,Weekday EN,Task DE,Task EN,Team,Start,End,Planned Duration (min),Status,Progress %,Actual Duration (min),Variance (min),Dependencies,Deliverable / Evidence,Notes
+1,2026-09-07,Montag,Monday,Evaluierung-Baseline,Evaluation baseline,Research & Evaluation,09:00,10:30,90,Planned,0,,,,,
+2,2026-09-07,Montag,Monday,Evidenz erfassen,Evidence capture,Research & Evaluation,10:45,11:45,60,Planned,0,,,,,
+3,2026-09-08,Dienstag,Tuesday,Frontend-Dashboard verfeinern,Frontend dashboard polish,Frontend / UX,13:00,14:30,90,Planned,0,,,,,
+4,2026-09-08,Dienstag,Tuesday,Backend-Datenvertrag,Backend data contract,Backend / Data,14:45,16:15,90,Planned,0,,,,,
+5,2026-09-09,Mittwoch,Wednesday,QA-Regression-Suite,QA regression suite,QA / Automation,09:00,10:30,90,Planned,0,,,,,
+6,2026-09-09,Mittwoch,Wednesday,Security-Gates prüfen,Security gate review,DevOps / Security,10:45,11:45,60,Planned,0,,,,,
+7,2026-09-10,Donnerstag,Thursday,Dokumentations-Sprint,Documentation sprint,Docs / Governance,13:00,14:00,60,Planned,0,,,,,
+8,2026-09-10,Donnerstag,Thursday,Wöchentlicher Architektur-Review,Weekly architecture review,All Teams,15:00,16:00,60,Planned,0,,,,,
+9,2026-09-11,Freitag,Friday,Produktivitätsexperiment,Productivity experiment,Research & Evaluation,09:00,09:45,45,Planned,0,,,,,
+10,2026-09-11,Freitag,Friday,Wöchentlicher KPI-Review,Weekly KPI review,All Teams,16:15,17:00,45,Planned,0,,,,,
