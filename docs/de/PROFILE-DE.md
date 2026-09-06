@@ -4,7 +4,7 @@
 
 <img src="../../assets/cryo-header.svg" alt="CRYO / Pierreg99" width="100%" />
 
-[GitHub](https://github.com/Pierreg99) · [Technischer Stack](./TECH-STACK-DE.md) · [Qualitätsaudit](./TECHNICAL-QUALITY-AUDIT-DE.md) · [Academic Evaluation](../../academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md)
+[GitHub](https://github.com/Pierreg99) · [Technischer Stack](./TECH-STACK-DE.md) · [Qualitätsaudit](./TECHNICAL-QUALITY-AUDIT-DE.md) · [Academic Evaluation](./ACADEMIC-EVALUATION-DE.md)
 
 </div>
 
@@ -13,6 +13,14 @@
 **Cryopg.it / Pierreg99** entwickelt experimentelle und produktorientierte Systeme an der Schnittstelle von **Künstlicher Intelligenz, Software Engineering, Web, Games, 3D und Wissenssystemen**.
 
 Der Fokus liegt auf modularer Architektur, Automatisierung, kreativen Interfaces, AI-Agenten, Datenhaltung, Testbarkeit und dokumentierter Weiterentwicklung.
+
+## Stack-Übersicht
+
+<img src="../../assets/stack-icons.svg" alt="CRYO Stack-Icon-Wand" width="100%" />
+
+<img src="../../assets/stack-progress.svg" alt="CRYO Technologie-Fortschritt" width="100%" />
+
+[Visuellen vollständigen Stack öffnen →](./TECH-STACK-DE.md)
 
 ## Technische Domänen
 
@@ -43,4 +51,4 @@ Der Fokus liegt auf modularer Architektur, Automatisierung, kreativen Interfaces
 
 ## Navigation
 
-[Technischer Stack](./TECH-STACK-DE.md) · [Technischer Qualitätsaudit](./TECHNICAL-QUALITY-AUDIT-DE.md) · [Aufgaben, Zeiten & Fortschritt](../../academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md)
+[Technischer Stack](./TECH-STACK-DE.md) · [Technischer Qualitätsaudit](./TECHNICAL-QUALITY-AUDIT-DE.md) · [Akademische Evaluation](./ACADEMIC-EVALUATION-DE.md) · [Aufgaben, Zeiten & Fortschritt](../../academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md)
