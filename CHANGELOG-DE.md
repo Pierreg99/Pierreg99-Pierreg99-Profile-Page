@@ -1,6 +1,25 @@
-# Änderungsprotokoll — CRYO / Pierreg99
+# ÄNDERUNGSPROTOKOLL — CRYO / Pierreg99
 
-Hier werden wesentliche Änderungen an Profiloberfläche, Dokumentation, visuellen Assets und Stack-System dokumentiert.
+## 07.09.2026
+
+### Hinzugefügt
+- Originale Vektor-Sprachsymboltafel für Python, TypeScript, JavaScript und kontextuelle Ökosystem-Symbole.
+- Eigenständige deutsche Programmiersprachen-Referenz.
+- Eigenständige englische Programmiersprachen-Referenz.
+- Originaler Asset-Katalog mit Rollen und Evidenzgrenzen.
+- Erweiterte visuelle Startseiten-Navigation für Sprache, Stack und Assets.
+- Immersive Visual System als zentraler Showcase.
+
+### Verbessert
+- README als immersiver visueller Hub neu strukturiert.
+- Programmiersprachen und technische Tools sind visuell und dokumentarisch getrennt.
+- Verifizierte Kernsprachen werden von nicht verifizierten Kontextsymbolen getrennt.
+- Asset- und Changelog-Dokumentation wurde konsolidiert.
+
+### Prüfung
+- Öffentlicher Kernnachweis: Python, TypeScript und JavaScript.
+- Zusatzsymbole sind keine Behauptung verifizierter Repository-Nutzung.
+- Prozentwerte und Reifegrade bleiben Portfolio-/Evidenzsignale.
 
 ## 06.09.2026
 
@@ -8,22 +27,13 @@ Hier werden wesentliche Änderungen an Profiloberfläche, Dokumentation, visuell
 - Vollständig getrennte deutsche und englische Dokumentationsbereiche.
 - Visuelle Stack-Icon-Wand.
 - Visuelle Stack-Fortschrittsmatrix.
-- Immersive Engineering-Orbit-Grafik.
-- Capability-Radar-Grafik.
+- Immersive Engineering-Orbit.
+- Capability-Radar.
 - Build-/Delivery-Timeline.
-- Programming Languages Atlas mit eindeutigen Symbolen für Python, TypeScript, JavaScript, HTML, CSS, SQL, YAML, JSON, Shell und Markdown.
-- CRYO Brand-Mark als SVG.
-- Separate DE-/EN-Navigation für Profil, Stack, Audit, Evaluation und Vergleiche.
+- Programming Languages Atlas.
+- CRYO Brand-Mark.
+- Separate DE-/EN-Navigation.
 
 ### Verbessert
-- README zur visuellen Dokumentations- und Stack-Hub-Oberfläche ausgebaut.
 - Technischer Stack über AI, Frontend, Backend, Daten, 3D, Tooling, Testing und Delivery erweitert.
 - Sprachtrennung auf Dokumentebene durchgesetzt.
-
-### Struktur
-- `docs/de/` enthält ausschließlich deutsche Dokumentation.
-- `docs/en/` enthält ausschließlich englische Dokumentation.
-- `assets/` enthält wiederverwendbare visuelle Präsentations-Assets.
-
-### Hinweis
-Fortschritts- und Scorewerte sind Portfolio-/Nachweissignale und keine formalen Zertifizierungen oder psychometrischen Messungen.
