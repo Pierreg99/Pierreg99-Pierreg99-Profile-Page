@@ -4,7 +4,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-0b0f14?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
 [![Projects](https://img.shields.io/badge/Projects-13_public-111827?style=for-the-badge)](https://github.com/Pierreg99?tab=repositories)
-[![Languages](https://img.shields.io/badge/Languages-Python%20%7C%20TypeScript%20%7C%20JavaScript-111827?style=for-the-badge)](#-programming-languages)
+[![Languages](https://img.shields.io/badge/Languages-Python%20%7C%20TypeScript%20%7C%20JavaScript-111827?style=for-the-badge&logo=github)](#-programming-languages)
 [![Audit](https://img.shields.io/badge/Audit-Technical%20Quality-111827?style=for-the-badge)](./TECHNICAL-QUALITY-AUDIT-DE-EN.md)
 
 **DEUTSCH · ENGLISH**  
@@ -35,11 +35,9 @@ Der Fokus liegt auf **modularer Architektur, Automatisierung, kreativen Interfac
 | **Delivery** | Git · GitHub · GitHub Actions · GitHub Pages · Vercel-oriented builds |
 | **Knowledge** | Markdown · YAML · Documentation · Reports · Workbooks · Research |
 
-### Sprachgetrennte Dokumente / Language-separated documents
+### Academic Evaluation — Sprachgetrennte Dateien
 
-**Deutsch** · [Academic Evaluation](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md) · [Task & Calendar Overview](./academic-evaluation/task-time-progress/README.md)
-
-**English** · [Academic Evaluation](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) · [Task & Calendar Overview](./academic-evaluation/task-time-progress/README.md)
+[DE · Aufgaben, Zeiten & Fortschritt](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md) · [DE · Task CSV](./academic-evaluation/task-time-progress/Task_Duration_Progress_DE.csv) · [DE · Kalender](./academic-evaluation/task-time-progress/Academic_Productivity_Task_Calendar_DE.ics)
 
 ---
 
@@ -64,11 +62,9 @@ The approach emphasizes **modular architecture, automation, creative interfaces,
 | **Delivery** | Git · GitHub · GitHub Actions · GitHub Pages · Vercel-oriented builds |
 | **Knowledge** | Markdown · YAML · Documentation · Reports · Workbooks · Research |
 
-### Separate language documents
+### Academic Evaluation — Language-separated files
 
-**Deutsch** · [Aufgaben, Zeiten & Fortschritt](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md) · [Task & Calendar Overview](./academic-evaluation/task-time-progress/README.md)
-
-**English** · [Tasks, Time & Progress](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) · [Task & Calendar Overview](./academic-evaluation/task-time-progress/README.md)
+[EN · Tasks, Time & Progress](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) · [EN · Task CSV](./academic-evaluation/task-time-progress/Task_Duration_Progress_EN.csv) · [EN · Calendar](./academic-evaluation/task-time-progress/Academic_Productivity_Task_Calendar_EN.ics)
 
 ---
 
@@ -204,10 +200,10 @@ The audit includes quality scoring, programming-language assessment, quality-vs-
 # Profile Navigation
 
 **DE**  
-[Profil](#de--profil--profile) · [Programmiersprachen](#programming-languages) · [Technischer Stack](#technical-stack--technischer-stack) · [Projekte](#featured-projects--ausgewählte-projekte) · [Qualitätsaudit](#technical-quality-audit--technischer-qualitätsaudit) · [Academic Tasks DE](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md)
+[Profil](#de--profil--profile) · [Programmiersprachen](#programming-languages) · [Technischer Stack](#technical-stack--technischer-stack) · [Projekte](#featured-projects--ausgewählte-projekte) · [Qualitätsaudit](#technical-quality-audit--technischer-qualitätsaudit) · [Academic Tasks DE](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md) · [Task CSV DE](./academic-evaluation/task-time-progress/Task_Duration_Progress_DE.csv) · [Kalender DE](./academic-evaluation/task-time-progress/Academic_Productivity_Task_Calendar_DE.ics)
 
 **EN**  
-[Profile](#en--profile) · [Programming Languages](#programming-languages) · [Technical Stack](#technical-stack--technischer-stack) · [Projects](#featured-projects--ausgewählte-projekte) · [Quality Audit](#technical-quality-audit--technischer-qualitätsaudit) · [Academic Tasks EN](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md)
+[Profile](#en--profile) · [Programming Languages](#programming-languages) · [Technical Stack](#technical-stack--technischer-stack) · [Projects](#featured-projects--ausgewählte-projekte) · [Quality Audit](#technical-quality-audit--technischer-qualitätsaudit) · [Academic Tasks EN](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) · [Task CSV EN](./academic-evaluation/task-time-progress/Task_Duration_Progress_EN.csv) · [Calendar EN](./academic-evaluation/task-time-progress/Academic_Productivity_Task_Calendar_EN.ics)
 
 ---
 
