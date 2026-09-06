@@ -1,22 +1,43 @@
-# Task, Time & Progress Plan — English
+# Tasks, Time & Progress — English
 
 ## Purpose
-This plan connects tasks, planned duration, calendar events and measurable progress for the academic evaluation and Dev-Team readiness layer.
 
-## Metrics
-- **Planned Duration:** scheduled minutes.
-- **Actual Duration:** time actually spent.
-- **Variance:** actual minus planned.
-- **Progress:** 0–100% per task.
-- **Status:** Planned, In Progress, Blocked, Done.
-- **Evidence:** linkable artifact, commit, test run or document.
+This section documents tasks, planned time, actual duration and progress for the Academic Evaluation and Dev-Team readiness assessment.
 
-## Working rules
-1. Every task has a clear start and end time.
-2. Progress is updated from observable output.
-3. Variances above 20% are explained during the weekly review.
-4. Blocked tasks document the dependency.
-5. Task data is for process improvement, not employee surveillance.
+## Files
+
+- [Task Duration & Progress CSV](./Task_Duration_Progress_DE_EN.csv)
+- [German calendar](./Academic_Productivity_Task_Calendar_DE.ics)
+- [English calendar](./Academic_Productivity_Task_Calendar_EN.ics)
+- [German documentation](./TASK_TIME_PROGRESS_DE.md)
+
+## Task logic
+
+| Field | Meaning |
+|---|---|
+| Start / End | Planned time window |
+| Planned duration | Expected effort in minutes |
+| Actual duration | Measured time spent |
+| Progress | 0–100% task progress |
+| Status | Planned / In Progress / Blocked / Done |
+| Variance | Actual duration minus planned duration |
+| Evidence | Commit, test run, document, artifact or result |
+
+## Operating rule
+
+Tasks are evaluated from observable output. A variance above 20% should be explained in the weekly review. Blocked tasks should document the dependency causing the block.
+
+Task data is for process improvement and is not an individual personnel-performance rating.
+
+## Dev-Team mapping
+
+- Research & Evaluation
+- Frontend / UX
+- Backend / Data
+- QA / Automation
+- DevOps / Security
+- Docs / Governance
 
 ## Calendar
-`Academic_Productivity_Task_Calendar_EN.ics` can be imported into compatible calendar applications.
+
+The `.ics` files can be imported into compatible calendar applications and contain the planned start and end times for the task series.
