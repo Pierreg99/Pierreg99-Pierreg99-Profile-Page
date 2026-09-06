@@ -26,6 +26,7 @@
 | **Profil-Designsystem** | [Deutsches Designsystem →](./docs/de/PROFILE-DESIGN-SYSTEM-DE.md) |
 | **Profilvarianten** | [Deutsche Varianten →](./docs/de/PROFILE-VARIANTS-DE.md) |
 | **Academic Tasks** | [Aufgaben, Zeiten & Fortschritt →](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md) |
+| **Pierreg99 vs Dev / Team** | [Deutschen Vergleich öffnen →](./docs/de/PIERREG99-VS-DEV-COMPARISON-DE.md) |
 
 ## English
 
@@ -37,6 +38,7 @@
 | **Profile Design System** | [Open English design system →](./docs/en/PROFILE-DESIGN-SYSTEM-EN.md) |
 | **Profile Variants** | [Open English variants →](./docs/en/PROFILE-VARIANTS-EN.md) |
 | **Academic Tasks** | [Tasks, Time & Progress →](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) |
+| **Pierreg99 vs Dev / Team** | [Open English comparison →](./docs/en/PIERREG99-VS-DEV-COMPARISON-EN.md) |
 
 ---
 
@@ -51,13 +53,15 @@
 │   │   ├── PROFILE-DESIGN-SYSTEM-DE.md
 │   │   ├── PROFILE-VARIANTS-DE.md
 │   │   ├── TECH-STACK-DE.md
-│   │   └── TECHNICAL-QUALITY-AUDIT-DE.md
+│   │   ├── TECHNICAL-QUALITY-AUDIT-DE.md
+│   │   └── PIERREG99-VS-DEV-COMPARISON-DE.md
 │   └── en/
 │       ├── PROFILE-EN.md
 │       ├── PROFILE-DESIGN-SYSTEM-EN.md
 │       ├── PROFILE-VARIANTS-EN.md
 │       ├── TECH-STACK-EN.md
-│       └── TECHNICAL-QUALITY-AUDIT-EN.md
+│       ├── TECHNICAL-QUALITY-AUDIT-EN.md
+│       └── PIERREG99-VS-DEV-COMPARISON-EN.md
 ├── academic-evaluation/
 │   └── task-time-progress/
 │       ├── TASK_TIME_PROGRESS_DE.md
@@ -74,4 +78,4 @@
 
 Deutsch und English sind auf Dokumentebene vollständig getrennt. Jede sprachspezifische Datei enthält nur ihre eigene Sprache; gleichwertige Inhalte liegen als separat anklickbare DE- und EN-Dokumente vor.
 
-`README.md` dient ausschließlich als Startseite und Sprach-Navigation.
+`README.md` dient als Startseite und Sprach-Navigation.
