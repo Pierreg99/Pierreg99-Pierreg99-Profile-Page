@@ -27,6 +27,7 @@
 | **Profilvarianten** | [Deutsche Varianten →](./docs/de/PROFILE-VARIANTS-DE.md) |
 | **Academic Tasks** | [Aufgaben, Zeiten & Fortschritt →](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md) |
 | **Pierreg99 vs Dev / Team** | [Deutschen Vergleich öffnen →](./docs/de/PIERREG99-VS-DEV-COMPARISON-DE.md) |
+| **Time-to-Value vs Dev / Team** | [Deutschen TTV-Vergleich öffnen →](./docs/de/PIERREG99-TIME-TO-VALUE-COMPARISON-DE.md) |
 
 ## English
 
@@ -39,6 +40,7 @@
 | **Profile Variants** | [Open English variants →](./docs/en/PROFILE-VARIANTS-EN.md) |
 | **Academic Tasks** | [Tasks, Time & Progress →](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) |
 | **Pierreg99 vs Dev / Team** | [Open English comparison →](./docs/en/PIERREG99-VS-DEV-COMPARISON-EN.md) |
+| **Time-to-Value vs Dev / Team** | [Open English TTV comparison →](./docs/en/PIERREG99-TIME-TO-VALUE-COMPARISON-EN.md) |
 
 ---
 
@@ -54,14 +56,16 @@
 │   │   ├── PROFILE-VARIANTS-DE.md
 │   │   ├── TECH-STACK-DE.md
 │   │   ├── TECHNICAL-QUALITY-AUDIT-DE.md
-│   │   └── PIERREG99-VS-DEV-COMPARISON-DE.md
+│   │   ├── PIERREG99-VS-DEV-COMPARISON-DE.md
+│   │   └── PIERREG99-TIME-TO-VALUE-COMPARISON-DE.md
 │   └── en/
 │       ├── PROFILE-EN.md
 │       ├── PROFILE-DESIGN-SYSTEM-EN.md
 │       ├── PROFILE-VARIANTS-EN.md
 │       ├── TECH-STACK-EN.md
 │       ├── TECHNICAL-QUALITY-AUDIT-EN.md
-│       └── PIERREG99-VS-DEV-COMPARISON-EN.md
+│       ├── PIERREG99-VS-DEV-COMPARISON-EN.md
+│       └── PIERREG99-TIME-TO-VALUE-COMPARISON-EN.md
 ├── academic-evaluation/
 │   └── task-time-progress/
 │       ├── TASK_TIME_PROGRESS_DE.md
