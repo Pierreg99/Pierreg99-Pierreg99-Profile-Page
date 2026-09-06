@@ -1,22 +1,43 @@
-# Aufgaben-, Zeit- und Fortschrittsplan — Deutsch
+# Aufgaben, Zeiten & Fortschritt — Deutsch
 
 ## Zweck
-Dieser Plan verbindet Aufgaben, geplante Dauer, Kalendertermine und messbaren Fortschritt für die akademische Evaluation und die Dev-Team-Readiness.
 
-## Messgrößen
-- **Planned Duration:** Sollzeit in Minuten.
-- **Actual Duration:** tatsächlich aufgewendete Zeit.
-- **Variance:** Ist minus Soll.
-- **Progress:** 0–100 % je Aufgabe.
-- **Status:** Planned, In Progress, Blocked, Done.
-- **Evidence:** verknüpfbares Artefakt, Commit, Testlauf oder Dokument.
+Dieser Bereich dokumentiert Aufgaben, geplante Zeiten, tatsächliche Dauer und Fortschritt für die Academic-Evaluation sowie die Dev-Team-Readiness-Bewertung.
 
-## Arbeitsregeln
-1. Jede Aufgabe erhält eine klare Start- und Endzeit.
-2. Fortschritt wird nach beobachtbarem Output aktualisiert.
-3. Abweichungen von mehr als 20 % werden im Weekly Review erklärt.
-4. Blockierte Aufgaben dokumentieren die Dependency.
-5. Task-Daten dienen der Prozessverbesserung, nicht der Personalüberwachung.
+## Dateien
+
+- [Task Duration & Progress CSV](./Task_Duration_Progress_DE_EN.csv)
+- [Deutscher Kalender](./Academic_Productivity_Task_Calendar_DE.ics)
+- [Englischer Kalender](./Academic_Productivity_Task_Calendar_EN.ics)
+- [Englische Dokumentation](./TASK_TIME_PROGRESS_EN.md)
+
+## Task-Logik
+
+| Feld | Bedeutung |
+|---|---|
+| Start / Ende | Geplantes Zeitfenster |
+| Soll-Dauer | Erwarteter Aufwand in Minuten |
+| Ist-Dauer | Tatsächlich gemessene Dauer |
+| Progress | Fortschritt von 0–100 % |
+| Status | Planned / In Progress / Blocked / Done |
+| Variance | Ist-Dauer minus Soll-Dauer |
+| Evidenz | Commit, Test, Dokument, Artefakt oder Ergebnis |
+
+## Bewertungsregel
+
+Aufgaben werden anhand von sichtbarem Output bewertet. Eine Zeitüberschreitung von mehr als 20 % sollte im Weekly Review erklärt werden. Blockierungen erhalten eine dokumentierte Abhängigkeit.
+
+Die Daten dienen der Prozessverbesserung und sind keine individuelle Leistungs- oder Personenbewertung.
+
+## Dev-Team-Zuordnung
+
+- Research & Evaluation
+- Frontend / UX
+- Backend / Data
+- QA / Automation
+- DevOps / Security
+- Docs / Governance
 
 ## Kalender
-`Academic_Productivity_Task_Calendar_DE.ics` kann in kompatible Kalender importiert werden.
+
+Der `.ics`-Kalender kann in kompatible Kalenderanwendungen importiert werden. Die Kalenderdateien bilden die geplanten Start- und Endzeiten der Task-Serie ab.
