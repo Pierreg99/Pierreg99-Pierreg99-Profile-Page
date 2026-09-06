@@ -1,113 +1,239 @@
 <div align="center">
 
-# CRYO — Pierreg99
+# ◈ CRYO / PIERREG99
+### AI • SOFTWARE • WEB • GAMES • 3D • RESEARCH
 
-**Deutsch • English**
+[![Profile](https://img.shields.io/badge/PROFILE-PIERREG99-0d1117?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
+[![Focus](https://img.shields.io/badge/FOCUS-AI%20%7C%20ENGINEERING%20%7C%20CREATIVE-0d1117?style=for-the-badge)](https://github.com/Pierreg99)
+[![Language](https://img.shields.io/badge/DE%20%2F%20EN-BILINGUAL-0d1117?style=for-the-badge)](https://github.com/Pierreg99)
 
-### Futuristic AI · Software · Web · Games · 3D
-
-[![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-181717?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
-[![Profile](https://img.shields.io/badge/Profile-Cryopg.it-0b1220?style=for-the-badge)](https://github.com/Pierreg99)
+**DE · EN**
 
 </div>
 
 ---
 
-## DE — Über mich
+<table>
+<tr>
+<td width="55%" valign="top">
 
-Willkommen im Entwicklungs- und Experimentierbereich von **Cryopg.it / Pierreg99**.
+## 🇩🇪 DE — SYSTEMPROFIL
 
-Ich entwickle und verbinde Projekte aus **Künstlicher Intelligenz, Softwareentwicklung, Web, Games, 3D und digitalen Tools**. Der Schwerpunkt liegt auf modularen Systemen, Automatisierung, kreativen Prototypen und umfangreicher Dokumentation.
+**Cryopg.it / Pierreg99** entwickelt digitale Systeme an der Schnittstelle von **KI, Softwareentwicklung, Web, Games, 3D und Wissensarbeit**.
 
-### Schwerpunktfelder
+Der Fokus liegt auf modularen Architekturen, Automatisierung, Prototyping, Forschung, visueller Gestaltung und sauberer Dokumentation.
 
-| Bereich | Fokus |
-|---|---|
-| KI & Agents | AI-Assistenten, Agent Memory, MCP, Automatisierung |
-| Software | Tools, Plattformen, Utilities, Systemkonzepte |
-| Web | Interfaces, Dashboards, PWAs, Dokumentationssysteme |
-| Games | RPG, Voxel, Cardgames, Rhythmus- und 3D-Konzepte |
-| 3D | Blender, Assets, technische und kreative Szenen |
-| Wissen | Lernen, Tests, Reports, Workbooks, Dokumentation |
+</td>
+<td width="45%" valign="top">
 
-### Ausgewählte Projekte
+## 🇬🇧 EN — SYSTEM PROFILE
 
-- **[agent-memory](https://github.com/Pierreg99/agent-memory)** — Memory-Konzepte für AI-Agenten
-- **[KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame)** — Voxel-/Game-Projekt
-- **[Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork)** — RPG-Entwicklung und Weltaufbau
-- **[CryAIPulse](https://github.com/Pierreg99/CryAIPulse)** — AI-orientiertes Projekt
-- **[Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer)** — Rhythmus-/Platformer-Konzept
-- **[Agi3-AI-Music-Player](https://github.com/Pierreg99/Agi3-AI-Music-Player)** — AI-gestütztes Music-Player-Projekt
+**Cryopg.it / Pierreg99** builds digital systems across **AI, software engineering, web, games, 3D and knowledge workflows**.
 
-### Arbeitsweise
+The focus is modular architecture, automation, prototyping, research, visual design and strong documentation.
 
-**Idee → Architektur → Prototyp → Tests → Dokumentation → Ausbau**
-
-Ich bevorzuge wiederverwendbare Bausteine, klare Strukturen und Projekte, die sich schrittweise zu größeren Systemen verbinden lassen.
-
----
-
-## EN — About
-
-Welcome to the development and experimentation space of **Cryopg.it / Pierreg99**.
-
-I build and connect projects across **Artificial Intelligence, software engineering, web, games, 3D and digital tools**. The focus is on modular systems, automation, creative prototypes and extensive documentation.
-
-### Core Areas
-
-| Area | Focus |
-|---|---|
-| AI & Agents | AI assistants, agent memory, MCP, automation |
-| Software | Tools, platforms, utilities, system concepts |
-| Web | Interfaces, dashboards, PWAs, documentation systems |
-| Games | RPG, voxel, card games, rhythm and 3D concepts |
-| 3D | Blender, assets, technical and creative scenes |
-| Knowledge | Learning, tests, reports, workbooks, documentation |
-
-### Featured Projects
-
-- **[agent-memory](https://github.com/Pierreg99/agent-memory)** — memory concepts for AI agents
-- **[KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame)** — voxel/game project
-- **[Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork)** — RPG development and world building
-- **[CryAIPulse](https://github.com/Pierreg99/CryAIPulse)** — AI-focused project
-- **[Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer)** — rhythm/platformer concept
-- **[Agi3-AI-Music-Player](https://github.com/Pierreg99/Agi3-AI-Music-Player)** — AI-oriented music player project
-
-### Workflow
-
-**Idea → Architecture → Prototype → Testing → Documentation → Expansion**
-
-I favor reusable components, clear structures and projects that can evolve into larger connected systems.
-
----
-
-## System / Profilübersicht
-
-```text
-CRYO PROFILE SYSTEM
-├── AI / Agents
-├── Automation
-├── Software Engineering
-├── Web / PWA / Dashboards
-├── Game Development
-├── 3D / Blender
-└── Research / Learning / Documentation
-```
-
-### Tech Direction
-
-`Python` · `JavaScript` · `TypeScript` · `HTML` · `CSS` · `Markdown` · `GitHub Actions` · `MCP` · `Blender`
-
-### Profilnavigation
-
-**DE:** [Projekte](#de--über-mich) · [Schwerpunkte](#schwerpunktfelder) · [Workflow](#arbeitsweise)
-
-**EN:** [Projects](#en--about) · [Core Areas](#core-areas) · [Workflow](#workflow)
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-### Build. Research. Design. Connect.
+### `IDEA → ARCHITECTURE → BUILD → VALIDATE → DOCUMENT → EVOLVE`
 
-**Cryopg.it / Pierreg99**
+</div>
+
+---
+
+## ◈ CORE DOMAINS / KERNBEREICHE
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🇩🇪 Deutsch
+
+| Bereich | Fokus |
+|---|---|
+| **KI & Agents** | Assistenten · Memory · MCP · Automatisierung |
+| **Software** | Python · JS/TS · Tools · Architektur |
+| **Web** | UI · Dashboards · PWA · Docs |
+| **Games** | RPG · Voxel · Card · Rhythm/Platform |
+| **3D** | Blender · Assets · Szenen · Technical Art |
+| **Research** | Reports · Tests · Workbooks · Wissen |
+
+</td>
+<td width="50%" valign="top">
+
+### 🇬🇧 English
+
+| Domain | Focus |
+|---|---|
+| **AI & Agents** | Assistants · Memory · MCP · Automation |
+| **Software** | Python · JS/TS · Tools · Architecture |
+| **Web** | UI · Dashboards · PWA · Documentation |
+| **Games** | RPG · Voxel · Card · Rhythm/Platform |
+| **3D** | Blender · Assets · Scenes · Technical Art |
+| **Research** | Reports · Tests · Workbooks · Knowledge |
+
+</td>
+</tr>
+</table>
+
+---
+
+## ◈ FEATURED PROJECT GRID
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🤖 AI / AGENTS
+
+**[agent-memory](https://github.com/Pierreg99/agent-memory)**  
+Agent memory and reusable context systems.
+
+**[CryAIPulse](https://github.com/Pierreg99/CryAIPulse)**  
+AI-focused experimentation and tooling.
+
+**[Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha)**  
+Futuristic assistant concepts and interfaces.
+
+</td>
+<td width="33%" valign="top">
+
+### 🎮 GAMES
+
+**[KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame)**  
+Voxel game systems and world building.
+
+**[Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork)**  
+RPG systems, narrative and world development.
+
+**[Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer)**  
+Rhythm/platformer experimentation.
+
+</td>
+<td width="33%" valign="top">
+
+### 🎨 CREATIVE / TOOLS
+
+**[Agi3-AI-Music-Player](https://github.com/Pierreg99/Agi3-AI-Music-Player)**  
+AI-oriented music tooling.
+
+**[Cryodesignhub](https://github.com/Pierreg99/Cryodesignhub)**  
+Design and interface ecosystem.
+
+**[libreoffice-masterclass-web](https://github.com/Pierreg99/libreoffice-masterclass-web)**  
+Learning and productivity platform.
+
+</td>
+</tr>
+</table>
+
+---
+
+## ◈ TECHNOLOGY MATRIX
+
+```text
+AI / AUTOMATION     ████████████████████  systems · agents · workflows
+SOFTWARE ENGINEERING███████████████████░  Python · JS/TS · architecture
+WEB / UI            ███████████████████░  interfaces · dashboards · PWA
+GAME DEVELOPMENT    ██████████████████░░  RPG · voxel · interactive systems
+3D / BLENDER        █████████████████░░░  assets · scenes · technical art
+RESEARCH / DOCS     ████████████████████  reports · tests · knowledge systems
+```
+
+### Toolchain
+
+`Python` `JavaScript` `TypeScript` `HTML` `CSS` `Markdown` `GitHub` `GitHub Actions` `MCP` `Blender`
+
+---
+
+## ◈ SYSTEM ARCHITECTURE
+
+```text
+                         ┌─────────────────────┐
+                         │    CRYO / PIERREG99  │
+                         └──────────┬──────────┘
+                                    │
+             ┌──────────────────────┼──────────────────────┐
+             │                      │                      │
+        ┌────▼────┐            ┌────▼────┐            ┌────▼────┐
+        │   AI    │            │ SOFTWARE│            │ CREATIVE│
+        └────┬────┘            └────┬────┘            └────┬────┘
+             │                      │                      │
+      Agents · Memory       Web · Tools · PWA      Games · 3D · Media
+             │                      │                      │
+             └──────────────────────┼──────────────────────┘
+                                    │
+                         ┌──────────▼──────────┐
+                         │ RESEARCH & DOCUMENT │
+                         └─────────────────────┘
+```
+
+---
+
+## ◈ DELIVERY PIPELINE / ENTWICKLUNGSPROZESS
+
+| Phase | DE | EN |
+|---|---|---|
+| `01` | Idee & Recherche | Idea & Research |
+| `02` | Systemdesign | System Design |
+| `03` | Prototyping | Prototyping |
+| `04` | Implementierung | Implementation |
+| `05` | Tests & Validierung | Testing & Validation |
+| `06` | Dokumentation | Documentation |
+| `07` | Ausbau & Integration | Expansion & Integration |
+
+---
+
+## ◈ PROFILE NAVIGATION
+
+<div align="center">
+
+**DE**  
+[Über mich](#-de--systemprofil) · [Bereiche](#-core-domains--kernbereiche) · [Projekte](#-featured-project-grid) · [Tech](#-technology-matrix)
+
+**EN**  
+[Profile](#-en--system-profile) · [Domains](#-core-domains--kernbereiche) · [Projects](#-featured-project-grid) · [Stack](#-technology-matrix)
+
+</div>
+
+---
+
+## ◈ CURRENT DIRECTION / AKTUELLE AUSRICHTUNG
+
+<table>
+<tr>
+<td width="50%">
+
+### 🇩🇪 DE
+
+**Verbinden statt isolieren.**  
+Projekte sollen als modulare Bausteine wachsen, miteinander interagieren und langfristig dokumentierbar bleiben.
+
+</td>
+<td width="50%">
+
+### 🇬🇧 EN
+
+**Connect instead of isolate.**  
+Projects are designed to grow as modular building blocks that can interact and remain maintainable over time.
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+### `BUILD • RESEARCH • DESIGN • CONNECT`
+
+[![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-black?style=flat-square&logo=github)](https://github.com/Pierreg99)
+[![Cryopg](https://img.shields.io/badge/Cryopg.it-Profile-111827?style=flat-square)](https://github.com/Pierreg99)
+
+**CRYO / PIERREG99**  
+*Bilingual profile interface · Deutsch & English*
 
 </div>
