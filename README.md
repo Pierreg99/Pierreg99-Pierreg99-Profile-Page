@@ -35,6 +35,12 @@ Der Fokus liegt auf **modularer Architektur, Automatisierung, kreativen Interfac
 | **Delivery** | Git · GitHub · GitHub Actions · GitHub Pages · Vercel-oriented builds |
 | **Knowledge** | Markdown · YAML · Documentation · Reports · Workbooks · Research |
 
+### Sprachgetrennte Dokumente / Language-separated documents
+
+**Deutsch** · [Academic Evaluation](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md) · [Task & Calendar Overview](./academic-evaluation/task-time-progress/README.md)
+
+**English** · [Academic Evaluation](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) · [Task & Calendar Overview](./academic-evaluation/task-time-progress/README.md)
+
 ---
 
 ## EN — Profile
@@ -57,6 +63,12 @@ The approach emphasizes **modular architecture, automation, creative interfaces,
 | **Quality** | Vitest · Playwright · Typecheck · Linting · Automated Tests |
 | **Delivery** | Git · GitHub · GitHub Actions · GitHub Pages · Vercel-oriented builds |
 | **Knowledge** | Markdown · YAML · Documentation · Reports · Workbooks · Research |
+
+### Separate language documents
+
+**Deutsch** · [Aufgaben, Zeiten & Fortschritt](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md) · [Task & Calendar Overview](./academic-evaluation/task-time-progress/README.md)
+
+**English** · [Tasks, Time & Progress](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) · [Task & Calendar Overview](./academic-evaluation/task-time-progress/README.md)
 
 ---
 
@@ -192,10 +204,10 @@ The audit includes quality scoring, programming-language assessment, quality-vs-
 # Profile Navigation
 
 **DE**  
-[Profil](#de--profil--profile) · [Programmiersprachen](#programming-languages) · [Technischer Stack](#technical-stack--technischer-stack) · [Projekte](#featured-projects--ausgewählte-projekte) · [Qualitätsaudit](#technical-quality-audit--technischer-qualitätsaudit)
+[Profil](#de--profil--profile) · [Programmiersprachen](#programming-languages) · [Technischer Stack](#technical-stack--technischer-stack) · [Projekte](#featured-projects--ausgewählte-projekte) · [Qualitätsaudit](#technical-quality-audit--technischer-qualitätsaudit) · [Academic Tasks DE](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md)
 
 **EN**  
-[Profile](#en--profile) · [Programming Languages](#programming-languages) · [Technical Stack](#technical-stack--technischer-stack) · [Projects](#featured-projects--ausgewählte-projekte) · [Quality Audit](#technical-quality-audit--technischer-qualitätsaudit)
+[Profile](#en--profile) · [Programming Languages](#programming-languages) · [Technical Stack](#technical-stack--technischer-stack) · [Projects](#featured-projects--ausgewählte-projekte) · [Quality Audit](#technical-quality-audit--technischer-qualitätsaudit) · [Academic Tasks EN](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md)
 
 ---
 
