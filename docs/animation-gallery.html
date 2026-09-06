@@ -1,37 +1,63 @@
-# CRYO — Animation Gallery
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CRYO — Animation Gallery</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; font-family: system-ui, sans-serif; background: #071019; color: #e8f7ff; line-height: 1.55; }
+    main { width: min(960px, calc(100% - 32px)); margin: 0 auto; padding: 40px 0 56px; }
+    section { margin: 28px 0; padding: 24px; border: 1px solid #244154; border-radius: 16px; background: #0b1721; }
+    img { display: block; width: min(100%, 480px); height: auto; border-radius: 12px; }
+    code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 10px; border-bottom: 1px solid #244154; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>CRYO — Animation Gallery</h1>
+    <p>Canonical index for the repository-native animated presentation layer.</p>
 
-This page is the canonical index for the repository-native animated presentation layer.
+    <section>
+      <h2>Pulse</h2>
+      <img src="../assets/animations/cryo-pulse.gif" alt="CRYO pulse animation">
+      <p><code>assets/animations/cryo-pulse.gif</code></p>
+      <p>Compact hero/status animation used to add motion without adding runtime dependencies.</p>
+    </section>
 
-## Pulse
+    <section>
+      <h2>Orbit</h2>
+      <img src="../assets/animations/cryo-orbit.gif" alt="CRYO orbit animation">
+      <p><code>assets/animations/cryo-orbit.gif</code></p>
+      <p>Ambient system/technology animation used in the live visual layer.</p>
+    </section>
 
-![CRYO pulse](../assets/animations/cryo-pulse.gif)
+    <section>
+      <h2>Integrity rules</h2>
+      <ul>
+        <li>Animations remain local, tracked files.</li>
+        <li>No remote runtime dependency is required to render them.</li>
+        <li>Markdown and HTML references are validated by <code>scripts/validate-local-links.py</code> in CI.</li>
+        <li>Animation filenames are canonical; presentation surfaces should reference these files rather than duplicate assets.</li>
+        <li>The animation layer is presentation evidence only and is not independent proof of a technical capability.</li>
+      </ul>
+    </section>
 
-`assets/animations/cryo-pulse.gif`
-
-Role: compact hero/status animation used to add motion without adding runtime dependencies.
-
-## Orbit
-
-![CRYO orbit](../assets/animations/cryo-orbit.gif)
-
-`assets/animations/cryo-orbit.gif`
-
-Role: ambient system/technology animation used in the live visual layer.
-
-## Integrity rules
-
-- Animations remain local, tracked files.
-- No remote runtime dependency is required to render them.
-- Markdown and HTML references are validated by `scripts/validate-local-links.py` in CI.
-- Animation filenames are canonical; presentation surfaces should reference these files rather than duplicate assets.
-- The animation layer is presentation evidence only and must not be interpreted as independent proof of a technical capability.
-
-## Integration map
-
-| Surface | Pulse | Orbit |
-|---|---:|---:|
-| Root README | Yes | Yes |
-| German profile | Yes | Yes |
-| English profile | Yes | Yes |
-| Interactive `index.html` | Yes | Yes |
-| Asset documentation | Yes | Yes |
+    <section>
+      <h2>Integration map</h2>
+      <table>
+        <thead><tr><th>Surface</th><th>Pulse</th><th>Orbit</th></tr></thead>
+        <tbody>
+          <tr><td>Root README</td><td>Yes</td><td>Yes</td></tr>
+          <tr><td>German profile</td><td>Yes</td><td>Yes</td></tr>
+          <tr><td>English profile</td><td>Yes</td><td>Yes</td></tr>
+          <tr><td>Interactive <code>index.html</code></td><td>Yes</td><td>Yes</td></tr>
+          <tr><td>Asset documentation</td><td>Yes</td><td>Yes</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
