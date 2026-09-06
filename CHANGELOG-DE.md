@@ -2,6 +2,15 @@
 
 ## 07.09.2026
 
+### Profile Showcase Integration
+- Profilstruktur an bewährte GitHub-Showcase-Muster angepasst: Intro, Verbindung, Aktivität, Programmiersprachen, Frameworks, Daten, 3D/Games, Projekte und Evidenz.
+- Struktur vollständig auf die CRYO-/Pierreg99-Profilidentität und die aktuell dokumentierte technische Evidenz zugeschnitten.
+- Öffentliche Sprachstatistik prominent in die Profilhierarchie integriert: JavaScript 40,00 %, TypeScript 33,33 %, Python 13,33 %, HTML 13,33 %.
+- Renderer-sichere Shields-Badges für die belegten Kerntechnologien ergänzt.
+- Drittanbieter-Statistikabhängigkeit bewusst reduziert; repository-native Nachweise, direkte Projektlinks und lokale Visuals priorisiert.
+- 3D/Games/Creative-Bereich auf Three.js, React Three Fiber, Blender, Browser-Games, Voxel-Systeme und WebGL ausgerichtet, jeweils unter Beachtung der Evidenzgrenze.
+- Root-README, deutsches Profil und englisches Profil auf dieselbe Informationsarchitektur abgestimmt.
+
 ### Öffentliche Programmiersprachen-Intelligenz
 - Interaktives, vollständig unabhängiges Dashboard `docs/public-language-dashboard.html` ergänzt.
 - Statisches, renderer-sicheres Diagramm `assets/public-project-language-profile.svg` ergänzt.
