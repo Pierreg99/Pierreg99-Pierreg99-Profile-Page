@@ -1,239 +1,209 @@
 <div align="center">
 
-# ◈ CRYO / PIERREG99
-### AI • SOFTWARE • WEB • GAMES • 3D • RESEARCH
+<img src="./assets/cryo-header.svg" alt="CRYO / PIERREG99 — AI, Software, Web, Games, 3D" width="100%" />
 
-[![Profile](https://img.shields.io/badge/PROFILE-PIERREG99-0d1117?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
-[![Focus](https://img.shields.io/badge/FOCUS-AI%20%7C%20ENGINEERING%20%7C%20CREATIVE-0d1117?style=for-the-badge)](https://github.com/Pierreg99)
-[![Language](https://img.shields.io/badge/DE%20%2F%20EN-BILINGUAL-0d1117?style=for-the-badge)](https://github.com/Pierreg99)
+[![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-0b0f14?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
+[![Projects](https://img.shields.io/badge/Projects-13_public-111827?style=for-the-badge)](https://github.com/Pierreg99?tab=repositories)
+[![Languages](https://img.shields.io/badge/Languages-Python%20%7C%20TypeScript%20%7C%20JavaScript-111827?style=for-the-badge)](#-programming-languages)
 
-**DE · EN**
+**DEUTSCH · ENGLISH**  
+**AI · SOFTWARE ENGINEERING · WEB · GAMES · 3D · RESEARCH**
 
 </div>
 
 ---
 
-<table>
-<tr>
-<td width="55%" valign="top">
+## DE — Profil / Profile
 
-## 🇩🇪 DE — SYSTEMPROFIL
+> **Cryopg.it / Pierreg99** entwickelt experimentelle und produktorientierte Systeme an der Schnittstelle von **Künstlicher Intelligenz, Software Engineering, Web, Games, 3D und Wissenssystemen**.
 
-**Cryopg.it / Pierreg99** entwickelt digitale Systeme an der Schnittstelle von **KI, Softwareentwicklung, Web, Games, 3D und Wissensarbeit**.
+Der Fokus liegt auf **modularer Architektur, Automatisierung, kreativen Interfaces, AI-Agenten, Datenhaltung, Testbarkeit und dokumentierter Weiterentwicklung**.
 
-Der Fokus liegt auf modularen Architekturen, Automatisierung, Prototyping, Forschung, visueller Gestaltung und sauberer Dokumentation.
+### Systemübersicht
 
-</td>
-<td width="45%" valign="top">
+| Domain | Stack / Fokus |
+|---|---|
+| **AI & Agents** | LLMs · Agent Memory · RAG · MCP · Context Engineering · Summarization |
+| **Programming** | Python · TypeScript · JavaScript |
+| **Frontend** | React · React DOM · Vite · Tailwind CSS · Radix UI · Framer Motion |
+| **Backend** | Node.js · Express · tRPC · REST APIs · Web APIs · Zod · JOSE |
+| **Data** | PostgreSQL · MySQL · SQLite · PGlite · Drizzle ORM · Kysely · SQL |
+| **3D / Creative** | Three.js · React Three Fiber · Blender · Web 3D · Voxel Systems |
+| **Tooling** | pnpm · npm · esbuild · ESLint · Prettier · TypeScript Compiler |
+| **Quality** | Vitest · Playwright · Typecheck · Linting · Automated Tests |
+| **Delivery** | Git · GitHub · GitHub Actions · GitHub Pages · Vercel-oriented builds |
+| **Knowledge** | Markdown · YAML · Documentation · Reports · Workbooks · Research |
 
-## 🇬🇧 EN — SYSTEM PROFILE
+---
 
-**Cryopg.it / Pierreg99** builds digital systems across **AI, software engineering, web, games, 3D and knowledge workflows**.
+## EN — Profile
 
-The focus is modular architecture, automation, prototyping, research, visual design and strong documentation.
+> **Cryopg.it / Pierreg99** builds experimental and product-oriented systems across **Artificial Intelligence, software engineering, web, games, 3D and knowledge systems**.
 
-</td>
-</tr>
-</table>
+The approach emphasizes **modular architecture, automation, creative interfaces, AI agents, persistence, testability and documented iteration**.
+
+### System Overview
+
+| Domain | Stack / Focus |
+|---|---|
+| **AI & Agents** | LLMs · Agent Memory · RAG · MCP · Context Engineering · Summarization |
+| **Programming** | Python · TypeScript · JavaScript |
+| **Frontend** | React · React DOM · Vite · Tailwind CSS · Radix UI · Framer Motion |
+| **Backend** | Node.js · Express · tRPC · REST APIs · Web APIs · Zod · JOSE |
+| **Data** | PostgreSQL · MySQL · SQLite · PGlite · Drizzle ORM · Kysely · SQL |
+| **3D / Creative** | Three.js · React Three Fiber · Blender · Web 3D · Voxel Systems |
+| **Tooling** | pnpm · npm · esbuild · ESLint · Prettier · TypeScript Compiler |
+| **Quality** | Vitest · Playwright · Typecheck · Linting · Automated Tests |
+| **Delivery** | Git · GitHub · GitHub Actions · GitHub Pages · Vercel-oriented builds |
+| **Knowledge** | Markdown · YAML · Documentation · Reports · Workbooks · Research |
+
+---
+
+# Programming Languages
+
+### Verified public profile languages
 
 <div align="center">
 
-### `IDEA → ARCHITECTURE → BUILD → VALIDATE → DOCUMENT → EVOLVE`
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ESM-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 </div>
 
----
+**Python** — AI/agent tooling, memory systems, data and automation.  
+**TypeScript** — full-stack web applications, dashboards, 3D interfaces and typed services.  
+**JavaScript** — interactive web applications, game systems and browser tooling.
 
-## ◈ CORE DOMAINS / KERNBEREICHE
+### Language-adjacent technologies in the project ecosystem
 
-<table>
-<tr>
-<td width="50%" valign="top">
+`HTML` · `CSS` · `SQL` · `YAML` · `Markdown` · `JSON` · `Shell / CLI tooling`
 
-### 🇩🇪 Deutsch
-
-| Bereich | Fokus |
-|---|---|
-| **KI & Agents** | Assistenten · Memory · MCP · Automatisierung |
-| **Software** | Python · JS/TS · Tools · Architektur |
-| **Web** | UI · Dashboards · PWA · Docs |
-| **Games** | RPG · Voxel · Card · Rhythm/Platform |
-| **3D** | Blender · Assets · Szenen · Technical Art |
-| **Research** | Reports · Tests · Workbooks · Wissen |
-
-</td>
-<td width="50%" valign="top">
-
-### 🇬🇧 English
-
-| Domain | Focus |
-|---|---|
-| **AI & Agents** | Assistants · Memory · MCP · Automation |
-| **Software** | Python · JS/TS · Tools · Architecture |
-| **Web** | UI · Dashboards · PWA · Documentation |
-| **Games** | RPG · Voxel · Card · Rhythm/Platform |
-| **3D** | Blender · Assets · Scenes · Technical Art |
-| **Research** | Reports · Tests · Workbooks · Knowledge |
-
-</td>
-</tr>
-</table>
+> The language section distinguishes GitHub-detected public repository languages from supporting formats and tooling. The public profile currently exposes Python, JavaScript and TypeScript as the core repository languages. citeturn218696search0
 
 ---
 
-## ◈ FEATURED PROJECT GRID
+# Technical Stack / Technischer Stack
 
-<table>
-<tr>
-<td width="33%" valign="top">
+<img src="./assets/stack-map.svg" alt="CRYO technical stack map" width="100%" />
 
-### 🤖 AI / AGENTS
+## AI / Agents
 
-**[agent-memory](https://github.com/Pierreg99/agent-memory)**  
-Agent memory and reusable context systems.
+`LLM Applications` · `Agent Memory` · `RAG` · `Context Windowing` · `Summarization` · `Embeddings` · `MCP` · `AI Assistants`
 
-**[CryAIPulse](https://github.com/Pierreg99/CryAIPulse)**  
-AI-focused experimentation and tooling.
+The `agent-memory` project explicitly targets token-aware context handling, automatic summarization, RAG-style recall and durable persistence with Python, Pydantic, NumPy, PyYAML and Requests. fileciteturn38file0L2-L6
 
-**[Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha)**  
-Futuristic assistant concepts and interfaces.
+## Frontend / UI
 
-</td>
-<td width="33%" valign="top">
+`React 19` · `React DOM` · `Vite` · `Tailwind CSS` · `Radix UI` · `Lucide React` · `Framer Motion` · `React Hook Form` · `TanStack Query` · `Recharts` · `Wouter`
 
-### 🎮 GAMES
+The Nexo stack additionally includes React Three Fiber, Three.js and a large Radix UI component layer. fileciteturn36file0L2-L6
 
-**[KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame)**  
-Voxel game systems and world building.
+## Backend / Application Layer
 
-**[Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork)**  
-RPG systems, narrative and world development.
+`Node.js` · `Express` · `tRPC` · `REST` · `Web APIs` · `Axios` · `Zod` · `JOSE` · `dotenv` · `SuperJSON`
 
-**[Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer)**  
-Rhythm/platformer experimentation.
+## Data / Persistence
 
-</td>
-<td width="33%" valign="top">
+`PostgreSQL` · `MySQL` · `SQLite` · `PGlite` · `Drizzle ORM` · `Kysely` · `SQL` · `YAML`
 
-### 🎨 CREATIVE / TOOLS
+KiBlox currently exposes PostgreSQL-oriented packages, PGlite and Kysely, while the Nexo project uses Drizzle ORM and MySQL support. fileciteturn37file0L2-L6 fileciteturn36file0L2-L6
 
-**[Agi3-AI-Music-Player](https://github.com/Pierreg99/Agi3-AI-Music-Player)**  
-AI-oriented music tooling.
+## 3D / Graphics / Games
 
-**[Cryodesignhub](https://github.com/Pierreg99/Cryodesignhub)**  
-Design and interface ecosystem.
+`Three.js` · `React Three Fiber` · `@react-three/drei` · `Blender` · `Voxel Rendering` · `Web 3D` · `Interactive Worlds` · `RPG Systems` · `Card Games` · `Rhythm / Platformer`
 
-**[libreoffice-masterclass-web](https://github.com/Pierreg99/libreoffice-masterclass-web)**  
-Learning and productivity platform.
+## Build / Tooling
 
-</td>
-</tr>
-</table>
+`pnpm` · `npm` · `esbuild` · `Vite` · `TypeScript Compiler` · `ESLint` · `Prettier` · `PostCSS` · `Tailwind` · `Nitro`
+
+## Testing / Validation
+
+`Vitest` · `Playwright` · `Node Test Runner` · `Typecheck` · `Lint` · `Invariant Checks` · `Automated Build Validation`
 
 ---
 
-## ◈ TECHNOLOGY MATRIX
+# Featured Projects / Ausgewählte Projekte
 
-```text
-AI / AUTOMATION     ████████████████████  systems · agents · workflows
-SOFTWARE ENGINEERING███████████████████░  Python · JS/TS · architecture
-WEB / UI            ███████████████████░  interfaces · dashboards · PWA
-GAME DEVELOPMENT    ██████████████████░░  RPG · voxel · interactive systems
-3D / BLENDER        █████████████████░░░  assets · scenes · technical art
-RESEARCH / DOCS     ████████████████████  reports · tests · knowledge systems
-```
+<img src="./assets/project-grid.svg" alt="CRYO featured project grid" width="100%" />
 
-### Toolchain
-
-`Python` `JavaScript` `TypeScript` `HTML` `CSS` `Markdown` `GitHub` `GitHub Actions` `MCP` `Blender`
-
----
-
-## ◈ SYSTEM ARCHITECTURE
-
-```text
-                         ┌─────────────────────┐
-                         │    CRYO / PIERREG99  │
-                         └──────────┬──────────┘
-                                    │
-             ┌──────────────────────┼──────────────────────┐
-             │                      │                      │
-        ┌────▼────┐            ┌────▼────┐            ┌────▼────┐
-        │   AI    │            │ SOFTWARE│            │ CREATIVE│
-        └────┬────┘            └────┬────┘            └────┬────┘
-             │                      │                      │
-      Agents · Memory       Web · Tools · PWA      Games · 3D · Media
-             │                      │                      │
-             └──────────────────────┼──────────────────────┘
-                                    │
-                         ┌──────────▼──────────┐
-                         │ RESEARCH & DOCUMENT │
-                         └─────────────────────┘
-```
-
----
-
-## ◈ DELIVERY PIPELINE / ENTWICKLUNGSPROZESS
-
-| Phase | DE | EN |
+| Project | Domain | Language / Stack |
 |---|---|---|
-| `01` | Idee & Recherche | Idea & Research |
-| `02` | Systemdesign | System Design |
-| `03` | Prototyping | Prototyping |
-| `04` | Implementierung | Implementation |
-| `05` | Tests & Validierung | Testing & Validation |
-| `06` | Dokumentation | Documentation |
-| `07` | Ausbau & Integration | Expansion & Integration |
+| [agent-memory](https://github.com/Pierreg99/agent-memory) | AI / Agents | Python |
+| [Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha) | AI / Assistant / HUD | TypeScript · React · Vite · Three.js |
+| [KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame) | Voxel / Game / 3D | TypeScript · React · Three.js |
+| [Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork) | RPG / World | JavaScript |
+| [Cryoplane-Polygonal-Flight](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight) | 3D / Flight | TypeScript |
+| [ResidentLovely-Maximum-Hapiness-Game](https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game) | 3D Web Game | JavaScript · Three.js |
+| [Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer) | Game / Rhythm | JavaScript |
+| [Agi3-AI-Music-Player](https://github.com/Pierreg99/Agi3-AI-Music-Player) | AI / Media | Project-specific stack |
+| [CryAIPulse](https://github.com/Pierreg99/CryAIPulse) | AI | Project-specific stack |
+
+The current public GitHub profile lists 13 public repositories; its visible popular-project languages include Python, JavaScript and TypeScript. citeturn218696search0
 
 ---
 
-## ◈ PROFILE NAVIGATION
+# Architecture / Architektur
 
-<div align="center">
+```text
+                         ┌─────────────────────────┐
+                         │       CRYO PROFILE      │
+                         │      DE / EN / HUD      │
+                         └────────────┬────────────┘
+                                      │
+                  ┌───────────────────┼───────────────────┐
+                  │                   │                   │
+             AI / AGENTS        WEB / APPS          GAMES / 3D
+                  │                   │                   │
+         Python · RAG · MCP     TS · React · Vite   Three.js · Blender
+                  │                   │                   │
+                  └───────────────────┼───────────────────┘
+                                      │
+                          ┌───────────▼───────────┐
+                          │   DATA / SERVICES     │
+                          │ SQL · ORM · APIs      │
+                          └───────────┬───────────┘
+                                      │
+                          ┌───────────▼───────────┐
+                          │ BUILD / TEST / SHIP   │
+                          │ Vite · Vitest · CI    │
+                          └───────────────────────┘
+```
+
+---
+
+# Delivery Pipeline / Entwicklungsprozess
+
+**01 Research** → **02 Architecture** → **03 Build** → **04 Test** → **05 Document** → **06 Refine** → **07 Release**
+
+| Phase | Output |
+|---|---|
+| Research | Requirements, references, technical decisions |
+| Architecture | Modules, interfaces, data model |
+| Build | UI, services, agents, game systems |
+| Test | Typechecks, unit tests, browser tests |
+| Document | README, reports, workbooks, technical notes |
+| Refine | UX polish, performance, maintainability |
+| Release | GitHub, Pages, CI/CD-oriented delivery |
+
+---
+
+# Profile Navigation
 
 **DE**  
-[Über mich](#-de--systemprofil) · [Bereiche](#-core-domains--kernbereiche) · [Projekte](#-featured-project-grid) · [Tech](#-technology-matrix)
+[Profil](#de--profil--profile) · [Programmiersprachen](#programming-languages) · [Technischer Stack](#technical-stack--technischer-stack) · [Projekte](#featured-projects--ausgewählte-projekte) · [Architektur](#architecture--architektur)
 
 **EN**  
-[Profile](#-en--system-profile) · [Domains](#-core-domains--kernbereiche) · [Projects](#-featured-project-grid) · [Stack](#-technology-matrix)
-
-</div>
-
----
-
-## ◈ CURRENT DIRECTION / AKTUELLE AUSRICHTUNG
-
-<table>
-<tr>
-<td width="50%">
-
-### 🇩🇪 DE
-
-**Verbinden statt isolieren.**  
-Projekte sollen als modulare Bausteine wachsen, miteinander interagieren und langfristig dokumentierbar bleiben.
-
-</td>
-<td width="50%">
-
-### 🇬🇧 EN
-
-**Connect instead of isolate.**  
-Projects are designed to grow as modular building blocks that can interact and remain maintainable over time.
-
-</td>
-</tr>
-</table>
+[Profile](#en--profile) · [Programming Languages](#programming-languages) · [Technical Stack](#technical-stack--technischer-stack) · [Projects](#featured-projects--ausgewählte-projekte) · [Architecture](#architecture--architektur)
 
 ---
 
 <div align="center">
 
-### `BUILD • RESEARCH • DESIGN • CONNECT`
+### BUILD · RESEARCH · DESIGN · CONNECT
 
-[![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-black?style=flat-square&logo=github)](https://github.com/Pierreg99)
-[![Cryopg](https://img.shields.io/badge/Cryopg.it-Profile-111827?style=flat-square)](https://github.com/Pierreg99)
+**Cryopg.it / Pierreg99**
 
-**CRYO / PIERREG99**  
-*Bilingual profile interface · Deutsch & English*
+`Python` · `TypeScript` · `JavaScript` · `React` · `Node.js` · `PostgreSQL` · `Three.js` · `Blender` · `MCP` · `GitHub`
 
 </div>
