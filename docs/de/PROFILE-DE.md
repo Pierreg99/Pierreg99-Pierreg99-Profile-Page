@@ -4,6 +4,8 @@
 
 <img src="../../assets/cryo-header.svg" alt="CRYO / Pierreg99" width="100%" />
 
+<img src="../../assets/animations/cryo-pulse.gif" alt="Animierter CRYO Puls-Indikator" width="100%" />
+
 [GitHub](https://github.com/Pierreg99) · [Technischer Stack](./TECH-STACK-DE.md) · [Qualitätsaudit](./TECHNICAL-QUALITY-AUDIT-DE.md) · [Akademische Evaluation](./ACADEMIC-EVALUATION-DE.md) · [Öffentlicher Sprachreport](./PUBLIC-LANGUAGE-PROFILE-DE.md)
 
 </div>
@@ -44,6 +46,8 @@ Der öffentliche Snapshot umfasst 15 Repositories und verwendet die jeweils von 
 | **HTML** | 2 | **13,33 %** |
 
 <img src="../../assets/public-project-language-profile.svg" alt="Öffentliches Sprachprofil: JavaScript 40 Prozent, TypeScript 33,33 Prozent, Python 13,33 Prozent, HTML 13,33 Prozent" width="100%" />
+
+<img src="../../assets/animations/cryo-orbit.gif" alt="Animierte CRYO Engineering Orbit" width="100%" />
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![JavaScript](https://img.shields.io/badge/JavaScript-ES202x-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)](https://developer.mozilla.org/docs/Web/JavaScript) [![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 
@@ -96,9 +100,13 @@ Die immersive Domäne umfasst dort, wo Repository-Evidenz vorliegt, **Three.js, 
 <img src="../../assets/stack-icons.svg" alt="CRYO Stack-Icon-Wand" width="100%" />
 <img src="../../assets/stack-progress.svg" alt="CRYO Technologie-Fortschritt" width="100%" />
 
+## Animationsschicht
+
+Die GIFs liegen repository-nativ unter `assets/animations/` und ergänzen die statischen SVG-Masterworks um leichte, selbst enthaltene Bewegungsakzente.
+
 ## Evidenzgrenze
 
-Die Seite trennt streng zwischen Repository-Nachweis, GitHub-Primärsprache, technischer Dokumentation und eigener visueller Symbolik. Eigene Sprachsymbole sind Präsentationsmaterial und keine Behauptung offizieller Markenlogos.
+Die Seite trennt streng zwischen Repository-Nachweis, GitHub-Primärsprache, technischer Dokumentation und eigener visueller Symbolik. Eigene Sprachsymbole und Animationen sind Präsentationsmaterial und keine Behauptung offizieller Markenlogos.
 
 Portfolio-Scores sind Evidenzsignale und keine Zertifizierung oder Personaleignungsbewertung.
 
