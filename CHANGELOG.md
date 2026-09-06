@@ -2,6 +2,15 @@
 
 ## 2026-09-07
 
+### Deep Research & Integrity
+- Added bilingual deep-research quality audits under `docs/de/` and `docs/en/`.
+- Added `docs/animation-gallery.html` as the canonical index for the repository-native GIF layer.
+- Expanded `assets/ASSET-CATALOG.md` with canonical animated assets and evidence boundaries.
+- Added `scripts/validate-local-links.py` to validate local Markdown/HTML presentation references.
+- Added local-reference validation to the GitHub Pages workflow before artifact upload.
+- Removed the privileged `enablement: true` Pages-site creation attempt; deployment now assumes the repository Pages site is administratively enabled.
+- Documented the existing GitHub Pages permission boundary without claiming an unverified live deployment.
+
 ### Profile Showcase Integration
 - Aligned the profile structure with proven GitHub showcase patterns: introduction, connections, activity, programming languages, frameworks, data, 3D/games, projects and evidence.
 - Reworked the structure around the CRYO / Pierreg99 identity and the documented technical evidence base.

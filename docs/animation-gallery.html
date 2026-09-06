@@ -1,0 +1,37 @@
+# CRYO — Animation Gallery
+
+This page is the canonical index for the repository-native animated presentation layer.
+
+## Pulse
+
+![CRYO pulse](../assets/animations/cryo-pulse.gif)
+
+`assets/animations/cryo-pulse.gif`
+
+Role: compact hero/status animation used to add motion without adding runtime dependencies.
+
+## Orbit
+
+![CRYO orbit](../assets/animations/cryo-orbit.gif)
+
+`assets/animations/cryo-orbit.gif`
+
+Role: ambient system/technology animation used in the live visual layer.
+
+## Integrity rules
+
+- Animations remain local, tracked files.
+- No remote runtime dependency is required to render them.
+- Markdown and HTML references are validated by `scripts/validate-local-links.py` in CI.
+- Animation filenames are canonical; presentation surfaces should reference these files rather than duplicate assets.
+- The animation layer is presentation evidence only and must not be interpreted as independent proof of a technical capability.
+
+## Integration map
+
+| Surface | Pulse | Orbit |
+|---|---:|---:|
+| Root README | Yes | Yes |
+| German profile | Yes | Yes |
+| English profile | Yes | Yes |
+| Interactive `index.html` | Yes | Yes |
+| Asset documentation | Yes | Yes |

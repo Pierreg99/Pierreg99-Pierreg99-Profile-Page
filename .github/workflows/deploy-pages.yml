@@ -25,10 +25,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Validate local presentation links
+        run: python scripts/validate-local-links.py
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Upload profile site
         uses: actions/upload-pages-artifact@v4
