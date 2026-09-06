@@ -2,6 +2,12 @@
 
 ## 2026-09-07
 
+### Icon rendering fix
+- Added a direct Shields icon layer to the root README and both language-specific profile pages.
+- Restored recognizable icons for Python, TypeScript, JavaScript, React, Vite, Node.js, PostgreSQL, MySQL, SQLite, Three.js, Blender, Tailwind CSS, ESLint, Vitest, Playwright and GitHub.
+- Kept the custom SVG icon walls as the immersive visual layer while adding a renderer-safe badge fallback.
+- Preserved the evidence boundary: Python, TypeScript and JavaScript remain the explicitly verified core-language evidence.
+
 ### Masterwork integration
 - Added `assets/immersive-dashboard.svg` as the canonical master entry visual.
 - Added `assets/language-technology-matrix.svg` as an evidence-aware bridge between language and technology layers.
