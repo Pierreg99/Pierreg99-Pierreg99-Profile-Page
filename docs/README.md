@@ -1,6 +1,6 @@
 # CRYO / Pierreg99 — Documentation Hub
 
-This directory is the language-separated documentation layer behind the visual README.
+This directory contains the language-separated documentation layer and the interactive public-project language dashboard.
 
 ## Deutsch
 
@@ -9,6 +9,8 @@ This directory is the language-separated documentation layer behind the visual R
 | Profil | [PROFILE-DE.md](./de/PROFILE-DE.md) |
 | Technischer Stack | [TECH-STACK-DE.md](./de/TECH-STACK-DE.md) |
 | Programmiersprachen | [PROGRAMMING-LANGUAGES-DE.md](./de/PROGRAMMING-LANGUAGES-DE.md) |
+| Öffentlicher Sprachreport | [PUBLIC-LANGUAGE-PROFILE-DE.md](./de/PUBLIC-LANGUAGE-PROFILE-DE.md) |
+| Interaktives Dashboard | [public-language-dashboard.html](./public-language-dashboard.html) |
 | Qualitätsaudit | [TECHNICAL-QUALITY-AUDIT-DE.md](./de/TECHNICAL-QUALITY-AUDIT-DE.md) |
 | Designsystem | [PROFILE-DESIGN-SYSTEM-DE.md](./de/PROFILE-DESIGN-SYSTEM-DE.md) |
 | Varianten | [PROFILE-VARIANTS-DE.md](./de/PROFILE-VARIANTS-DE.md) |
@@ -23,6 +25,8 @@ This directory is the language-separated documentation layer behind the visual R
 | Profile | [PROFILE-EN.md](./en/PROFILE-EN.md) |
 | Technical Stack | [TECH-STACK-EN.md](./en/TECH-STACK-EN.md) |
 | Programming Languages | [PROGRAMMING-LANGUAGES-EN.md](./en/PROGRAMMING-LANGUAGES-EN.md) |
+| Public Language Report | [PUBLIC-LANGUAGE-PROFILE-EN.md](./en/PUBLIC-LANGUAGE-PROFILE-EN.md) |
+| Interactive Dashboard | [public-language-dashboard.html](./public-language-dashboard.html) |
 | Quality Audit | [TECHNICAL-QUALITY-AUDIT-EN.md](./en/TECHNICAL-QUALITY-AUDIT-EN.md) |
 | Design System | [PROFILE-DESIGN-SYSTEM-EN.md](./en/PROFILE-DESIGN-SYSTEM-EN.md) |
 | Variants | [PROFILE-VARIANTS-EN.md](./en/PROFILE-VARIANTS-EN.md) |
@@ -32,6 +36,6 @@ This directory is the language-separated documentation layer behind the visual R
 
 ## Visual system
 
-The repository root README is the entry point. SVG assets under `assets/` provide the dashboard, language identity, matrix, stack, evidence and delivery layers.
+The repository root README is the main presentation surface. SVG assets provide the dashboard, language identity, matrix, stack, evidence, delivery and project layers. The HTML dashboard adds client-side filters and project navigation without external dependencies.
 
-**Evidence rule:** visuals communicate presentation structure. They must not be read as proof of technology usage unless the corresponding repository evidence exists.
+**Evidence rule:** visuals communicate presentation structure. They must not be interpreted as proof of technology usage without corresponding repository evidence.

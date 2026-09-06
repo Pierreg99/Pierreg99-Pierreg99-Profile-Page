@@ -9,6 +9,7 @@ The `assets/` directory contains the visual system for the profile README.
 - `programming-language-symbols-original.svg` — custom language glyph system
 - `programming-languages-atlas.svg` — language roles and formats
 - `language-technology-matrix.svg` — evidence-aware language/technology mapping
+- `public-project-language-profile.svg` — public project primary-language distribution
 - `stack-icons.svg` — technology ecosystem wall
 - `stack-map.svg` — architecture map
 - `stack-progress.svg` — quantitative evidence signals
@@ -18,7 +19,7 @@ The `assets/` directory contains the visual system for the profile README.
 
 ## Masterwork hierarchy
 
-`immersive-dashboard` → `immersive-orbit` → `language symbols` → `language matrix` → `evidence signals` → `delivery` → `stack detail` → `projects`
+`immersive-dashboard` → `immersive-orbit` → `language symbols` → `language matrix` → `public language profile` → `evidence signals` → `delivery` → `stack detail` → `projects`
 
 ## Visual contract
 

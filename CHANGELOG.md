@@ -2,11 +2,19 @@
 
 ## 2026-09-07
 
-### Icon rendering fix
-- Added a direct Shields icon layer to the root README and both language-specific profile pages.
-- Restored recognizable icons for Python, TypeScript, JavaScript, React, Vite, Node.js, PostgreSQL, MySQL, SQLite, Three.js, Blender, Tailwind CSS, ESLint, Vitest, Playwright and GitHub.
-- Kept the custom SVG icon walls as the immersive visual layer while adding a renderer-safe badge fallback.
-- Preserved the evidence boundary: Python, TypeScript and JavaScript remain the explicitly verified core-language evidence.
+### Public Project Language Intelligence
+- Added `docs/public-language-dashboard.html` as a dependency-free interactive language dashboard.
+- Added `assets/public-project-language-profile.svg` as a static renderer-safe visualization.
+- Added dedicated German and English public-language reports under `docs/de/` and `docs/en/`.
+- Added a 15-project public snapshot: JavaScript 40.00%, TypeScript 33.33%, Python 13.33%, HTML 13.33%.
+- Added project-level index links for all repositories in the snapshot.
+- Defined the metric explicitly as project share by GitHub-reported primary language, not LOC/byte share.
+- Updated the root README and documentation hub with direct dashboard navigation.
+
+### Icon-Rendering-Fix
+- Direct Shields icon layer remains available as the renderer-safe technology fallback.
+
+## 2026-09-06
 
 ### Masterwork integration
 - Added `assets/immersive-dashboard.svg` as the canonical master entry visual.
@@ -18,25 +26,11 @@
 - Consolidated navigation and integrity links across README, docs and assets.
 
 ### Design quality
-- Standardized accessible SVG metadata (`title` and `desc`) on the new visual masterworks.
+- Standardized accessible SVG metadata (`title` and `desc`) on visual masterworks.
 - Preserved a shared CRYO HUD grammar across the portfolio graphics.
 - Kept original symbol artwork explicitly distinct from official technology logos.
-- Added integrity checks for asset links, catalog coverage, language separation and score labeling.
 
 ### Evidence
 - Core public language evidence remains Python, TypeScript and JavaScript.
 - Extended symbols remain contextual unless independently supported by repository evidence.
 - Portfolio scores remain evidence signals, not certification or personnel assessment.
-
-## 2026-09-06
-
-### Added
-- Dedicated German and English documentation trees.
-- Visual stack icon wall.
-- Visual stack progress matrix.
-- Immersive engineering orbit graphic.
-- Capability radar graphic.
-- Build/delivery timeline graphic.
-- Programming Languages Atlas.
-- CRYO brand mark SVG.
-- Separate DE/EN navigation for profile, stack, audit, evaluation and comparison documents.
