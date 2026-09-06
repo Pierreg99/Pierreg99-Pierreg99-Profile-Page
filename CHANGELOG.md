@@ -2,6 +2,15 @@
 
 ## 2026-09-07
 
+### Profile Showcase Integration
+- Aligned the profile structure with proven GitHub showcase patterns: introduction, connections, activity, programming languages, frameworks, data, 3D/games, projects and evidence.
+- Reworked the structure around the CRYO / Pierreg99 identity and the documented technical evidence base.
+- Integrated the public language distribution prominently: JavaScript 40.00%, TypeScript 33.33%, Python 13.33%, HTML 13.33%.
+- Added renderer-safe Shields badges for documented core technologies.
+- Reduced dependence on third-party statistics; repository-native evidence, direct project links and local visuals are prioritized.
+- Refined the 3D/Games/Creative section around Three.js, React Three Fiber, Blender, browser games, voxel systems and WebGL where repository evidence supports the technology.
+- Synchronized the root README plus German and English profile pages around one information architecture.
+
 ### Public Project Language Intelligence
 - Added `docs/public-language-dashboard.html` as a dependency-free interactive language dashboard.
 - Added `assets/public-project-language-profile.svg` as a static renderer-safe visualization.
