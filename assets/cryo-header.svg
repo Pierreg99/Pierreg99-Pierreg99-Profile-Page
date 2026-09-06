@@ -1,0 +1,33 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CRYO / PIERREG99 — AI, Software, Web, Games, 3D</title>
+  <desc id="desc">Dark futuristic technical profile banner with a grid, orbit lines and CRYO branding.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070b"/>
+      <stop offset="55%" stop-color="#0c1320"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#334155" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <circle cx="1000" cy="150" r="92" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.35"/>
+  <circle cx="1000" cy="150" r="58" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.5"/>
+  <ellipse cx="1000" cy="150" rx="120" ry="38" fill="none" stroke="#67e8f9" stroke-width="1" opacity="0.25" transform="rotate(-22 1000 150)"/>
+  <circle cx="1060" cy="109" r="5" fill="#67e8f9" filter="url(#glow)"/>
+  <circle cx="945" cy="194" r="3.5" fill="#a78bfa" filter="url(#glow)"/>
+  <path d="M76 226H690" stroke="url(#accent)" stroke-width="2"/>
+  <path d="M76 237H390" stroke="#475569" stroke-width="1"/>
+  <text x="76" y="104" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="4">SYSTEM PROFILE / OPEN SOURCE LAB</text>
+  <text x="76" y="166" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="54" font-weight="800" letter-spacing="2">CRYO / PIERREG99</text>
+  <text x="78" y="204" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">AI · SOFTWARE · WEB · GAMES · 3D · RESEARCH</text>
+  <text x="78" y="263" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">DE / EN · BUILD · RESEARCH · DESIGN · CONNECT</text>
+</svg>
