@@ -2,21 +2,25 @@
 
 ## 2026-09-07
 
-### Added
-- Original vector language-symbol sheet for Python, TypeScript, JavaScript and extended ecosystem symbols.
-- Standalone German programming-language reference.
-- Standalone English programming-language reference.
-- Original asset catalog documenting SVG and PNG roles.
-- Explicit evidence separation between verified core languages and contextual ecosystem symbols.
+### Masterwork integration
+- Added `assets/immersive-dashboard.svg` as the canonical master entry visual.
+- Added `assets/language-technology-matrix.svg` as an evidence-aware bridge between language and technology layers.
+- Added `assets/programming-language-symbols-original.svg` as a custom vector language-identity system.
+- Added `docs/README.md` as a bilingual documentation index.
+- Added `assets/README.md` as the visual asset-system index.
+- Rebuilt the root README around a single visual hierarchy: identity → language → systems → evidence → delivery → projects.
+- Consolidated navigation and integrity links across README, docs and assets.
 
-### Improved
-- Visual navigation now exposes a dedicated Programming Languages section.
-- Stack documentation points to standalone language references.
-- Asset naming and presentation roles are documented for future exports.
+### Design quality
+- Standardized accessible SVG metadata (`title` and `desc`) on the new visual masterworks.
+- Preserved a shared CRYO HUD grammar across the portfolio graphics.
+- Kept original symbol artwork explicitly distinct from official technology logos.
+- Added integrity checks for asset links, catalog coverage, language separation and score labeling.
 
-### Verification
-- Core portfolio language evidence remains Python, TypeScript and JavaScript.
-- Extended language symbols are presented as context unless independently verified in repository evidence.
+### Evidence
+- Core public language evidence remains Python, TypeScript and JavaScript.
+- Extended symbols remain contextual unless independently supported by repository evidence.
+- Portfolio scores remain evidence signals, not certification or personnel assessment.
 
 ## 2026-09-06
 
@@ -30,8 +34,3 @@
 - Programming Languages Atlas.
 - CRYO brand mark SVG.
 - Separate DE/EN navigation for profile, stack, audit, evaluation and comparison documents.
-
-### Improved
-- README redesigned as a visual documentation and stack hub.
-- Technical stack documentation expanded across AI, frontend, backend, data, 3D, tooling, testing and delivery.
-- Language separation enforced at document level.
