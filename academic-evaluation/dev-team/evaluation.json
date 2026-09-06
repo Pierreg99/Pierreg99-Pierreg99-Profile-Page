@@ -1,0 +1,15 @@
+{
+  "generated": "2026-09-06",
+  "source_repository": "Pierreg99/Cryo-omegaTOPTIER",
+  "overall_score": 86.5,
+  "overall_note_de": 2.0,
+  "interpretation": "Repository-evidence team readiness snapshot; not an individual personnel appraisal and not a psychometric IQ score.",
+  "teams": [
+    {"team":"Research & Evaluation","team_de":"Forschung & Evaluierung","score":92,"note":1.0,"rating":"Sehr gut"},
+    {"team":"Frontend / UX","team_de":"Frontend / UX","score":88,"note":2.0,"rating":"Gut"},
+    {"team":"Backend / Data","team_de":"Backend / Daten","score":76,"note":3.0,"rating":"Befriedigend"},
+    {"team":"QA / Automation","team_de":"QA / Automation","score":84,"note":2.0,"rating":"Gut"},
+    {"team":"DevOps / Security","team_de":"DevOps / Security","score":86,"note":2.0,"rating":"Gut"},
+    {"team":"Docs / Governance","team_de":"Dokumentation / Governance","score":93,"note":1.0,"rating":"Sehr gut"}
+  ]
+}
