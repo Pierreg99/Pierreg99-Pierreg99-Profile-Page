@@ -9,12 +9,21 @@
 <img src="./assets/animations/cryo-pulse.gif" alt="Animated CRYO pulse indicator" width="100%" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pierreg99)
+[![Live Profile](https://img.shields.io/badge/Live%20Interactive%20Profile-7dd3fc?style=for-the-badge)](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/)
 [![Public Projects](https://img.shields.io/badge/Public%20Projects-15-0b1120?style=for-the-badge)](./docs/public-language-dashboard.html)
 [![JavaScript](https://img.shields.io/badge/JavaScript-40.00%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)](./docs/en/PUBLIC-LANGUAGE-PROFILE-EN.md)
 [![TypeScript](https://img.shields.io/badge/TypeScript-33.33%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](./docs/en/PUBLIC-LANGUAGE-PROFILE-EN.md)
 [![Python](https://img.shields.io/badge/Python-13.33%25-3776AB?style=for-the-badge&logo=python&logoColor=white)](./docs/en/PUBLIC-LANGUAGE-PROFILE-EN.md)
 
 </div>
+
+---
+
+# Live Interactive Profile
+
+**[Open the deployed CRYO / Pierreg99 profile →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/)**
+
+The live page contains interactive language filters, project exploration, bilingual navigation, the CRYO visual system and the repository-native animated layer.
 
 ---
 
