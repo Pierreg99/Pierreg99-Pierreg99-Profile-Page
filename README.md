@@ -6,6 +6,8 @@
 
 ### AI · Software Engineering · Web · Games · 3D · Research
 
+<img src="./assets/animations/cryo-pulse.gif" alt="Animated CRYO pulse indicator" width="100%" />
+
 [![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pierreg99)
 [![Public Projects](https://img.shields.io/badge/Public%20Projects-15-0b1120?style=for-the-badge)](./docs/public-language-dashboard.html)
 [![JavaScript](https://img.shields.io/badge/JavaScript-40.00%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)](./docs/en/PUBLIC-LANGUAGE-PROFILE-EN.md)
@@ -71,6 +73,8 @@ The current public-project snapshot is based on **GitHub-reported primary reposi
 **Visible language stack**  
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![JavaScript](https://img.shields.io/badge/JavaScript-ES202x-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)](https://developer.mozilla.org/docs/Web/JavaScript) [![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 
+<img src="./assets/animations/cryo-orbit.gif" alt="Animated CRYO engineering orbit" width="100%" />
+
 > **Metric definition:** project share is not LOC share and not code-byte share. The snapshot is a point-in-time view of public repositories returned by the current account query on **7 September 2026**.
 
 ---
@@ -122,6 +126,10 @@ The immersive layer focuses on **Three.js, React Three Fiber, Blender, browser g
 <img src="./assets/stack-icons.svg" alt="CRYO technology icon wall" width="100%" />
 <img src="./assets/project-grid.svg" alt="CRYO public project grid" width="100%" />
 
+## Animated Layer
+
+The profile also includes repository-native animated GIF accents for the header pulse and engineering orbit. They are intentionally lightweight and dependency-free so the showcase remains self-contained.
+
 ---
 
 # Evidence Boundary
@@ -131,7 +139,7 @@ The profile follows a strict evidence hierarchy:
 1. **Repository evidence** — strongest signal.
 2. **GitHub-reported primary language** — used for the public-project language mix.
 3. **Technology documentation and visuals** — presentation and orientation.
-4. **Custom symbol artwork** — visual vocabulary, not proof of usage.
+4. **Custom symbol artwork and animation accents** — visual vocabulary, not proof of usage.
 
 Portfolio scores are evidence signals, not certifications or personnel assessments.
 
