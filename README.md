@@ -5,6 +5,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-0b0f14?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
 [![Projects](https://img.shields.io/badge/Projects-13_public-111827?style=for-the-badge)](https://github.com/Pierreg99?tab=repositories)
 [![Languages](https://img.shields.io/badge/Languages-Python%20%7C%20TypeScript%20%7C%20JavaScript-111827?style=for-the-badge)](#-programming-languages)
+[![Audit](https://img.shields.io/badge/Audit-Technical%20Quality-111827?style=for-the-badge)](./TECHNICAL-QUALITY-AUDIT-DE-EN.md)
 
 **DEUTSCH · ENGLISH**  
 **AI · SOFTWARE ENGINEERING · WEB · GAMES · 3D · RESEARCH**
@@ -75,11 +76,9 @@ The approach emphasizes **modular architecture, automation, creative interfaces,
 **TypeScript** — full-stack web applications, dashboards, 3D interfaces and typed services.  
 **JavaScript** — interactive web applications, game systems and browser tooling.
 
-### Language-adjacent technologies in the project ecosystem
+### Supporting languages / formats
 
-`HTML` · `CSS` · `SQL` · `YAML` · `Markdown` · `JSON` · `Shell / CLI tooling`
-
-> The language section distinguishes GitHub-detected public repository languages from supporting formats and tooling. The public profile currently exposes Python, JavaScript and TypeScript as the core repository languages. citeturn218696search0
+`HTML` · `CSS` · `SQL` · `YAML` · `Markdown` · `JSON` · `Shell / CLI`
 
 ---
 
@@ -91,13 +90,9 @@ The approach emphasizes **modular architecture, automation, creative interfaces,
 
 `LLM Applications` · `Agent Memory` · `RAG` · `Context Windowing` · `Summarization` · `Embeddings` · `MCP` · `AI Assistants`
 
-The `agent-memory` project explicitly targets token-aware context handling, automatic summarization, RAG-style recall and durable persistence with Python, Pydantic, NumPy, PyYAML and Requests. fileciteturn38file0L2-L6
-
 ## Frontend / UI
 
 `React 19` · `React DOM` · `Vite` · `Tailwind CSS` · `Radix UI` · `Lucide React` · `Framer Motion` · `React Hook Form` · `TanStack Query` · `Recharts` · `Wouter`
-
-The Nexo stack additionally includes React Three Fiber, Three.js and a large Radix UI component layer. fileciteturn36file0L2-L6
 
 ## Backend / Application Layer
 
@@ -106,8 +101,6 @@ The Nexo stack additionally includes React Three Fiber, Three.js and a large Rad
 ## Data / Persistence
 
 `PostgreSQL` · `MySQL` · `SQLite` · `PGlite` · `Drizzle ORM` · `Kysely` · `SQL` · `YAML`
-
-KiBlox currently exposes PostgreSQL-oriented packages, PGlite and Kysely, while the Nexo project uses Drizzle ORM and MySQL support. fileciteturn37file0L2-L6 fileciteturn36file0L2-L6
 
 ## 3D / Graphics / Games
 
@@ -133,13 +126,10 @@ KiBlox currently exposes PostgreSQL-oriented packages, PGlite and Kysely, while 
 | [Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha) | AI / Assistant / HUD | TypeScript · React · Vite · Three.js |
 | [KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame) | Voxel / Game / 3D | TypeScript · React · Three.js |
 | [Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork) | RPG / World | JavaScript |
-| [Cryoplane-Polygonal-Flight](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight) | 3D / Flight | TypeScript |
-| [ResidentLovely-Maximum-Hapiness-Game](https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game) | 3D Web Game | JavaScript · Three.js |
+| [Cryoplane-Polygonal-Flight](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight) | 3D / Flight | Project stack |
 | [Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer) | Game / Rhythm | JavaScript |
 | [Agi3-AI-Music-Player](https://github.com/Pierreg99/Agi3-AI-Music-Player) | AI / Media | Project-specific stack |
 | [CryAIPulse](https://github.com/Pierreg99/CryAIPulse) | AI | Project-specific stack |
-
-The current public GitHub profile lists 13 public repositories; its visible popular-project languages include Python, JavaScript and TypeScript. citeturn218696search0
 
 ---
 
@@ -172,6 +162,17 @@ The current public GitHub profile lists 13 public repositories; its visible popu
 
 ---
 
+# Technical Quality Audit / Technischer Qualitätsaudit
+
+**DE:** [Vollständigen technischen Qualitätsaudit öffnen →](./TECHNICAL-QUALITY-AUDIT-DE-EN.md)  
+**EN:** [Open the complete technical quality audit →](./TECHNICAL-QUALITY-AUDIT-DE-EN.md)
+
+**Current assessed signal:** `8.8/10 technical capability` · `9.1/10 architecture breadth` · `7.4/10 production-evidence confidence`
+
+The audit includes quality scoring, programming-language assessment, quality-vs-cost modeling and a comparison against junior/mid/senior/full-stack developer team profiles.
+
+---
+
 # Delivery Pipeline / Entwicklungsprozess
 
 **01 Research** → **02 Architecture** → **03 Build** → **04 Test** → **05 Document** → **06 Refine** → **07 Release**
@@ -191,10 +192,10 @@ The current public GitHub profile lists 13 public repositories; its visible popu
 # Profile Navigation
 
 **DE**  
-[Profil](#de--profil--profile) · [Programmiersprachen](#programming-languages) · [Technischer Stack](#technical-stack--technischer-stack) · [Projekte](#featured-projects--ausgewählte-projekte) · [Architektur](#architecture--architektur)
+[Profil](#de--profil--profile) · [Programmiersprachen](#programming-languages) · [Technischer Stack](#technical-stack--technischer-stack) · [Projekte](#featured-projects--ausgewählte-projekte) · [Qualitätsaudit](#technical-quality-audit--technischer-qualitätsaudit)
 
 **EN**  
-[Profile](#en--profile) · [Programming Languages](#programming-languages) · [Technical Stack](#technical-stack--technischer-stack) · [Projects](#featured-projects--ausgewählte-projekte) · [Architecture](#architecture--architektur)
+[Profile](#en--profile) · [Programming Languages](#programming-languages) · [Technical Stack](#technical-stack--technischer-stack) · [Projects](#featured-projects--ausgewählte-projekte) · [Quality Audit](#technical-quality-audit--technischer-qualitätsaudit)
 
 ---
 
