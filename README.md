@@ -4,160 +4,106 @@
 
 # CRYO / PIERREG99
 
-### AI · Software Engineering · Web · Games · 3D · Research
+### Profile Documentation Hub
 
-<img src="./assets/animations/cryo-pulse.gif" alt="Animated CRYO pulse indicator" width="100%" />
-
-[![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pierreg99)
-[![Live Profile](https://img.shields.io/badge/Live%20Interactive%20Profile-7dd3fc?style=for-the-badge)](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/)
-[![Public Projects](https://img.shields.io/badge/Public%20Projects-15-0b1120?style=for-the-badge)](./docs/public-language-dashboard.html)
-[![JavaScript](https://img.shields.io/badge/JavaScript-40.00%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)](./docs/en/PUBLIC-LANGUAGE-PROFILE-EN.md)
-[![TypeScript](https://img.shields.io/badge/TypeScript-33.33%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](./docs/en/PUBLIC-LANGUAGE-PROFILE-EN.md)
-[![Python](https://img.shields.io/badge/Python-13.33%25-3776AB?style=for-the-badge&logo=python&logoColor=white)](./docs/en/PUBLIC-LANGUAGE-PROFILE-EN.md)
+[![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-0b0f14?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
+[![Languages](https://img.shields.io/badge/Languages-DE%20%7C%20EN-111827?style=for-the-badge)](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page)
+[![Docs](https://img.shields.io/badge/Docs-Split%20by%20Language-111827?style=for-the-badge)](./docs/)
 
 </div>
 
 ---
 
-# Live Interactive Profile
+# Sprache auswählen / Select Language
 
-**[Open the deployed CRYO / Pierreg99 profile →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/)**
+## Deutsch
 
-The live page contains interactive language filters, project exploration, bilingual navigation, the CRYO visual system and the repository-native animated layer.
-
----
-
-# Profile Navigator
-
-| Deutsch | English |
+| Dokument | Öffnen |
 |---|---|
-| [Profil →](./docs/de/PROFILE-DE.md) | [Profile →](./docs/en/PROFILE-EN.md) |
-| [Technischer Stack →](./docs/de/TECH-STACK-DE.md) | [Technical Stack →](./docs/en/TECH-STACK-EN.md) |
-| [Programmiersprachen →](./docs/de/PROGRAMMING-LANGUAGES-DE.md) | [Programming Languages →](./docs/en/PROGRAMMING-LANGUAGES-EN.md) |
-| [Öffentlicher Sprachreport →](./docs/de/PUBLIC-LANGUAGE-PROFILE-DE.md) | [Public Language Report →](./docs/en/PUBLIC-LANGUAGE-PROFILE-EN.md) |
-| [Interaktives Dashboard →](./docs/public-language-dashboard.html) | [Interactive Dashboard →](./docs/public-language-dashboard.html) |
-| [Qualitätsaudit →](./docs/de/TECHNICAL-QUALITY-AUDIT-DE.md) | [Quality Audit →](./docs/en/TECHNICAL-QUALITY-AUDIT-EN.md) |
+| **Profil** | [Deutsches Profil öffnen →](./docs/de/PROFILE-DE.md) |
+| **Technischer Stack** | [Deutsche Stack-Dokumentation →](./docs/de/TECH-STACK-DE.md) |
+| **Technischer Qualitätsaudit** | [Deutschen Audit öffnen →](./docs/de/TECHNICAL-QUALITY-AUDIT-DE.md) |
+| **Akademisches Benchmark-Dashboard** | [Deutsches Dashboard öffnen →](./docs/de/ACADEMIC-DASHBOARD-DE.md) |
+| **Profil-Designsystem** | [Deutsches Designsystem →](./docs/de/PROFILE-DESIGN-SYSTEM-DE.md) |
+| **Profilvarianten** | [Deutsche Varianten →](./docs/de/PROFILE-VARIANTS-DE.md) |
+| **Academic Tasks** | [Aufgaben, Zeiten & Fortschritt →](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md) |
+| **Pierreg99 vs Dev / Team** | [Deutschen Vergleich öffnen →](./docs/de/PIERREG99-VS-DEV-COMPARISON-DE.md) |
+| **Time-to-Value vs Dev / Team** | [Deutschen TTV-Vergleich öffnen →](./docs/de/PIERREG99-TIME-TO-VALUE-COMPARISON-DE.md) |
+| **Tägliche Academic Reports** | [Deutsche Reports öffnen →](./reports/daily/2026-09-07/DAILY-REPORT-DE.md) |
 
-## Daily Academic Research / Tägliche Academic Research
+## English
 
-| Deutsch | English |
+| Document | Open |
 |---|---|
-| [Tagesreport 2026-09-07 →](./reports/daily/2026-09-07/DAILY-REPORT-DE.md) | [Daily report 2026-09-07 →](./reports/daily/2026-09-07/DAILY-REPORT-EN.md) |
-| [Academic Benchmark →](./reports/daily/2026-09-07/ACADEMIC-BENCHMARK-DE.md) | [Academic Benchmark →](./reports/daily/2026-09-07/ACADEMIC-BENCHMARK-EN.md) |
-| [Alle Daily Reports →](./reports/daily/README.md) | [All daily reports →](./reports/daily/README.md) |
+| **Profile** | [Open English profile →](./docs/en/PROFILE-EN.md) |
+| **Technical Stack** | [Open English stack documentation →](./docs/en/TECH-STACK-EN.md) |
+| **Technical Quality Audit** | [Open English audit →](./docs/en/TECHNICAL-QUALITY-AUDIT-EN.md) |
+| **Academic Benchmark Dashboard** | [Open English dashboard →](./docs/en/ACADEMIC-DASHBOARD-EN.md) |
+| **Profile Design System** | [Open English design system →](./docs/en/PROFILE-DESIGN-SYSTEM-EN.md) |
+| **Profile Variants** | [Open English variants →](./docs/en/PROFILE-VARIANTS-EN.md) |
+| **Academic Tasks** | [Tasks, Time & Progress →](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) |
+| **Pierreg99 vs Dev / Team** | [Open English comparison →](./docs/en/PIERREG99-VS-DEV-COMPARISON-EN.md) |
+| **Time-to-Value vs Dev / Team** | [Open English TTV comparison →](./docs/en/PIERREG99-TIME-TO-VALUE-COMPARISON-EN.md) |
+| **Daily Academic Reports** | [Open English reports →](./reports/daily/2026-09-07/DAILY-REPORT-EN.md) |
 
 ---
 
-# About / CRYO Focus
+# Live Benchmark
 
-**Cryopg.it / Pierreg99** develops experimental and product-oriented systems across **Artificial Intelligence, software engineering, web applications, games, 3D and knowledge systems**.
+[Open the live academic / developer benchmark dashboard →](./dashboard/)
 
-The profile is deliberately evidence-led: verified repository technology is presented as evidence, while broader design vocabulary is clearly separated from claims of usage.
-
-**Engineering loop:** `Research → Architecture → Build → Test → Document → Refine → Release`
+[Open the daily research index →](./reports/daily/)
 
 ---
 
-# Connect / Explore
+# Repository Structure
 
-[![Explore repositories](https://img.shields.io/badge/Explore%20all%20repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pierreg99?tab=repositories)
-[![Profile Documentation](https://img.shields.io/badge/Profile%20Documentation-0ea5e9?style=for-the-badge&logo=readthedocs&logoColor=white)](./docs/README.md)
-[![Asset System](https://img.shields.io/badge/Visual%20Asset%20System-111827?style=for-the-badge&logo=svg&logoColor=white)](./assets/README.md)
-
----
-
-# Contribution & Activity Layer
-
-GitHub contribution charts and external stats services can change independently of this repository. The stable profile therefore prioritizes repository-native evidence, direct project links, and renderer-safe badges rather than depending on third-party dashboards.
-
-[Open the public project language dashboard →](./docs/public-language-dashboard.html)
-
----
-
-# Programming Languages
-
-The current public-project snapshot is based on **GitHub-reported primary repository language** across 15 public repositories.
-
-| Language | Public projects | Project share |
-|---|---:|---:|
-| **JavaScript** | 6 | **40.00%** |
-| **TypeScript** | 5 | **33.33%** |
-| **Python** | 2 | **13.33%** |
-| **HTML** | 2 | **13.33%** |
-
-<img src="./assets/public-project-language-profile.svg" alt="Public project language profile: JavaScript 40 percent, TypeScript 33.33 percent, Python 13.33 percent, HTML 13.33 percent" width="100%" />
-
-**Visible language stack**  
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![JavaScript](https://img.shields.io/badge/JavaScript-ES202x-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)](https://developer.mozilla.org/docs/Web/JavaScript) [![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
-
-<img src="./assets/animations/cryo-orbit.gif" alt="Animated CRYO engineering orbit" width="100%" />
-
-> **Metric definition:** project share is not LOC share and not code-byte share. The snapshot is a point-in-time view of public repositories returned by the current account query on **7 September 2026**.
-
----
-
-# Frameworks, Runtime & Data
-
-**Frontend / Runtime**  
-[![React](https://img.shields.io/badge/React-UI-61DAFB?style=for-the-badge&logo=react&logoColor=111827)](https://react.dev/) [![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/) [![Node.js](https://img.shields.io/badge/Node.js-Runtime-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-
-**Data**  
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Data-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![MySQL](https://img.shields.io/badge/MySQL-Data-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/) [![SQLite](https://img.shields.io/badge/SQLite-Embedded-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-
-**Quality / Delivery**  
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-UI-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/) [![ESLint](https://img.shields.io/badge/ESLint-Lint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)](https://eslint.org/) [![Vitest](https://img.shields.io/badge/Vitest-Test-6E57E0?style=for-the-badge&logo=vitest&logoColor=white)](https://vitest.dev/) [![Playwright](https://img.shields.io/badge/Playwright-E2E-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/) [![GitHub](https://img.shields.io/badge/GitHub-Delivery-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pierreg99)
+```text
+.
+├── README.md
+├── dashboard/
+│   └── index.html
+├── docs/
+│   ├── de/
+│   │   ├── PROFILE-DE.md
+│   │   ├── PROFILE-DESIGN-SYSTEM-DE.md
+│   │   ├── PROFILE-VARIANTS-DE.md
+│   │   ├── TECH-STACK-DE.md
+│   │   ├── TECHNICAL-QUALITY-AUDIT-DE.md
+│   │   ├── ACADEMIC-DASHBOARD-DE.md
+│   │   ├── PIERREG99-VS-DEV-COMPARISON-DE.md
+│   │   └── PIERREG99-TIME-TO-VALUE-COMPARISON-DE.md
+│   └── en/
+│       ├── PROFILE-EN.md
+│       ├── PROFILE-DESIGN-SYSTEM-EN.md
+│       ├── PROFILE-VARIANTS-EN.md
+│       ├── TECH-STACK-EN.md
+│       ├── TECHNICAL-QUALITY-AUDIT-EN.md
+│       ├── ACADEMIC-DASHBOARD-EN.md
+│       ├── PIERREG99-VS-DEV-COMPARISON-EN.md
+│       └── PIERREG99-TIME-TO-VALUE-COMPARISON-EN.md
+├── academic-evaluation/
+│   └── task-time-progress/
+├── reports/
+│   └── daily/
+│       ├── README.md
+│       └── 2026-09-07/
+│           ├── DAILY-REPORT-DE.md
+│           ├── DAILY-REPORT-EN.md
+│           ├── ACADEMIC-BENCHMARK-DE.md
+│           ├── ACADEMIC-BENCHMARK-EN.md
+│           ├── ACADEMIC-BENCHMARK.csv
+│           └── ACADEMIC-BENCHMARK.json
+└── assets/
+    ├── cryo-header.svg
+    ├── stack-map.svg
+    └── project-grid.svg
+```
 
 ---
 
-# 3D / Games / Creative Systems
+# Language Separation Policy
 
-The immersive layer focuses on **Three.js, React Three Fiber, Blender, browser games, voxel systems and visual interfaces** where repository evidence supports the technology.
+Deutsch und English sind auf Dokumentebene vollständig getrennt. Jede sprachspezifische Datei enthält nur ihre eigene Sprache; gleichwertige Inhalte liegen als separat anklickbare DE- und EN-Dokumente vor.
 
-[![Three.js](https://img.shields.io/badge/Three.js-3D-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/) [![Blender](https://img.shields.io/badge/Blender-3D-F5792A?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org/) [![WebGL](https://img.shields.io/badge/WebGL-Graphics-990000?style=for-the-badge&logo=webgl&logoColor=white)](https://developer.mozilla.org/docs/Web/API/WebGL_API)
-
----
-
-# Featured Public Projects
-
-- [agent-memory](https://github.com/Pierreg99/agent-memory) — AI / agent memory
-- [Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha) — AI assistant / HUD
-- [KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame) — voxel / game / 3D
-- [Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork) — RPG / world
-- [Cryoplane-Polygonal-Flight](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight) — 3D / flight
-- [Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer) — game / rhythm
-- [call-of-groky](https://github.com/Pierreg99/call-of-groky) — browser FPS / Three.js
-- [call-of-boty](https://github.com/Pierreg99/call-of-boty) — browser FPS / Three.js
-
----
-
-# Immersive Visual System
-
-<img src="./assets/immersive-dashboard.svg" alt="CRYO immersive master dashboard" width="100%" />
-<img src="./assets/immersive-orbit.svg" alt="CRYO engineering orbit" width="100%" />
-<img src="./assets/programming-language-symbols-original.svg" alt="CRYO custom programming language symbols" width="100%" />
-<img src="./assets/language-technology-matrix.svg" alt="CRYO language technology matrix" width="100%" />
-<img src="./assets/stack-progress.svg" alt="CRYO stack evidence progress" width="100%" />
-<img src="./assets/capability-radar.svg" alt="CRYO capability radar" width="100%" />
-<img src="./assets/delivery-timeline.svg" alt="CRYO engineering delivery timeline" width="100%" />
-<img src="./assets/stack-map.svg" alt="CRYO architecture map" width="100%" />
-<img src="./assets/stack-icons.svg" alt="CRYO technology icon wall" width="100%" />
-<img src="./assets/project-grid.svg" alt="CRYO public project grid" width="100%" />
-
-## Animated Layer
-
-The profile also includes repository-native animated GIF accents for the header pulse and engineering orbit. They are intentionally lightweight and dependency-free so the showcase remains self-contained.
-
----
-
-# Evidence Boundary
-
-The profile follows a strict evidence hierarchy:
-
-1. **Repository evidence** — strongest signal.
-2. **GitHub-reported primary language** — used for the public-project language mix.
-3. **Technology documentation and visuals** — presentation and orientation.
-4. **Custom symbol artwork and animation accents** — visual vocabulary, not proof of usage.
-
-Portfolio scores are evidence signals, not certifications or personnel assessments.
-
-[Asset system →](./assets/README.md) · [Asset catalog →](./assets/ASSET-CATALOG.md) · [Documentation hub →](./docs/README.md)
+`README.md` dient als Startseite und Sprach-Navigation.
