@@ -1,5 +1,19 @@
 # CHANGELOG — CRYO / Pierreg99
 
+## 2026-09-08
+
+### README Motion Showcase
+- Added the local CRYO Pulse GIF to the README hero as a primary identity/status motion layer.
+- Added a dedicated two-panel Motion Showcase for Pulse and Orbit.
+- Added direct navigation from the README to `docs/animation-gallery.html`.
+- Added clearer accessibility descriptions for animated assets.
+
+### Animation Gallery Polish
+- Rebuilt `docs/animation-gallery.html` as a responsive CRYO visual showcase.
+- Added semantic role labels, stronger visual hierarchy and responsive cards.
+- Added an integration matrix covering README and bilingual profile surfaces.
+- Added explicit accessibility and evidence-boundary notes.
+
 ## 2026-09-07
 
 ### Deep Research & Integrity
@@ -31,24 +45,3 @@
 
 ### Icon-Rendering-Fix
 - Direct Shields icon layer remains available as the renderer-safe technology fallback.
-
-## 2026-09-06
-
-### Masterwork integration
-- Added `assets/immersive-dashboard.svg` as the canonical master entry visual.
-- Added `assets/language-technology-matrix.svg` as an evidence-aware bridge between language and technology layers.
-- Added `assets/programming-language-symbols-original.svg` as a custom vector language-identity system.
-- Added `docs/README.md` as a bilingual documentation index.
-- Added `assets/README.md` as the visual asset-system index.
-- Rebuilt the root README around a single visual hierarchy: identity → language → systems → evidence → delivery → projects.
-- Consolidated navigation and integrity links across README, docs and assets.
-
-### Design quality
-- Standardized accessible SVG metadata (`title` and `desc`) on visual masterworks.
-- Preserved a shared CRYO HUD grammar across the portfolio graphics.
-- Kept original symbol artwork explicitly distinct from official technology logos.
-
-### Evidence
-- Core public language evidence remains Python, TypeScript and JavaScript.
-- Extended symbols remain contextual unless independently supported by repository evidence.
-- Portfolio scores remain evidence signals, not certification or personnel assessment.
