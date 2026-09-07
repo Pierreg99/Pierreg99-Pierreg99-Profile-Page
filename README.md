@@ -38,6 +38,14 @@ The live page contains interactive language filters, project exploration, biling
 | [Interaktives Dashboard →](./docs/public-language-dashboard.html) | [Interactive Dashboard →](./docs/public-language-dashboard.html) |
 | [Qualitätsaudit →](./docs/de/TECHNICAL-QUALITY-AUDIT-DE.md) | [Quality Audit →](./docs/en/TECHNICAL-QUALITY-AUDIT-EN.md) |
 
+## Daily Academic Research / Tägliche Academic Research
+
+| Deutsch | English |
+|---|---|
+| [Tagesreport 2026-09-07 →](./reports/daily/2026-09-07/DAILY-REPORT-DE.md) | [Daily report 2026-09-07 →](./reports/daily/2026-09-07/DAILY-REPORT-EN.md) |
+| [Academic Benchmark →](./reports/daily/2026-09-07/ACADEMIC-BENCHMARK-DE.md) | [Academic Benchmark →](./reports/daily/2026-09-07/ACADEMIC-BENCHMARK-EN.md) |
+| [Alle Daily Reports →](./reports/daily/README.md) | [All daily reports →](./reports/daily/README.md) |
+
 ---
 
 # About / CRYO Focus
