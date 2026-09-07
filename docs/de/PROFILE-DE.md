@@ -6,7 +6,7 @@
 
 <img src="../../assets/animations/cryo-pulse.gif" alt="Animierter CRYO Puls-Indikator" width="100%" />
 
-[GitHub](https://github.com/Pierreg99) · [Technischer Stack](./TECH-STACK-DE.md) · [Qualitätsaudit](./TECHNICAL-QUALITY-AUDIT-DE.md) · [Akademische Evaluation](./ACADEMIC-EVALUATION-DE.md) · [Öffentlicher Sprachreport](./PUBLIC-LANGUAGE-PROFILE-DE.md)
+[GitHub](https://github.com/Pierreg99) · [Technischer Stack](./TECH-STACK-DE.md) · [Qualitätsaudit](./TECHNICAL-QUALITY-AUDIT-DE.md) · [Akademische Evaluation](./ACADEMIC-EVALUATION-DE.md) · [57-Repository Portfolioaudit](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.de.md)
 
 </div>
 
@@ -15,6 +15,20 @@
 **Cryopg.it / Pierreg99** entwickelt experimentelle und produktorientierte Systeme an der Schnittstelle von **Künstlicher Intelligenz, Software Engineering, Web, Games, 3D und Wissenssystemen**.
 
 Der Fokus liegt auf modularer Architektur, Automatisierung, kreativen Interfaces, AI-Agenten, Datenhaltung, Testbarkeit und dokumentierter Weiterentwicklung.
+
+## Portfolio Intelligence
+
+Der aktuelle verbundene GitHub-Bestand umfasst **57 zugängliche Repositories**. Die Projekte werden nicht als gleichartige Sammlung präsentiert, sondern nach Beweisstärke und Funktion gegliedert:
+
+`Flagships → Products → Research → Experiments → Assets / Archive`
+
+Die vollständige Audit-Matrix bewertet jedes Repository nach **Engineering (E), Dokumentation (D), Portfolio-Wirkung (P)** und einer Priorität A/B/C. Diese Scores sind redaktionelle Evidenzsignale und keine Zertifizierung.
+
+[57-Repository Deep Audit Deutsch →](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.de.md) · [Portfolio Hub Deutsch →](https://github.com/Pierreg99/progress/blob/main/README.de.md) · [Visual Portfolio →](https://github.com/Pierreg99/progress/blob/main/site/index.de.html)
+
+### Flagship-Beweisgruppe
+
+`agent-memory` · `cryo-unified-agent` · `Chronicles-of-Lumina-GameRPGwork` · `ResidentLovely-Maximum-Hapiness-Game` · `KiBlox-VoxelGame` · `Nexo-Jarvis-AI-Futuristic-Assistant-Alpha` · `Cryo-Motion-Studio-Concept-Websuite` · `progress`
 
 ## Profil-Architektur
 
@@ -36,7 +50,7 @@ Statt auf externe Statistikdienste angewiesen zu sein, priorisiert dieses Profil
 
 ## Programmiersprachen
 
-Der öffentliche Snapshot umfasst 15 Repositories und verwendet die jeweils von GitHub gemeldete **Primärsprache** des Repositorys.
+Der öffentliche Snapshot umfasst **15 öffentliche Repositories** und verwendet die jeweils von GitHub gemeldete **Primärsprache** des Repositorys.
 
 | Sprache | Öffentliche Projekte | Projektanteil |
 |---|---:|---:|
@@ -49,9 +63,9 @@ Der öffentliche Snapshot umfasst 15 Repositories und verwendet die jeweils von 
 
 <img src="../../assets/animations/cryo-orbit.gif" alt="Animierte CRYO Engineering Orbit" width="100%" />
 
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![JavaScript](https://img.shields.io/badge/JavaScript-ES202x-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)](https://developer.mozilla.org/docs/Web/JavaScript) [![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C3?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![JavaScript](https://img.shields.io/badge/JavaScript-ES202x-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)](https://developer.mozilla.org/docs/Web/JavaScript) [![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 
-> Der Prozentwert beschreibt **Projektanteile**, nicht Codezeilen oder Byte-Anteile. Snapshot: **7. September 2026**.
+> Die Prozentwerte beschreiben **Projektanteile**, nicht Codezeilen oder Byte-Anteile. Öffentlicher Snapshot: **7. September 2026**.
 
 ## Frameworks & Runtime
 
@@ -86,10 +100,11 @@ Die immersive Domäne umfasst dort, wo Repository-Evidenz vorliegt, **Three.js, 
 - [Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha) — AI Assistant / HUD
 - [KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame) — Voxel / Game / 3D
 - [Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork) — RPG / World
+- [ResidentLovely-Maximum-Hapiness-Game](https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game) — Interactive Three.js Game
 - [Cryoplane-Polygonal-Flight](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight) — 3D / Flight
 - [Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer) — Game / Rhythm
 - [call-of-groky](https://github.com/Pierreg99/call-of-groky) — Browser FPS / Three.js
-- [call-of-boty](https://github.com/Pierreg99/call-of-boty) — Browser FPS / Three.js
+- [Cryo-Motion-Studio-Concept-Websuite](https://github.com/Pierreg99/Cryo-Motion-Studio-Concept-Websuite) — Creative Web / Motion
 
 ## Visuelles System
 
@@ -110,4 +125,4 @@ Die Seite trennt streng zwischen Repository-Nachweis, GitHub-Primärsprache, tec
 
 Portfolio-Scores sind Evidenzsignale und keine Zertifizierung oder Personaleignungsbewertung.
 
-[Technischer Stack](./TECH-STACK-DE.md) · [Qualitätsaudit](./TECHNICAL-QUALITY-AUDIT-DE.md) · [Programmiersprachen](./PROGRAMMING-LANGUAGES-DE.md) · [Öffentlicher Sprachreport](./PUBLIC-LANGUAGE-PROFILE-DE.md) · [Aufgaben, Zeiten & Fortschritt](../../academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md)
+[57-Repository Deep Audit](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.de.md) · [Technischer Stack](./TECH-STACK-DE.md) · [Qualitätsaudit](./TECHNICAL-QUALITY-AUDIT-DE.md) · [Programmiersprachen](./PROGRAMMING-LANGUAGES-DE.md) · [Öffentlicher Sprachreport](./PUBLIC-LANGUAGE-PROFILE-DE.md) · [Aufgaben, Zeiten & Fortschritt](../../academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md)
