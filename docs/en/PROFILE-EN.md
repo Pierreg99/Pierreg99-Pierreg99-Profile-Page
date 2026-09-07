@@ -6,7 +6,7 @@
 
 <img src="../../assets/animations/cryo-pulse.gif" alt="Animated CRYO pulse indicator" width="100%" />
 
-[GitHub](https://github.com/Pierreg99) · [Technical Stack](./TECH-STACK-EN.md) · [Quality Audit](./TECHNICAL-QUALITY-AUDIT-EN.md) · [Academic Evaluation](./ACADEMIC-EVALUATION-EN.md) · [Public Language Report](./PUBLIC-LANGUAGE-PROFILE-EN.md)
+[GitHub](https://github.com/Pierreg99) · [Technical Stack](./TECH-STACK-EN.md) · [Quality Audit](./TECHNICAL-QUALITY-AUDIT-EN.md) · [Academic Evaluation](./ACADEMIC-EVALUATION-EN.md) · [57-Repository Portfolio Audit](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.en.md)
 
 </div>
 
@@ -15,6 +15,20 @@
 **Cryopg.it / Pierreg99** builds experimental and product-oriented systems across **Artificial Intelligence, software engineering, web applications, games, 3D and knowledge systems**.
 
 The focus is modular architecture, automation, creative interfaces, AI agents, persistence, testability and documented iteration.
+
+## Portfolio Intelligence
+
+The current connected GitHub inventory contains **57 accessible repositories**. Projects are not presented as an equal list; they are grouped by evidence strength and function:
+
+`Flagships → Products → Research → Experiments → Assets / Archive`
+
+The complete audit matrix scores every repository for **Engineering (E), Documentation (D), Portfolio impact (P)** and Priority A/B/C. These are editorial evidence signals, not certification.
+
+[57-repository Deep Audit — English →](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.en.md) · [Portfolio Hub →](https://github.com/Pierreg99/progress/blob/main/README.en.md) · [Visual Portfolio →](https://github.com/Pierreg99/progress/blob/main/site/index.en.html)
+
+### Flagship proof set
+
+`agent-memory` · `cryo-unified-agent` · `Chronicles-of-Lumina-GameRPGwork` · `ResidentLovely-Maximum-Hapiness-Game` · `KiBlox-VoxelGame` · `Nexo-Jarvis-AI-Futuristic-Assistant-Alpha` · `Cryo-Motion-Studio-Concept-Websuite` · `progress`
 
 ## Profile Architecture
 
@@ -34,7 +48,7 @@ The profile favors repository-native evidence, direct project links and renderer
 
 ## Programming Languages
 
-The public snapshot contains 15 repositories and uses each repository's **GitHub-reported primary language**.
+The public snapshot contains **15 public repositories** and uses each repository's **GitHub-reported primary language**.
 
 | Language | Public projects | Project share |
 |---|---:|---:|
@@ -49,7 +63,7 @@ The public snapshot contains 15 repositories and uses each repository's **GitHub
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![JavaScript](https://img.shields.io/badge/JavaScript-ES202x-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)](https://developer.mozilla.org/docs/Web/JavaScript) [![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 
-> The percentage is **project share**, not lines-of-code or byte share. Snapshot: **7 September 2026**.
+> The percentage is **project share**, not lines-of-code or byte share. Public snapshot: **7 September 2026**.
 
 ## Frameworks & Runtime
 
@@ -84,10 +98,11 @@ The immersive domain covers **Three.js, React Three Fiber, Blender, browser game
 - [Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha) — AI Assistant / HUD
 - [KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame) — Voxel / Game / 3D
 - [Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork) — RPG / World
+- [ResidentLovely-Maximum-Hapiness-Game](https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game) — Interactive Three.js Game
 - [Cryoplane-Polygonal-Flight](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight) — 3D / Flight
 - [Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer) — Game / Rhythm
 - [call-of-groky](https://github.com/Pierreg99/call-of-groky) — Browser FPS / Three.js
-- [call-of-boty](https://github.com/Pierreg99/call-of-boty) — Browser FPS / Three.js
+- [Cryo-Motion-Studio-Concept-Websuite](https://github.com/Pierreg99/Cryo-Motion-Studio-Concept-Websuite) — Creative Web / Motion
 
 ## Visual System
 
@@ -108,4 +123,4 @@ The page separates repository evidence, GitHub primary-language metadata, techni
 
 Portfolio scores are evidence signals, not certification or personnel assessment.
 
-[Technical Stack](./TECH-STACK-EN.md) · [Quality Audit](./TECHNICAL-QUALITY-AUDIT-EN.md) · [Programming Languages](./PROGRAMMING-LANGUAGES-EN.md) · [Public Language Report](./PUBLIC-LANGUAGE-PROFILE-EN.md) · [Tasks, Time & Progress](../../academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md)
+[57-repository Deep Audit](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.en.md) · [Technical Stack](./TECH-STACK-EN.md) · [Quality Audit](./TECHNICAL-QUALITY-AUDIT-EN.md) · [Programming Languages](./PROGRAMMING-LANGUAGES-EN.md) · [Public Language Report](./PUBLIC-LANGUAGE-PROFILE-EN.md) · [Tasks, Time & Progress](../../academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md)
