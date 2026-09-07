@@ -24,6 +24,7 @@
 | **Technischer Stack** | [Deutsche Stack-Dokumentation →](./docs/de/TECH-STACK-DE.md) |
 | **Technischer Qualitätsaudit** | [Deutschen Audit öffnen →](./docs/de/TECHNICAL-QUALITY-AUDIT-DE.md) |
 | **Akademisches Benchmark-Dashboard** | [Deutsches Dashboard öffnen →](./docs/de/ACADEMIC-DASHBOARD-DE.md) |
+| **Fortschritt: Geschwindigkeit & Qualität** | [Deutschen Fortschrittsbericht öffnen →](./docs/de/PROGRESS-SPEED-QUALITY-DE.md) |
 | **Profil-Designsystem** | [Deutsches Designsystem →](./docs/de/PROFILE-DESIGN-SYSTEM-DE.md) |
 | **Profilvarianten** | [Deutsche Varianten →](./docs/de/PROFILE-VARIANTS-DE.md) |
 | **Academic Tasks** | [Aufgaben, Zeiten & Fortschritt →](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md) |
@@ -39,6 +40,7 @@
 | **Technical Stack** | [Open English stack documentation →](./docs/en/TECH-STACK-EN.md) |
 | **Technical Quality Audit** | [Open English audit →](./docs/en/TECHNICAL-QUALITY-AUDIT-EN.md) |
 | **Academic Benchmark Dashboard** | [Open English dashboard →](./docs/en/ACADEMIC-DASHBOARD-EN.md) |
+| **Progress: Speed & Quality** | [Open English progress report →](./docs/en/PROGRESS-SPEED-QUALITY-EN.md) |
 | **Profile Design System** | [Open English design system →](./docs/en/PROFILE-DESIGN-SYSTEM-EN.md) |
 | **Profile Variants** | [Open English variants →](./docs/en/PROFILE-VARIANTS-EN.md) |
 | **Academic Tasks** | [Tasks, Time & Progress →](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) |
@@ -71,6 +73,7 @@
 │   │   ├── TECH-STACK-DE.md
 │   │   ├── TECHNICAL-QUALITY-AUDIT-DE.md
 │   │   ├── ACADEMIC-DASHBOARD-DE.md
+│   │   ├── PROGRESS-SPEED-QUALITY-DE.md
 │   │   ├── PIERREG99-VS-DEV-COMPARISON-DE.md
 │   │   └── PIERREG99-TIME-TO-VALUE-COMPARISON-DE.md
 │   └── en/
@@ -80,6 +83,7 @@
 │       ├── TECH-STACK-EN.md
 │       ├── TECHNICAL-QUALITY-AUDIT-EN.md
 │       ├── ACADEMIC-DASHBOARD-EN.md
+│       ├── PROGRESS-SPEED-QUALITY-EN.md
 │       ├── PIERREG99-VS-DEV-COMPARISON-EN.md
 │       └── PIERREG99-TIME-TO-VALUE-COMPARISON-EN.md
 ├── academic-evaluation/
