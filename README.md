@@ -2,6 +2,8 @@
 
 <img src="./assets/cryo-header.svg" alt="CRYO / PIERREG99 — AI, Software, Web, Games, 3D" width="100%" />
 
+<img src="./assets/animations/cryo-pulse.gif" alt="Animated CRYO pulse identity and status layer" width="100%" />
+
 # CRYO / PIERREG99
 
 ### Profile Documentation Hub
@@ -9,8 +11,24 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-0b0f14?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
 [![Languages](https://img.shields.io/badge/Languages-DE%20%7C%20EN-111827?style=for-the-badge)](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page)
 [![Docs](https://img.shields.io/badge/Docs-Split%20by%20Language-111827?style=for-the-badge)](./docs/)
+[![Motion](https://img.shields.io/badge/Motion-Local%20GIF%20Layer-0ea5e9?style=for-the-badge)](./docs/animation-gallery.html)
 
 </div>
+
+---
+
+# Motion Showcase
+
+<div align="center">
+
+<img src="./assets/animations/cryo-pulse.gif" alt="CRYO Pulse animation: identity, status and delivery layer" width="49%" />
+<img src="./assets/animations/cryo-orbit.gif" alt="CRYO Orbit animation: engineering, technology and systems layer" width="49%" />
+
+</div>
+
+**Pulse** is the identity/status motion layer. **Orbit** is the engineering/system motion layer. Both are local repository assets and require no runtime dependency.
+
+[Open the full Animation Gallery →](./docs/animation-gallery.html)
 
 ---
 
@@ -68,43 +86,18 @@
 ├── dashboard/
 │   └── index.html
 ├── docs/
+│   ├── animation-gallery.html
 │   ├── de/
-│   │   ├── PROFILE-DE.md
-│   │   ├── PROFILE-DESIGN-SYSTEM-DE.md
-│   │   ├── PROFILE-VARIANTS-DE.md
-│   │   ├── TECH-STACK-DE.md
-│   │   ├── TECHNICAL-QUALITY-AUDIT-DE.md
-│   │   ├── ACADEMIC-DASHBOARD-DE.md
-│   │   ├── PROGRESS-SPEED-QUALITY-DE.md
-│   │   ├── PIERREG99-VS-ALL-BENCHMARK-DE.md
-│   │   ├── PIERREG99-VS-DEV-COMPARISON-DE.md
-│   │   └── PIERREG99-TIME-TO-VALUE-COMPARISON-DE.md
 │   └── en/
-│       ├── PROFILE-EN.md
-│       ├── PROFILE-DESIGN-SYSTEM-EN.md
-│       ├── PROFILE-VARIANTS-EN.md
-│       ├── TECH-STACK-EN.md
-│       ├── TECHNICAL-QUALITY-AUDIT-EN.md
-│       ├── ACADEMIC-DASHBOARD-EN.md
-│       ├── PROGRESS-SPEED-QUALITY-EN.md
-│       ├── PIERREG99-VS-ALL-BENCHMARK-EN.md
-│       ├── PIERREG99-VS-DEV-COMPARISON-EN.md
-│       └── PIERREG99-TIME-TO-VALUE-COMPARISON-EN.md
 ├── academic-evaluation/
-│   └── task-time-progress/
 ├── reports/
-│   └── daily/
-│       ├── README.md
-│       └── 2026-09-07/
-│           ├── DAILY-REPORT-DE.md
-│           ├── DAILY-REPORT-EN.md
-│           ├── ACADEMIC-BENCHMARK-DE.md
-│           ├── ACADEMIC-BENCHMARK-EN.md
-│           ├── ACADEMIC-BENCHMARK.csv
-│           └── ACADEMIC-BENCHMARK.json
 └── assets/
+    ├── animations/
+    │   ├── cryo-pulse.gif
+    │   └── cryo-orbit.gif
     ├── cryo-header.svg
-    ├── stack-map.svg
+    ├── immersive-dashboard.svg
+    ├── language-technology-matrix.svg
     └── project-grid.svg
 ```
 
@@ -115,3 +108,7 @@
 Deutsch und English sind auf Dokumentebene vollständig getrennt. Jede sprachspezifische Datei enthält nur ihre eigene Sprache; gleichwertige Inhalte liegen als separat anklickbare DE- und EN-Dokumente vor.
 
 `README.md` dient als Startseite und Sprach-Navigation.
+
+# Motion / Asset Policy
+
+Die GIFs sind Teil der repository-nativen Präsentationsschicht. Sie sind keine externen Statistik- oder Laufzeitdienste und stellen keine unabhängige technische Evidenz dar.
