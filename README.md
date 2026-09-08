@@ -54,12 +54,6 @@ The selection is based on visible evidence strength, engineering depth, document
 
 ---
 
-# Motion Showcase
-
-[Open the full Animation Gallery →](./docs/animation-gallery.html)
-
----
-
 # Sprache auswählen / Select Language
 
 ## Deutsch
@@ -75,6 +69,7 @@ The selection is based on visible evidence strength, engineering depth, document
 | **57-Repository Deep Audit** | [Vollständige Audit-Matrix →](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.de.md) |
 | **Profil-Designsystem** | [Deutsches Designsystem →](./docs/de/PROFILE-DESIGN-SYSTEM-DE.md) |
 | **Profilvarianten** | [Deutsche Varianten →](./docs/de/PROFILE-VARIANTS-DE.md) |
+| **Animation Gallery** | [Motion Showcase öffnen →](./docs/animation-gallery.html) |
 | **Academic Tasks** | [Aufgaben, Zeiten & Fortschritt →](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_DE.md) |
 | **Pierreg99 vs Dev / Team** | [Deutschen Vergleich öffnen →](./docs/de/PIERREG99-VS-DEV-COMPARISON-DE.md) |
 | **Time-to-Value vs Dev / Team** | [Deutschen TTV-Vergleich öffnen →](./docs/de/PIERREG99-TIME-TO-VALUE-COMPARISON-DE.md) |
@@ -93,6 +88,7 @@ The selection is based on visible evidence strength, engineering depth, document
 | **57-Repository Deep Audit** | [Open full audit matrix →](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.en.md) |
 | **Profile Design System** | [Open English design system →](./docs/en/PROFILE-DESIGN-SYSTEM-EN.md) |
 | **Profile Variants** | [Open English variants →](./docs/en/PROFILE-VARIANTS-EN.md) |
+| **Animation Gallery** | [Open motion showcase →](./docs/animation-gallery.html) |
 | **Academic Tasks** | [Tasks, Time & Progress →](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) |
 | **Pierreg99 vs Dev / Team** | [Open English comparison →](./docs/en/PIERREG99-VS-DEV-COMPARISON-EN.md) |
 | **Time-to-Value vs Dev / Team** | [Open English TTV comparison →](./docs/en/PIERREG99-TIME-TO-VALUE-COMPARISON-EN.md) |
