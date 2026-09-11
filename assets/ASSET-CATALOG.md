@@ -22,8 +22,11 @@
 
 | Asset | Purpose |
 |---|---|
-| `animations/cryo-pulse.gif` | Compact hero/status motion layer |
-| `animations/cryo-orbit.gif` | Ambient system/technology motion layer |
+| `animations/cryo-pulse.gif` | Compact hero/status motion layer (regenerated 2026-09-11) |
+| `animations/cryo-orbit.gif` | Ambient system/technology motion layer (regenerated 2026-09-11) |
+| `hero.jpg` / `hero.mp4` | Cinematic observatory hero still + 6s loop |
+| `pulse.jpg` / `orbit.jpg` | Motion posters |
+
 
 The animation layer is repository-native and dependency-free. The central integration page is [`docs/animation-gallery.html`](../docs/animation-gallery.html).
 

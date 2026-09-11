@@ -1,5 +1,16 @@
 # CHANGELOG — CRYO / Pierreg99
 
+## 2026-09-11
+
+### grok-cryosys · optimize / extend
+- Rebuilt the GitHub Pages `index.html` around cinematic CRYO hero video, ice-cyan identity, bilingual entry points and a working 18-repo project explorer.
+- Replaced Pulse / Orbit GIFs with generated 6s motion (identity pulse + orbital rings). MP4 + poster stills added under `assets/`.
+- Updated public-language snapshot to **18 public repositories** (11 Sep 2026): TypeScript 33.33%, JavaScript 33.33%, HTML 27.78%, Python 5.56%.
+- Restored missing `PROGRAMMING-LANGUAGES-DE.md` / `PROGRAMMING-LANGUAGES-EN.md` so CI local-link validation can pass.
+- Added `Task_Duration_Calendar_DE_EN.zip` so the academic calendar package link resolves.
+- Added live connect links: GitHub, X `cryofreee`, Beacons.
+- Pages deploy was failing on five broken local references; those are closed. Remaining blocker, if any, is account-level Pages enablement.
+
 ## 2026-09-08
 
 ### README Motion Showcase

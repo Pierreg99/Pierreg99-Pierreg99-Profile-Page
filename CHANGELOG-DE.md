@@ -1,5 +1,14 @@
 # ÄNDERUNGSPROTOKOLL — CRYO / Pierreg99
 
+## 11.09.2026
+
+### grok-cryosys · optimieren / erweitern
+- `index.html` als cineastisches CRYO-Profil mit Hero-Video, Ice-Cyan-Identität, DE/EN-Einstieg und 18-Repo-Explorer neu gebaut.
+- Pulse- und Orbit-GIFs neu generiert. MP4 + Poster unter `assets/`.
+- Öffentlicher Sprach-Snapshot: **18 Repositories** (11.09.2026).
+- Fehlende `PROGRAMMING-LANGUAGES-*.md` und das Kalender-ZIP ergänzt, damit die Pages-Validierung durchläuft.
+- Connect-Links: GitHub, X `cryofreee`, Beacons.
+
 ## 08.09.2026
 
 ### README-Motion-Showcase

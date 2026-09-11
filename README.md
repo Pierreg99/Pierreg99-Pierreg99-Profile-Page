@@ -10,7 +10,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-0b0f14?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
 [![Portfolio](https://img.shields.io/badge/Portfolio-DE%20%7C%20EN-2563eb?style=for-the-badge)](https://github.com/Pierreg99/progress)
-[![Repositories](https://img.shields.io/badge/Current%20Inventory-57-111827?style=for-the-badge&logo=github)](https://github.com/Pierreg99?tab=repositories)
+[![Repositories](https://img.shields.io/badge/Public%20inventory-18-111827?style=for-the-badge&logo=github)](https://github.com/Pierreg99?tab=repositories)
 [![Docs](https://img.shields.io/badge/Docs-Split%20by%20Language-111827?style=for-the-badge)](./docs/)
 
 </div>
@@ -34,9 +34,9 @@
 
 # Portfolio Intelligence
 
-The current GitHub inventory contains **57 accessible repositories** across AI/agents, software engineering, web, games, 3D/creative technology, learning, documentation, infrastructure and assets.
+The current GitHub inventory contains **18 public repositories** (snapshot 11 September 2026) across AI/agents, software engineering, web, games, 3D/creative technology, documentation and systems.
 
-The portfolio is intentionally presented as a hierarchy rather than 57 equally weighted projects: **Flagships → Products → Research → Experiments → Assets / Archive**.
+The portfolio is intentionally presented as a hierarchy rather than equally weighted projects: **Flagships → Products → Research → Experiments → Assets / Archive**.
 
 ### Audit & Portfolio
 
@@ -48,7 +48,7 @@ The portfolio is intentionally presented as a hierarchy rather than 57 equally w
 
 ### Flagship proof set
 
-`agent-memory` · `cryo-unified-agent` · `Chronicles-of-Lumina-GameRPGwork` · `ResidentLovely-Maximum-Hapiness-Game` · `KiBlox-VoxelGame` · `Nexo-Jarvis-AI-Futuristic-Assistant-Alpha` · `Cryo-Motion-Studio-Concept-Websuite` · `progress`
+`agent-memory` · `cryos-launcher` · `Chronicles-of-Lumina-GameRPGwork` · `ResidentLovely-Maximum-Hapiness-Game` · `KiBlox-VoxelGame` · `Nexo-Jarvis-AI-Futuristic-Assistant-Alpha` · `Cryo-Motion-Studio-Concept-Websuite` · `progress`
 
 The selection is based on visible evidence strength, engineering depth, documentation, interactive value and public portfolio usefulness. It is not a certification.
 
@@ -98,7 +98,12 @@ The selection is based on visible evidence strength, engineering depth, document
 
 # Live Portfolio
 
+[Open the interactive profile (GitHub Pages target) →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/)
+
+[Open GitHub](https://github.com/Pierreg99) · [X / cryofreee](https://x.com/cryofreee) · [Beacons](https://beacons.ai/cryopg.it)
+
 [Open the live portfolio audit hub →](https://github.com/Pierreg99/progress)
+
 
 [Open the German visual portfolio →](https://github.com/Pierreg99/progress/blob/main/site/index.de.html)
 
