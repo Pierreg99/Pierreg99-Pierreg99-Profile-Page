@@ -24,11 +24,16 @@
 <img src="./assets/animations/cryo-pulse.gif" alt="CRYO Pulse animation: identity, status and delivery layer" width="49%" />
 <img src="./assets/animations/cryo-orbit.gif" alt="CRYO Orbit animation: engineering, technology and systems layer" width="49%" />
 
+<img src="./assets/animations/cryo-memory.gif" alt="CRYO Memory presentation animation for agent-memory" width="32%" />
+<img src="./assets/animations/cryo-nexo.gif" alt="CRYO HUD presentation animation for Nexo Jarvis" width="32%" />
+<img src="./assets/animations/cryo-kiblox.gif" alt="CRYO voxel polar landscape animation for KiBlox" width="32%" />
+
 </div>
 
-**Pulse** is the identity/status motion layer. **Orbit** is the engineering/system motion layer. Both are local repository assets and require no runtime dependency.
+**Pulse** is the identity/status motion layer. **Orbit** is the engineering/system motion layer. **Memory / HUD / Voxel** are flagship presentation accents. All are local repository assets and require no runtime dependency. GIFs are presentation, not technical proof.
 
 [Open the full Animation Gallery →](./docs/animation-gallery.html)
+
 
 ---
 

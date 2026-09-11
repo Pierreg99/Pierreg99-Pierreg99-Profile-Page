@@ -2,6 +2,13 @@
 
 ## 2026-09-11
 
+### grok-cryosys · optimize / extend · pass 2
+- Overlay hero copy on the cinematic observatory video; shorter kicker; overflow-x clip for mobile.
+- Flagship cards now use short editorial names (Nexo Jarvis, KiBlox, cryOS, …) with generated ice-cyan stills for memory / HUD / voxel / launcher.
+- Explorer: search + domain chips in addition to language filters.
+- Motion layer extended with Memory, HUD and Voxel GIFs (`assets/animations/cryo-memory.gif`, `cryo-nexo.gif`, `cryo-kiblox.gif`). Presentation only.
+- Animation gallery and asset catalog updated. Pages enablement remains an account Settings step.
+
 ### grok-cryosys · optimize / extend
 - Rebuilt the GitHub Pages `index.html` around cinematic CRYO hero video, ice-cyan identity, bilingual entry points and a working 18-repo project explorer.
 - Replaced Pulse / Orbit GIFs with generated 6s motion (identity pulse + orbital rings). MP4 + poster stills added under `assets/`.

@@ -24,8 +24,16 @@
 |---|---|
 | `animations/cryo-pulse.gif` | Compact hero/status motion layer (regenerated 2026-09-11) |
 | `animations/cryo-orbit.gif` | Ambient system/technology motion layer (regenerated 2026-09-11) |
+| `animations/cryo-memory.gif` | Flagship presentation: agent-memory lattice (2026-09-11 pass 2) |
+| `animations/cryo-nexo.gif` | Flagship presentation: Nexo HUD core (2026-09-11 pass 2) |
+| `animations/cryo-kiblox.gif` | Flagship presentation: KiBlox voxel polar field (2026-09-11 pass 2) |
 | `hero.jpg` / `hero.mp4` | Cinematic observatory hero still + 6s loop |
 | `pulse.jpg` / `orbit.jpg` | Motion posters |
+| `flagships/memory.jpg` | agent-memory still |
+| `flagships/nexo.jpg` | Nexo Jarvis still |
+| `flagships/kiblox.jpg` | KiBlox still |
+| `flagships/cryos.jpg` | cryOS launcher still |
+
 
 
 The animation layer is repository-native and dependency-free. The central integration page is [`docs/animation-gallery.html`](../docs/animation-gallery.html).
@@ -40,7 +48,10 @@ The animation layer is repository-native and dependency-free. The central integr
 6. `delivery-timeline.svg` — engineering process
 7. `stack-map.svg` + `stack-icons.svg` — detailed stack
 8. `project-grid.svg` — project selection
-9. `animations/cryo-pulse.gif` + `animations/cryo-orbit.gif` — motion accent layer
+9. `animations/cryo-pulse.gif` + `animations/cryo-orbit.gif` — identity / systems motion
+10. `animations/cryo-memory.gif` + `cryo-nexo.gif` + `cryo-kiblox.gif` — flagship presentation accents
+11. `flagships/*.jpg` — stills for Memory, HUD, Voxel, Launcher
+
 
 ## Design standard
 

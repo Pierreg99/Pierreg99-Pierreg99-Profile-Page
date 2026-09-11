@@ -2,6 +2,13 @@
 
 ## 11.09.2026
 
+### grok-cryosys · optimieren / erweitern · Durchgang 2
+- Hero-Text liegt jetzt auf dem Observatoriums-Video; kürzerer Kicker; `overflow-x: clip` für Mobile.
+- Flagship-Karten mit Kurzname und Ice-Cyan-Stills (Memory, HUD, Voxel, Launcher).
+- Explorer: Suche + Domain-Filter zusätzlich zur Sprache.
+- Motion-Layer um Memory-, HUD- und Voxel-GIFs erweitert. Präsentation, kein Beweis.
+- Gallery und Asset-Katalog aktualisiert. Pages-Freigabe bleibt ein Account-Settings-Schritt.
+
 ### grok-cryosys · optimieren / erweitern
 - `index.html` als cineastisches CRYO-Profil mit Hero-Video, Ice-Cyan-Identität, DE/EN-Einstieg und 18-Repo-Explorer neu gebaut.
 - Pulse- und Orbit-GIFs neu generiert. MP4 + Poster unter `assets/`.

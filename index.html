@@ -8,38 +8,44 @@
 <link rel="icon" type="image/svg+xml" href="./assets/cryo-mark.svg">
 <style>
 :root{color-scheme:dark;--bg:#07090d;--surface:#10141b;--elevated:#161b24;--fg:#e8eef6;--muted:#8b9bb0;--subtle:#66768a;--line:rgba(232,238,246,.1);--accent:#7ec8e3;--ice:#c8e7f5;--accent-fg:#071018}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(1000px 480px at 12% -10%,rgba(126,200,227,.12),transparent 60%),var(--bg);color:var(--fg);font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif}
-a{color:inherit;text-decoration:none}img,video{display:block;width:100%;outline:1px solid var(--line);outline-offset:-1px}
-main{max-width:1120px;margin:auto;padding:0 20px 72px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;overflow-x:clip}body{margin:0;overflow-x:clip;background:radial-gradient(720px 380px at 8% -12%,rgba(126,200,227,.1),transparent 62%),var(--bg);color:var(--fg);font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif}
+a{color:inherit;text-decoration:none}img,video{display:block;width:100%;max-width:100%;outline:1px solid var(--line);outline-offset:-1px}
+main{max-width:1120px;margin:auto;padding:0 16px 72px;min-width:0}
 header.nav{position:sticky;top:0;z-index:20;background:color-mix(in oklab,var(--bg) 82%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.nav-inner{max-width:1120px;margin:auto;padding:12px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}
-.brand{display:flex;align-items:center;gap:10px;font-weight:650;letter-spacing:-.03em}
-.hero{overflow:hidden;border-radius:24px;background:var(--surface);box-shadow:0 0 0 1px var(--line);margin-top:28px}
-.hero-media{position:relative;aspect-ratio:21/9;min-height:220px;background:#0b0f14}
+.nav-inner{max-width:1120px;margin:auto;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;min-width:0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:650;letter-spacing:-.03em;min-width:0}
+.hero{overflow:hidden;border-radius:24px;background:var(--surface);box-shadow:0 0 0 1px var(--line);margin-top:24px}
+.hero-media{position:relative;aspect-ratio:4/5;min-height:320px;max-height:640px;background:#0b0f14}
+@media(min-width:760px){.hero-media{aspect-ratio:21/9}}
 .hero-media img,.hero-media video{height:100%;object-fit:cover}
-.hero-media:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,var(--bg),transparent 55%)}
-.hero-copy{padding:28px 32px 36px}
-.kicker{font:500 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.22em;color:var(--accent)}
-h1{font-size:clamp(40px,7vw,72px);letter-spacing:-.045em;margin:10px 0 8px;font-weight:650}
-.lead{max-width:720px;color:var(--muted);font-size:18px;line-height:1.6}
-.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
-.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:10px;font-weight:600;font-size:14px;border:0}
+.hero-media:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,var(--bg) 8%,rgba(7,9,13,.55) 45%,transparent 75%)}
+.hero-copy{position:absolute;left:0;right:0;bottom:0;z-index:1;padding:20px 18px 24px}
+@media(min-width:760px){.hero-copy{padding:32px 36px 40px}}
+.kicker{font:500 11px/1.3 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.14em;color:var(--accent)}
+h1{font-size:clamp(34px,8vw,72px);letter-spacing:-.045em;margin:8px 0 8px;font-weight:650;line-height:1.05}
+.lead{max-width:720px;color:var(--muted);font-size:15px;line-height:1.55}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:10px;font-weight:600;font-size:14px;border:0;cursor:pointer}
 .btn-primary{background:var(--ice);color:var(--accent-fg)}.btn-ghost{background:transparent;color:var(--fg);box-shadow:0 0 0 1px var(--line)}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:16px}
 .stat,.card,section.panel{background:var(--surface);box-shadow:0 0 0 1px var(--line);border-radius:18px}
 .stat{padding:18px}.stat b{display:block;font:650 28px/1.1 ui-monospace,monospace}.muted{color:var(--muted)}.subtle{color:var(--subtle);font-size:12px}
-section{margin-top:36px}h2{margin:0 0 6px;font-size:24px;letter-spacing:-.03em}
+section{margin-top:36px}h2{margin:0 0 6px;font-size:clamp(20px,3vw,24px);letter-spacing:-.03em}
 .grid{display:grid;gap:10px}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
-.card{padding:16px}.card strong{display:block}.filters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.card{overflow:hidden}.card-body{padding:16px}.card strong{display:block}
+.thumb{aspect-ratio:16/8;background:var(--elevated);overflow:hidden}.thumb img{height:100%;object-fit:cover}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .filter{min-height:44px;padding:0 14px;border-radius:999px;background:var(--surface);color:var(--muted);border:0;box-shadow:0 0 0 1px var(--line);cursor:pointer}
 .filter.active{background:var(--ice);color:var(--accent-fg);box-shadow:none}
-.project{display:flex;justify-content:space-between;gap:12px;align-items:center}.project[hidden]{display:none}
-.pill{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;color:var(--muted);box-shadow:0 0 0 1px var(--line)}
+.search{width:100%;min-height:44px;border:0;border-radius:12px;background:var(--surface);color:var(--fg);box-shadow:0 0 0 1px var(--line);padding:0 14px;font:inherit}
+.project{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:16px}.project[hidden]{display:none}
+.project strong,.project small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:70vw}
+.pill{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;color:var(--muted);box-shadow:0 0 0 1px var(--line);flex:none}
 .bar{height:6px;background:var(--elevated);border-radius:999px;overflow:hidden;margin-top:8px}.bar i{display:block;height:100%;background:var(--accent)}
 .visuals{display:grid;gap:12px}.visuals img,.visuals video{border-radius:16px;background:#070c12}
 .note{margin-top:16px;color:var(--muted);font-size:14px;line-height:1.55;max-width:70ch}
 footer{margin-top:40px;padding:20px 0 8px;color:var(--subtle);font-size:12px;border-top:1px solid var(--line)}
-@media(max-width:760px){.stats,.grid-2{grid-template-columns:1fr}.hero-copy{padding:20px}}
+@media(max-width:760px){.stats,.grid-2{grid-template-columns:minmax(0,1fr)}.nav-inner .actions{display:none}}
 @media(prefers-reduced-motion:reduce){video{display:none}}
 </style>
 </head>
@@ -52,16 +58,16 @@ footer{margin-top:40px;padding:20px 0 8px;color:var(--subtle);font-size:12px;bor
       <source src="./assets/hero.mp4" type="video/mp4">
     </video>
     <img src="./assets/hero.jpg" alt="Cryogenic observatory with ice-cyan core">
-  </div>
-  <div class="hero-copy">
-    <div class="kicker">CRYO // INTERACTIVE PROFILE</div>
-    <h1>PIERREG99</h1>
-    <p class="lead">AI · Software · Web · Games · 3D. Evidence-led public inventory — 18 public repositories. Motion is presentation, not proof.</p>
-    <div class="actions">
-      <a class="btn btn-primary" href="https://github.com/Pierreg99">GitHub ↗</a>
-      <a class="btn btn-ghost" href="./docs/de/PROFILE-DE.md">Deutsch</a>
-      <a class="btn btn-ghost" href="./docs/en/PROFILE-EN.md">English</a>
-      <a class="btn btn-ghost" href="https://github.com/Pierreg99/progress">Progress hub</a>
+    <div class="hero-copy">
+      <div class="kicker">CRYO // PROFILE</div>
+      <h1>PIERREG99</h1>
+      <p class="lead" data-en="AI · Software · Web · Games · 3D. Evidence-led public inventory — 18 public repositories. Motion is presentation, not proof." data-de="KI · Software · Web · Games · 3D. Evidenzgeführtes öffentliches Inventar — 18 öffentliche Repositories. Motion ist Präsentation, kein Beweis.">AI · Software · Web · Games · 3D. Evidence-led public inventory — 18 public repositories. Motion is presentation, not proof.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://github.com/Pierreg99">GitHub</a>
+        <button class="btn btn-ghost" type="button" id="lang-de">Deutsch</button>
+        <button class="btn btn-ghost" type="button" id="lang-en">English</button>
+        <a class="btn btn-ghost" href="https://github.com/Pierreg99/progress">Progress hub</a>
+      </div>
     </div>
   </div>
 </div>
@@ -72,65 +78,80 @@ footer{margin-top:40px;padding:20px 0 8px;color:var(--subtle);font-size:12px;bor
 </div>
 <section>
   <h2>Flagship proof set</h2>
-  <p class="muted">Selected for evidence strength. Not a certification.</p>
+  <p class="muted">Selected for evidence strength. Stills are presentation, not certification.</p>
   <div class="grid grid-2" style="margin-top:14px">
-    <a class="card" href="https://github.com/Pierreg99/agent-memory"><strong>agent-memory</strong><span class="muted">Python · LLM agent memory, RAG, YAML persistence</span></a>
-    <a class="card" href="https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha"><strong>Nexo Jarvis</strong><span class="muted">TypeScript · AI assistant HUD</span></a>
-    <a class="card" href="https://github.com/Pierreg99/KiBlox-VoxelGame"><strong>KiBlox</strong><span class="muted">TypeScript · Voxel / Three.js</span></a>
-    <a class="card" href="https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork"><strong>Chronicles of Lumina</strong><span class="muted">JavaScript · RPG / world</span></a>
-    <a class="card" href="https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game"><strong>Resident Lovely</strong><span class="muted">JavaScript · 3D web game</span></a>
-    <a class="card" href="https://github.com/Pierreg99/Cryo-Motion-Studio-Concept-Websuite"><strong>MOTION Studio</strong><span class="muted">HTML · design suite</span></a>
-    <a class="card" href="https://github.com/Pierreg99/progress"><strong>progress</strong><span class="muted">HTML · public audit hub</span></a>
-    <a class="card" href="https://github.com/Pierreg99/cryos-launcher"><strong>cryOS launcher</strong><span class="muted">TypeScript · virtual phone + desktop</span></a>
+    <a class="card" href="https://github.com/Pierreg99/agent-memory"><div class="thumb"><img src="./assets/flagships/memory.jpg" alt=""></div><div class="card-body"><strong>agent-memory</strong><span class="muted">Python · LLM agent memory, RAG, YAML persistence</span></div></a>
+    <a class="card" href="https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha"><div class="thumb"><img src="./assets/flagships/nexo.jpg" alt=""></div><div class="card-body"><strong>Nexo Jarvis</strong><span class="muted">TypeScript · AI assistant HUD</span></div></a>
+    <a class="card" href="https://github.com/Pierreg99/KiBlox-VoxelGame"><div class="thumb"><img src="./assets/flagships/kiblox.jpg" alt=""></div><div class="card-body"><strong>KiBlox</strong><span class="muted">TypeScript · Voxel / Three.js</span></div></a>
+    <a class="card" href="https://github.com/Pierreg99/cryos-launcher"><div class="thumb"><img src="./assets/flagships/cryos.jpg" alt=""></div><div class="card-body"><strong>cryOS</strong><span class="muted">TypeScript · virtual phone + desktop</span></div></a>
+    <a class="card" href="https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork"><div class="card-body"><strong>Chronicles of Lumina</strong><span class="muted">JavaScript · RPG / world</span></div></a>
+    <a class="card" href="https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game"><div class="card-body"><strong>Resident Lovely</strong><span class="muted">JavaScript · 3D web game</span></div></a>
+    <a class="card" href="https://github.com/Pierreg99/Cryo-Motion-Studio-Concept-Websuite"><div class="card-body"><strong>MOTION Studio</strong><span class="muted">HTML · design suite</span></div></a>
+    <a class="card" href="https://github.com/Pierreg99/progress"><div class="card-body"><strong>progress</strong><span class="muted">HTML · public audit hub</span></div></a>
   </div>
 </section>
 <section>
   <h2>Public project explorer</h2>
-  <p class="muted">Filter by GitHub primary language. 18 public repos.</p>
-  <div class="filters" role="group" aria-label="Filter projects">
-    <button class="filter active" data-filter="ALL">All</button>
+  <p class="muted">Search or filter the 18 public repositories.</p>
+  <input class="search" id="search" type="search" placeholder="Search public repos" aria-label="Search public repos">
+  <div class="filters" role="group" aria-label="Filter by domain">
+    <button class="filter active" data-domain="ALL">All</button>
+    <button class="filter" data-domain="ai">AI</button>
+    <button class="filter" data-domain="games">Games / 3D</button>
+    <button class="filter" data-domain="web">Web</button>
+    <button class="filter" data-domain="systems">Systems</button>
+    <button class="filter" data-domain="docs">Docs</button>
+  </div>
+  <div class="filters" role="group" aria-label="Filter by language">
+    <button class="filter active" data-filter="ALL">All languages</button>
     <button class="filter" data-filter="TypeScript">TypeScript</button>
     <button class="filter" data-filter="JavaScript">JavaScript</button>
     <button class="filter" data-filter="HTML">HTML</button>
     <button class="filter" data-filter="Python">Python</button>
   </div>
+  <p class="subtle" id="count">18 / 18</p>
   <div class="grid" id="projects">
-    <a class="card project" data-language="Python" href="https://github.com/Pierreg99/agent-memory"><div><strong>agent-memory</strong><small class="muted">AI / Agent Memory</small></div><span class="pill">Python</span></a>
-    <a class="card project" data-language="TypeScript" href="https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha"><div><strong>Nexo-Jarvis-AI-Futuristic-Assistant-Alpha</strong><small class="muted">AI HUD</small></div><span class="pill">TS</span></a>
-    <a class="card project" data-language="TypeScript" href="https://github.com/Pierreg99/KiBlox-VoxelGame"><div><strong>KiBlox-VoxelGame</strong><small class="muted">Voxel / 3D</small></div><span class="pill">TS</span></a>
-    <a class="card project" data-language="JavaScript" href="https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork"><div><strong>Chronicles-of-Lumina-GameRPGwork</strong><small class="muted">RPG</small></div><span class="pill">JS</span></a>
-    <a class="card project" data-language="JavaScript" href="https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game"><div><strong>ResidentLovely-Maximum-Hapiness-Game</strong><small class="muted">3D game</small></div><span class="pill">JS</span></a>
-    <a class="card project" data-language="HTML" href="https://github.com/Pierreg99/Cryo-Motion-Studio-Concept-Websuite"><div><strong>Cryo-Motion-Studio-Concept-Websuite</strong><small class="muted">Design studio</small></div><span class="pill">HTML</span></a>
-    <a class="card project" data-language="HTML" href="https://github.com/Pierreg99/progress"><div><strong>progress</strong><small class="muted">Audit hub</small></div><span class="pill">HTML</span></a>
-    <a class="card project" data-language="TypeScript" href="https://github.com/Pierreg99/cryos-launcher"><div><strong>cryos-launcher</strong><small class="muted">cryOS</small></div><span class="pill">TS</span></a>
-    <a class="card project" data-language="TypeScript" href="https://github.com/Pierreg99/call-of-groky"><div><strong>call-of-groky</strong><small class="muted">Browser FPS</small></div><span class="pill">TS</span></a>
-    <a class="card project" data-language="TypeScript" href="https://github.com/Pierreg99/call-of-boty"><div><strong>call-of-boty</strong><small class="muted">Procedural FPS</small></div><span class="pill">TS</span></a>
-    <a class="card project" data-language="HTML" href="https://github.com/Pierreg99/futuristic-call-of-shooty"><div><strong>futuristic-call-of-shooty</strong><small class="muted">Tactical FPS</small></div><span class="pill">HTML</span></a>
-    <a class="card project" data-language="JavaScript" href="https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer"><div><strong>Cyberdash-Rhythm-Platformer</strong><small class="muted">Rhythm / platformer</small></div><span class="pill">JS</span></a>
-    <a class="card project" data-language="TypeScript" href="https://github.com/Pierreg99/Cryoplane-Polygonal-Flight"><div><strong>Cryoplane-Polygonal-Flight</strong><small class="muted">Low-poly flight</small></div><span class="pill">TS</span></a>
-    <a class="card project" data-language="JavaScript" href="https://github.com/Pierreg99/CryAIPulse"><div><strong>CryAIPulse</strong><small class="muted">Agent mesh viz</small></div><span class="pill">JS</span></a>
-    <a class="card project" data-language="JavaScript" href="https://github.com/Pierreg99/cryo-omega-master-prompts-fan-bundle"><div><strong>cryo-omega-master-prompts-fan-bundle</strong><small class="muted">Prompt packs</small></div><span class="pill">JS</span></a>
-    <a class="card project" data-language="JavaScript" href="https://github.com/Pierreg99/call-of-chattY"><div><strong>call-of-chattY</strong><small class="muted">Web chat</small></div><span class="pill">JS</span></a>
-    <a class="card project" data-language="HTML" href="https://github.com/Pierreg99/inoffical-cryogamehelp-repo"><div><strong>inoffical-cryogamehelp-repo</strong><small class="muted">Game help</small></div><span class="pill">HTML</span></a>
-    <a class="card project" data-language="HTML" href="https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page"><div><strong>Pierreg99-Pierreg99-Profile-Page</strong><small class="muted">This profile</small></div><span class="pill">HTML</span></a>
+    <a class="card project" data-language="Python" data-domain="ai" href="https://github.com/Pierreg99/agent-memory"><div><strong>agent-memory</strong><small class="muted">AI / Agent Memory</small></div><span class="pill">Python</span></a>
+    <a class="card project" data-language="TypeScript" data-domain="ai" href="https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha"><div><strong>Nexo Jarvis</strong><small class="muted">AI HUD</small></div><span class="pill">TS</span></a>
+    <a class="card project" data-language="TypeScript" data-domain="games" href="https://github.com/Pierreg99/KiBlox-VoxelGame"><div><strong>KiBlox</strong><small class="muted">Voxel / 3D</small></div><span class="pill">TS</span></a>
+    <a class="card project" data-language="JavaScript" data-domain="games" href="https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork"><div><strong>Chronicles of Lumina</strong><small class="muted">RPG</small></div><span class="pill">JS</span></a>
+    <a class="card project" data-language="JavaScript" data-domain="games" href="https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game"><div><strong>Resident Lovely</strong><small class="muted">3D game</small></div><span class="pill">JS</span></a>
+    <a class="card project" data-language="HTML" data-domain="web" href="https://github.com/Pierreg99/Cryo-Motion-Studio-Concept-Websuite"><div><strong>MOTION Studio</strong><small class="muted">Design studio</small></div><span class="pill">HTML</span></a>
+    <a class="card project" data-language="HTML" data-domain="docs" href="https://github.com/Pierreg99/progress"><div><strong>progress</strong><small class="muted">Audit hub</small></div><span class="pill">HTML</span></a>
+    <a class="card project" data-language="TypeScript" data-domain="systems" href="https://github.com/Pierreg99/cryos-launcher"><div><strong>cryOS</strong><small class="muted">Launcher</small></div><span class="pill">TS</span></a>
+    <a class="card project" data-language="TypeScript" data-domain="games" href="https://github.com/Pierreg99/call-of-groky"><div><strong>Call of Groky</strong><small class="muted">Browser FPS</small></div><span class="pill">TS</span></a>
+    <a class="card project" data-language="TypeScript" data-domain="games" href="https://github.com/Pierreg99/call-of-boty"><div><strong>Call of Boty</strong><small class="muted">Procedural FPS</small></div><span class="pill">TS</span></a>
+    <a class="card project" data-language="HTML" data-domain="games" href="https://github.com/Pierreg99/futuristic-call-of-shooty"><div><strong>Shooty</strong><small class="muted">Tactical FPS</small></div><span class="pill">HTML</span></a>
+    <a class="card project" data-language="JavaScript" data-domain="games" href="https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer"><div><strong>Cyberdash</strong><small class="muted">Rhythm / platformer</small></div><span class="pill">JS</span></a>
+    <a class="card project" data-language="TypeScript" data-domain="games" href="https://github.com/Pierreg99/Cryoplane-Polygonal-Flight"><div><strong>Cryoplane</strong><small class="muted">Low-poly flight</small></div><span class="pill">TS</span></a>
+    <a class="card project" data-language="JavaScript" data-domain="ai" href="https://github.com/Pierreg99/CryAIPulse"><div><strong>CryAIPulse</strong><small class="muted">Agent mesh viz</small></div><span class="pill">JS</span></a>
+    <a class="card project" data-language="JavaScript" data-domain="ai" href="https://github.com/Pierreg99/cryo-omega-master-prompts-fan-bundle"><div><strong>Prompt packs</strong><small class="muted">Prompt packs</small></div><span class="pill">JS</span></a>
+    <a class="card project" data-language="JavaScript" data-domain="web" href="https://github.com/Pierreg99/call-of-chattY"><div><strong>Call of ChattY</strong><small class="muted">Web chat</small></div><span class="pill">JS</span></a>
+    <a class="card project" data-language="HTML" data-domain="docs" href="https://github.com/Pierreg99/inoffical-cryogamehelp-repo"><div><strong>Game help</strong><small class="muted">Game help</small></div><span class="pill">HTML</span></a>
+    <a class="card project" data-language="HTML" data-domain="web" href="https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page"><div><strong>Profile hub</strong><small class="muted">This profile</small></div><span class="pill">HTML</span></a>
   </div>
 </section>
 <section class="panel" style="padding:22px">
   <h2>Primary language share</h2>
   <p class="muted">Project share, not LOC. Snapshot 11 Sep 2026.</p>
   <div style="margin-top:16px">
-    <div class="card" style="margin-bottom:8px"><strong>TypeScript · 6 / 18</strong><div class="bar"><i style="width:33.33%"></i></div></div>
-    <div class="card" style="margin-bottom:8px"><strong>JavaScript · 6 / 18</strong><div class="bar"><i style="width:33.33%"></i></div></div>
-    <div class="card" style="margin-bottom:8px"><strong>HTML · 5 / 18</strong><div class="bar"><i style="width:27.78%"></i></div></div>
-    <div class="card"><strong>Python · 1 / 18</strong><div class="bar"><i style="width:5.56%"></i></div></div>
+    <div class="card" style="margin-bottom:8px"><div class="card-body"><strong>TypeScript · 6 / 18</strong><div class="bar"><i style="width:33.33%"></i></div></div></div>
+    <div class="card" style="margin-bottom:8px"><div class="card-body"><strong>JavaScript · 6 / 18</strong><div class="bar"><i style="width:33.33%"></i></div></div></div>
+    <div class="card" style="margin-bottom:8px"><div class="card-body"><strong>HTML · 5 / 18</strong><div class="bar"><i style="width:27.78%"></i></div></div></div>
+    <div class="card"><div class="card-body"><strong>Python · 1 / 18</strong><div class="bar"><i style="width:5.56%"></i></div></div></div>
   </div>
 </section>
 <section>
   <h2>Motion layer</h2>
-  <p class="muted">Pulse is identity. Orbit is systems. Local MP4 + GIF. No third-party counters.</p>
+  <p class="muted">Pulse is identity. Orbit is systems. Memory, HUD and voxel are flagship accents. Local GIF + MP4. No third-party counters.</p>
   <div class="visuals grid-2" style="margin-top:14px">
     <img src="./assets/animations/cryo-pulse.gif" alt="CRYO Pulse identity animation">
     <img src="./assets/animations/cryo-orbit.gif" alt="CRYO Orbit systems animation">
+    <img src="./assets/animations/cryo-memory.gif" alt="CRYO Memory presentation animation">
+    <img src="./assets/animations/cryo-nexo.gif" alt="CRYO HUD presentation animation">
+  </div>
+  <div class="visuals" style="margin-top:12px">
+    <img src="./assets/animations/cryo-kiblox.gif" alt="CRYO voxel polar landscape animation">
   </div>
   <p class="actions" style="margin-top:12px"><a class="btn btn-ghost" href="./docs/animation-gallery.html">Animation gallery</a></p>
 </section>
@@ -144,14 +165,43 @@ footer{margin-top:40px;padding:20px 0 8px;color:var(--subtle);font-size:12px;bor
     <a class="btn btn-ghost" href="./docs/en/TECH-STACK-EN.md">EN stack</a>
     <a class="btn btn-ghost" href="./docs/de/TECH-STACK-DE.md">DE stack</a>
   </div>
-  <p class="note">Evidence boundary: repository facts, GitHub language metadata and editorial scores stay separate. GIFs and generated stills are presentation accents. GitHub Pages deploys from <code>main</code> after local-link validation.</p>
+  <p class="note">Evidence boundary: repository facts, GitHub language metadata and editorial scores stay separate. GIFs and generated stills are presentation accents. GitHub Pages deploys from <code>main</code> after local-link validation. Account Pages enablement remains a Settings step if the live URL 404s.</p>
 </section>
 <footer>CRYO / Pierreg99 · static interactive profile · snapshot 2026-09-11 · grok-cryosys optimize / extend</footer>
 </main>
 <script>
-const filters=[...document.querySelectorAll('.filter')],projects=[...document.querySelectorAll('.project')];
-function apply(filter){filters.forEach(b=>b.classList.toggle('active',b.dataset.filter===filter));projects.forEach(p=>{p.hidden=filter!=='ALL'&&p.dataset.language!==filter})}
-filters.forEach(b=>b.addEventListener('click',()=>apply(b.dataset.filter)));
+const langBtns=[document.getElementById('lang-de'),document.getElementById('lang-en')];
+const lead=document.querySelector('.lead');
+function setLang(lang){
+  document.documentElement.lang=lang;
+  if(lead) lead.textContent=lead.getAttribute(lang==='de'?'data-de':'data-en');
+}
+langBtns[0].addEventListener('click',()=>setLang('de'));
+langBtns[1].addEventListener('click',()=>setLang('en'));
+const domainBtns=[...document.querySelectorAll('[data-domain]')];
+const langFilters=[...document.querySelectorAll('[data-filter]')];
+const projects=[...document.querySelectorAll('.project')];
+const search=document.getElementById('search');
+const count=document.getElementById('count');
+let domain='ALL', language='ALL', q='';
+function apply(){
+  domainBtns.forEach(b=>b.classList.toggle('active',b.dataset.domain===domain));
+  langFilters.forEach(b=>b.classList.toggle('active',b.dataset.filter===language));
+  let n=0;
+  projects.forEach(p=>{
+    const okDomain=domain==='ALL'||p.dataset.domain===domain;
+    const okLang=language==='ALL'||p.dataset.language===language;
+    const text=(p.textContent||'').toLowerCase();
+    const okQ=!q||text.includes(q);
+    const show=okDomain&&okLang&&okQ;
+    p.hidden=!show;
+    if(show) n+=1;
+  });
+  count.textContent=n+' / 18';
+}
+domainBtns.forEach(b=>b.addEventListener('click',()=>{domain=b.dataset.domain;apply()}));
+langFilters.forEach(b=>b.addEventListener('click',()=>{language=b.dataset.filter;apply()}));
+search.addEventListener('input',()=>{q=search.value.trim().toLowerCase();apply()});
 </script>
 </body>
 </html>
