@@ -9,17 +9,34 @@ on:
     paths:
       - "README.md"
       - "assets/**"
-      - "scripts/validate_portfolio_sync.py"
+      - "scripts/**"
       - ".github/workflows/profile-sync.yml"
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: profile-sync
+  cancel-in-progress: true
 
 jobs:
-  validate:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Pull account summary from progress
+        run: python3 scripts/sync_profile_assets.py
       - name: Validate profile sync
         run: python3 scripts/validate_portfolio_sync.py
+      - name: Commit synchronized profile metadata
+        run: |
+          if git diff --quiet; then
+            echo "No profile changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/sync/account-summary.json
+          git commit -m "chore: sync profile account metadata"
+          git push
