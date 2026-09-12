@@ -10,7 +10,8 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-0b0f14?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
 [![Portfolio](https://img.shields.io/badge/Portfolio-DE%20%7C%20EN-2563eb?style=for-the-badge)](https://github.com/Pierreg99/progress)
-[![Repositories](https://img.shields.io/badge/Public%20inventory-18-111827?style=for-the-badge&logo=github)](https://github.com/Pierreg99?tab=repositories)
+[![Public inventory](https://img.shields.io/badge/Public%20inventory-40-111827?style=for-the-badge&logo=github)](https://github.com/Pierreg99?tab=repositories)
+[![Account sync](https://img.shields.io/badge/Account%20sync-99%20repos-111827?style=for-the-badge)](https://github.com/Pierreg99/progress/blob/main/docs/account-sync-2026-09-12.md)
 [![Docs](https://img.shields.io/badge/Docs-Split%20by%20Language-111827?style=for-the-badge)](./docs/)
 
 </div>
@@ -34,12 +35,11 @@
 
 [Open the full Animation Gallery →](./docs/animation-gallery.html)
 
-
 ---
 
 # Portfolio Intelligence
 
-The current GitHub inventory contains **18 public repositories** (snapshot 11 September 2026) across AI/agents, software engineering, web, games, 3D/creative technology, documentation and systems.
+The authenticated GitHub inventory contains **99 repositories** in the current snapshot (**12 September 2026**): **40 public** and **59 private**. Public portfolio surfaces expose the public inventory; private work remains subject to the existing codename/redaction policy.
 
 The portfolio is intentionally presented as a hierarchy rather than equally weighted projects: **Flagships → Products → Research → Experiments → Assets / Archive**.
 
@@ -47,9 +47,10 @@ The portfolio is intentionally presented as a hierarchy rather than equally weig
 
 | Surface | DE | EN |
 |---|---|---|
-| Full 57-repository audit | [Deutsch](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.de.md) | [English](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.en.md) |
+| Account-wide repository sync | [Snapshot](https://github.com/Pierreg99/progress/blob/main/docs/account-sync-2026-09-12.md) | [Snapshot](https://github.com/Pierreg99/progress/blob/main/docs/account-sync-2026-09-12.md) |
 | Portfolio hub | [Deutsch](https://github.com/Pierreg99/progress/blob/main/README.de.md) | [English](https://github.com/Pierreg99/progress/blob/main/README.en.md) |
 | Visual portfolio | [Deutsch](https://github.com/Pierreg99/progress/blob/main/site/index.de.html) | [English](https://github.com/Pierreg99/progress/blob/main/site/index.en.html) |
+| Historical 2026 audit | [Deutsch](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.de.md) | [English](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.en.md) |
 
 ### Flagship proof set
 
@@ -71,7 +72,7 @@ The selection is based on visible evidence strength, engineering depth, document
 | **Akademisches Benchmark-Dashboard** | [Deutsches Dashboard öffnen →](./docs/de/ACADEMIC-DASHBOARD-DE.md) |
 | **Fortschritt: Geschwindigkeit & Qualität** | [Deutschen Fortschrittsbericht öffnen →](./docs/de/PROGRESS-SPEED-QUALITY-DE.md) |
 | **Pierreg99 vs. Alle Referenzprofile** | [Gesamtbenchmark Deutsch →](./docs/de/PIERREG99-VS-ALL-BENCHMARK-DE.md) |
-| **57-Repository Deep Audit** | [Vollständige Audit-Matrix →](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.de.md) |
+| **99-Repository Account-Sync** | [Vollständigen Sync-Snapshot öffnen →](https://github.com/Pierreg99/progress/blob/main/docs/account-sync-2026-09-12.md) |
 | **Profil-Designsystem** | [Deutsches Designsystem →](./docs/de/PROFILE-DESIGN-SYSTEM-DE.md) |
 | **Profilvarianten** | [Deutsche Varianten →](./docs/de/PROFILE-VARIANTS-DE.md) |
 | **Animation Gallery** | [Motion Showcase öffnen →](./docs/animation-gallery.html) |
@@ -90,13 +91,13 @@ The selection is based on visible evidence strength, engineering depth, document
 | **Academic Benchmark Dashboard** | [Open English dashboard →](./docs/en/ACADEMIC-DASHBOARD-EN.md) |
 | **Progress: Speed & Quality** | [Open English progress report →](./docs/en/PROGRESS-SPEED-QUALITY-EN.md) |
 | **Pierreg99 vs. All Reference Profiles** | [Overall benchmark English →](./docs/en/PIERREG99-VS-ALL-BENCHMARK-EN.md) |
-| **57-Repository Deep Audit** | [Open full audit matrix →](https://github.com/Pierreg99/progress/blob/main/docs/portfolio-audit-2026-09-08.en.md) |
+| **99-Repository Account Sync** | [Open full sync snapshot →](https://github.com/Pierreg99/progress/blob/main/docs/account-sync-2026-09-12.md) |
 | **Profile Design System** | [Open English design system →](./docs/en/PROFILE-DESIGN-SYSTEM-EN.md) |
 | **Profile Variants** | [Open English variants →](./docs/en/PROFILE-VARIANTS-EN.md) |
 | **Animation Gallery** | [Open motion showcase →](./docs/animation-gallery.html) |
 | **Academic Tasks** | [Tasks, Time & Progress →](./academic-evaluation/task-time-progress/TASK_TIME_PROGRESS_EN.md) |
 | **Pierreg99 vs Dev / Team** | [Open English comparison →](./docs/en/PIERREG99-VS-DEV-COMPARISON-EN.md) |
-| **Time-to-Value vs Dev / Team** | [Open English TTV comparison →](./docs/en/PIERREG99-TIME-TO-VALUE-COMPARISON-EN.md) |
+| **Time-to-Value vs Dev / Team** | [Open English TTV-comparison →](./docs/en/PIERREG99-TIME-TO-VALUE-COMPARISON-EN.md) |
 | **Daily Academic Reports** | [Open English reports →](./reports/daily/2026-09-07/DAILY-REPORT-EN.md) |
 
 ---
@@ -109,10 +110,11 @@ The selection is based on visible evidence strength, engineering depth, document
 
 [Open the live portfolio audit hub →](https://github.com/Pierreg99/progress)
 
-
 [Open the German visual portfolio →](https://github.com/Pierreg99/progress/blob/main/site/index.de.html)
 
 [Open the English visual portfolio →](https://github.com/Pierreg99/progress/blob/main/site/index.en.html)
+
+[Open the account-wide repository sync snapshot →](https://github.com/Pierreg99/progress/blob/main/docs/account-sync-2026-09-12.md)
 
 [Open the live benchmark dashboard →](./dashboard/)
 
@@ -142,8 +144,6 @@ The selection is based on visible evidence strength, engineering depth, document
     ├── language-technology-matrix.svg
     └── project-grid.svg
 ```
-
----
 
 # Language Separation Policy
 
