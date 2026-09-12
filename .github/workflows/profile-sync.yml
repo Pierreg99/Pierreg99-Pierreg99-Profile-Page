@@ -1,0 +1,25 @@
+name: Profile Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "assets/**"
+      - "scripts/validate_portfolio_sync.py"
+      - ".github/workflows/profile-sync.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate profile sync
+        run: python3 scripts/validate_portfolio_sync.py
