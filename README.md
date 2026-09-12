@@ -10,8 +10,8 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-0b0f14?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
 [![Portfolio](https://img.shields.io/badge/Portfolio-DE%20%7C%20EN-2563eb?style=for-the-badge)](https://github.com/Pierreg99/progress)
-[![Public inventory](https://img.shields.io/badge/Public%20inventory-42-111827?style=for-the-badge&logo=github)](https://github.com/Pierreg99?tab=repositories)
-[![Account sync](https://img.shields.io/badge/Account%20sync-101%20repos-111827?style=for-the-badge)](https://github.com/Pierreg99/progress/blob/main/docs/account-sync-2026-09-12.md)
+[![Public inventory](https://img.shields.io/badge/Public%20inventory-46-111827?style=for-the-badge&logo=github)](https://github.com/Pierreg99?tab=repositories)
+[![Account sync](https://img.shields.io/badge/Account%20sync-105%20repos-111827?style=for-the-badge)](https://github.com/Pierreg99/progress/blob/main/docs/account-sync-2026-09-12.md)
 [![Docs](https://img.shields.io/badge/Docs-Split%20by%20Language-111827?style=for-the-badge)](./docs/)
 
 </div>
