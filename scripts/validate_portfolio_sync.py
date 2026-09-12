@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import re
-import sys
 import urllib.request
 from pathlib import Path
 
@@ -42,12 +41,14 @@ def main() -> int:
             print(f"SYNC FAIL — account.json missing key: {key}")
             return 1
 
-    badge = re.search(r"Public inventory[^\n]*badge[^\n]*-(\d+)-111827", text, re.IGNORECASE)
-    if not badge:
+    if not re.search(r"Public%20inventory-\d+-111827", text):
         print("SYNC FAIL — public inventory badge not found")
         return 1
+    if not re.search(r"Account%20sync-\d+%20repos-111827", text):
+        print("SYNC FAIL — account sync badge not found")
+        return 1
 
-    print("SYNC OK — README links, local presentation assets, and progress account endpoint are present.")
+    print("SYNC OK — README links, local presentation assets, badges, and progress account endpoint are present.")
     return 0
 
 
