@@ -34,7 +34,7 @@ The connected GitHub snapshot exposes a broad portfolio across AI/agents, web, g
 
 ## Navigation
 
-- [Live dashboard →](../../dashboard/)
+- [Live dashboard →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/dashboard/)
 - [German dashboard →](../de/ACADEMIC-DASHBOARD-DE.md)
 - [Pierreg99 vs Dev Comparison →](./PIERREG99-VS-DEV-COMPARISON-EN.md)
 - [Time-to-Value Comparison →](./PIERREG99-TIME-TO-VALUE-COMPARISON-EN.md)

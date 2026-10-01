@@ -1,5 +1,15 @@
 # CRYO / Asset System
 
+## Current web pipeline · October 2026
+
+The canonical JPG, GIF, MP4, and SVG files retain their original paths. `src/data/assets.js` registers every still, motion study, and vector used by the visual laboratory. The CRYO identity mark and header use the current ink-blue / ice-cyan palette.
+
+`npm run build` creates three responsive WebP variants per still, an MP4 and poster per GIF, and optimized SVGs in the deployment artifact. Generated files stay in `dist/`; `.cache/optimized-assets` avoids repeating unchanged work. `assets/asset-manifest.json` in the built site records dimensions and byte counts.
+
+Motion starts from a static image, loads only after playback is requested, and pauses outside the viewport or when reduced-motion is enabled. The original GIFs remain available as downloads and for historical GitHub references.
+
+All original vector studies below retain their historical presentation context. Their scores, language inventories, and project selections are not current public metrics.
+
 The `assets/` directory contains the visual system for the profile README.
 
 ## Composition

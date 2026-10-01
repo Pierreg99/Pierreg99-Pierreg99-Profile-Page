@@ -1,5 +1,14 @@
 # ÄNDERUNGSPROTOKOLL — CRYO / Pierreg99
 
+## 01.10.2026
+
+- Gemeinsame Templates, Browsermodule und ein responsives CRYO-Designsystem ersetzen duplizierte Inline-Seiten.
+- Startseite, Ressourcen, Galerie, Sprachdaten, Forschungs-Dashboards und Berichtseinstieg haben stabile URLs.
+- Verifizierte öffentliche GitHub-Daten versorgen Inventar, Projekt-/Fork-Filter und Sprachanteile.
+- Markdown erhält lesbare HTML-Versionen; historische Forschung behält ihren Kontext.
+- Responsive WebP, komprimierte Videos, gezielte Wiedergabe, SVG-Optimierung, lokale Schriften und ein Asset-Manifest wurden ergänzt.
+- Build-, Daten-, Sync-, Link-, Browser- und Barrierefreiheitsprüfungen sichern den Pages-Build ab.
+
 ## 11.09.2026
 
 ### grok-cryosys · optimieren / erweitern · Durchgang 2

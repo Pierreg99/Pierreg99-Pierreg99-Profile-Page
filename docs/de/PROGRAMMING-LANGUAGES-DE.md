@@ -13,4 +13,4 @@
 
 Das interaktive Profil und der [öffentliche Sprachreport](./PUBLIC-LANGUAGE-PROFILE-DE.md) nutzen denselben Snapshot. `progress` ist jetzt HTML (Audit-Hub), nicht Python.
 
-[Sprach-Dashboard öffnen →](../public-language-dashboard.html)
+[Sprach-Dashboard öffnen →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/docs/public-language-dashboard.html)

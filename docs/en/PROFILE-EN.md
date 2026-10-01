@@ -44,7 +44,7 @@ The profile adopts proven portfolio building blocks—intro, connections, activi
 
 The profile favors repository-native evidence, direct project links and renderer-safe badges over fragile third-party statistics. The interactive dashboard adds a reproducible public-project language view.
 
-[Open the interactive language dashboard →](../public-language-dashboard.html)
+[Open the interactive language dashboard →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/docs/public-language-dashboard.html)
 
 ## Programming Languages
 

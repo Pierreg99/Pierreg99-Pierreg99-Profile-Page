@@ -6,5 +6,6 @@
   "total": 132,
   "public": 73,
   "private": 59,
-  "privateNamesPublished": false
+  "privateNamesPublished": false,
+  "completeAccountSync": false
 }

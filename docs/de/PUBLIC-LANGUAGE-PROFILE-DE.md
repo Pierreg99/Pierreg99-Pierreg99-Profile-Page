@@ -41,4 +41,4 @@ Die Statistik beschreibt **Projektanteile**, nicht den tatsächlichen Anteil von
 
 ## Interaktiver Report
 
-[Interaktives Public Project Language Dashboard →](../public-language-dashboard.html)
+[Interaktives Public Project Language Dashboard →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/docs/public-language-dashboard.html)

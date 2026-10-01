@@ -1,0 +1,335 @@
+.site-header {
+  border-bottom: 1px solid var(--line-soft);
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: #080e16ee;
+  backdrop-filter: blur(14px);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: 88px;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  white-space: nowrap;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.brand img {
+  width: 34px;
+  height: 34px;
+}
+.brand-divider {
+  display: inline-block;
+  color: var(--quiet);
+  margin: 0 11px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.brand-name {
+  font: 500 11px var(--font-mono);
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.primary-nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.primary-nav > a {
+  font-size: 12px;
+  font-weight: 550;
+  color: var(--muted);
+  padding-block: 12px;
+}
+.primary-nav > a:hover,
+.primary-nav > a[aria-current="page"] {
+  color: var(--text);
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.language-switch {
+  display: flex;
+  gap: 0;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 2px;
+}
+.language-switch button {
+  min-width: 33px;
+  min-height: 32px;
+  background: transparent;
+  border: 0;
+  border-radius: 3px;
+  font: 500 10px var(--font-mono);
+  color: var(--muted);
+}
+.language-switch button[aria-pressed="true"] {
+  background: var(--surface-raised);
+  color: var(--text);
+}
+.header-github {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 12px;
+}
+.header-github .icon:last-child {
+  width: 14px;
+  height: 14px;
+}
+.header-github:hover {
+  color: var(--accent);
+}
+.menu-toggle {
+  display: none;
+}
+.section-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+.section-heading .eyebrow {
+  margin-bottom: 14px;
+}
+.section-heading h2 {
+  margin-bottom: 14px;
+}
+.section-heading h2:last-child {
+  margin-bottom: 0;
+}
+.section-number {
+  color: var(--quiet);
+  padding-right: 20px;
+}
+.section-description {
+  font-size: 14px;
+  color: var(--muted);
+  max-width: 650px;
+  line-height: 1.8;
+}
+.section-heading > .text-link {
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+.compact {
+  margin-bottom: 24px;
+}
+.page-content {
+  padding-block: 64px 20px;
+}
+.page-heading {
+  max-width: 860px;
+  margin-bottom: 44px;
+}
+.page-heading h1 {
+  margin-bottom: 24px;
+  font-size: clamp(38px, 5vw, 66px);
+}
+.page-lead {
+  color: var(--muted);
+  font-size: 16px;
+  max-width: 690px;
+  line-height: 1.85;
+}
+.site-footer {
+  border-top: 1px solid var(--line-soft);
+  margin-top: 92px;
+}
+.footer-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding-block: 40px;
+}
+.footer-main p {
+  font-size: 12px;
+  color: var(--muted);
+}
+.footer-main .brand-name {
+  font-size: 10px;
+}
+.back-top {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.back-top .icon {
+  width: 15px;
+  height: 15px;
+}
+.footer-bottom {
+  padding-block: 22px;
+  border-top: 1px solid var(--line-soft);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: var(--quiet);
+  font-size: 10px;
+}
+.footer-bottom > div {
+  display: flex;
+  gap: 24px;
+}
+.footer-bottom a:hover {
+  color: var(--accent);
+}
+@media (max-width: 1000px) {
+  .header-inner {
+    gap: 14px;
+  }
+  .primary-nav {
+    gap: 18px;
+  }
+  .header-actions {
+    gap: 14px;
+  }
+  .brand-name {
+    font-size: 10px;
+  }
+  .brand-divider {
+    margin-inline: 7px;
+  }
+}
+@media (max-width: 900px) {
+  .header-inner {
+    height: 74px;
+    position: relative;
+  }
+  .menu-toggle {
+    display: inline-grid;
+    margin-left: auto;
+  }
+  .primary-nav {
+    display: none;
+    position: absolute;
+    top: 74px;
+    left: calc(-1 * var(--gutter));
+    right: calc(-1 * var(--gutter));
+    padding: 18px var(--gutter);
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 24px 30px #0004;
+  }
+  .primary-nav[data-open="true"] {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+  .primary-nav > a {
+    font-size: 14px;
+    padding: 14px 8px;
+  }
+  .header-github span,
+  .header-github .icon:last-child {
+    display: none;
+  }
+  .header-github {
+    width: 32px;
+    justify-content: center;
+  }
+  .footer-main {
+    flex-wrap: wrap;
+  }
+  .footer-main p {
+    order: 3;
+    width: 100%;
+  }
+  .footer-bottom {
+    flex-wrap: wrap;
+  }
+  .footer-bottom > span:nth-child(2) {
+    display: none;
+  }
+}
+@media (max-width: 560px) {
+  .brand-name {
+    display: none;
+  }
+  .brand-divider {
+    display: none;
+  }
+  .header-inner {
+    gap: 10px;
+  }
+  .header-actions {
+    gap: 10px;
+  }
+  .brand {
+    font-size: 17px;
+  }
+  .section-heading {
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .section-heading > .text-link {
+    margin: 0;
+  }
+  .page-content {
+    padding-top: 42px;
+  }
+  .page-lead {
+    font-size: 14px;
+  }
+  .footer-main .brand-name,
+  .footer-main .brand-divider {
+    display: inline-block;
+  }
+  .footer-main {
+    padding-block: 30px;
+  }
+  .footer-bottom {
+    gap: 16px;
+  }
+  .site-footer {
+    margin-top: 60px;
+  }
+}
+html:not(.js) .menu-toggle {
+  display: none;
+}
+@media (max-width: 900px) {
+  html:not(.js) .header-inner {
+    height: auto;
+    min-height: 74px;
+    flex-wrap: wrap;
+    padding-block: 16px;
+  }
+  html:not(.js) .primary-nav {
+    display: flex;
+    position: static;
+    order: 3;
+    width: 100%;
+    padding: 0;
+    box-shadow: none;
+    background: none;
+    border: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  html:not(.js) .primary-nav > a {
+    font-size: 12px;
+    padding: 6px 12px 6px 0;
+  }
+  html:not(.js) .header-actions {
+    margin-left: auto;
+  }
+}

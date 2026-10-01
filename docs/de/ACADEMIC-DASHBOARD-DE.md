@@ -34,7 +34,7 @@ Der aktuelle Connected-GitHub-Snapshot enthält eine breite Portfolio-Landschaft
 
 ## Navigation
 
-- [Live Dashboard →](../../dashboard/)
+- [Live Dashboard →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/dashboard/)
 - [English dashboard →](../en/ACADEMIC-DASHBOARD-EN.md)
 - [Pierreg99 vs Dev Comparison →](./PIERREG99-VS-DEV-COMPARISON-DE.md)
 - [Time-to-Value Comparison →](./PIERREG99-TIME-TO-VALUE-COMPARISON-DE.md)

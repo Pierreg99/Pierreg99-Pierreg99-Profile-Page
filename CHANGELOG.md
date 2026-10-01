@@ -1,5 +1,15 @@
 # CHANGELOG — CRYO / Pierreg99
 
+## 2026-10-01
+
+- Replaced inline pages with shared static templates, browser modules, and a responsive CRYO design system.
+- Rebuilt the home, resources, gallery, languages, research dashboards, and report entry while preserving published routes.
+- Unified public counts, original/fork filters, and language data around a verified public GitHub snapshot.
+- Added readable HTML companions for Markdown and directory entry pages; research retains its historical context.
+- Added responsive WebP, compressed videos, explicit playback, SVG optimization, self-hosted fonts, and an asset manifest.
+- Added reproducible builds, lint, data/sync tests, subpath browser checks, accessibility checks, and a validated Pages artifact.
+- Made metadata sync content-aware and requested a fresh Pages build after changed snapshots.
+
 ## 2026-09-11
 
 ### grok-cryosys · optimize / extend · pass 2

@@ -1,6 +1,6 @@
 # Daily Academic Reports
 
-- [Live Benchmark Dashboard](../../dashboard/)
+- [Live Benchmark Dashboard](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/dashboard/)
 - [German Report — 2026-09-07](./2026-09-07/DAILY-REPORT-DE.md)
 - [English Report — 2026-09-07](./2026-09-07/DAILY-REPORT-EN.md)
 - [German Benchmark](./2026-09-07/ACADEMIC-BENCHMARK-DE.md)

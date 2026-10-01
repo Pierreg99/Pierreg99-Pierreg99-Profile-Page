@@ -1,0 +1,36 @@
+{
+  "name": "cryo-profile-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A modular, accessible static portfolio for CRYO / Pierreg99.",
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "assets": "node scripts/prepare-assets.mjs",
+    "sync": "python3 scripts/sync_profile_assets.py",
+    "lint": "eslint . && prettier --check src scripts/*.mjs tests package.json eslint.config.js playwright.config.js .github/workflows/*.yml",
+    "format": "prettier --write src scripts/*.mjs tests package.json eslint.config.js playwright.config.js .github/workflows/*.yml",
+    "test": "node --test tests/unit/*.test.js && python3 -m unittest discover -s tests/python",
+    "test:browser": "playwright test",
+    "validate": "python3 scripts/validate-local-links.py --root . && python3 scripts/validate-local-links.py --root dist && python3 scripts/validate_portfolio_sync.py --offline",
+    "check": "npm run lint && npm test && npm run build && npm run validate"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
+    "esbuild": "^0.28.2",
+    "eslint": "^10.11.0",
+    "globals": "^17.13.0",
+    "markdown-it": "^15.0.2",
+    "prettier": "^3.9.9",
+    "sharp": "^0.35.5",
+    "svgo": "^4.1.0"
+  }
+}
