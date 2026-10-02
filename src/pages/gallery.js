@@ -2,13 +2,60 @@ import { layout } from "../components/layout.js";
 import { motion, picture } from "../components/media.js";
 import { icon } from "../components/icons.js";
 import { pageHeading } from "../components/sections.js";
-import { motionAssets, vectorAssets, stillAssets } from "../data/assets.js";
-import { t } from "../lib/html.js";
+import { motionAssets, vectorAssets, conceptAssets } from "../data/assets.js";
+import { projectActions, previewLabel } from "../components/projects.js";
+import { t, escapeHtml } from "../lib/html.js";
 
-export function gallery() {
+export function gallery({ projects }) {
   const root = "../";
   const content = /* HTML */ `<div class="container page-content">
-    ${pageHeading({ eyebrow: "CRYO / VISUAL LABORATORY", title: "A system with a little soul.", description: "Motion, light, and structure. Explore the local artwork that gives the CRYO workspace its identity.", key: "gallery" })}
+    ${pageHeading({ eyebrow: "CRYO / VISUAL LABORATORY", title: "A system with a little soul.", description: "Step inside the projects, then explore the artwork and motion studies behind the CRYO workspace.", key: "gallery" })}
+    <section class="section-small" aria-labelledby="project-previews-title">
+      <div class="section-heading compact">
+        <div>
+          <p class="eyebrow">
+            ${t("gallery.projectLabel", "PROJECT PREVIEWS")}
+          </p>
+          <h2 id="project-previews-title">
+            ${t("gallery.projects", "Inside the projects.")}
+          </h2>
+          <p class="section-description">
+            ${t("gallery.projectDescription", "Screenshots and artwork from the linked projects. Each preview identifies its source: live interface, repository artwork, local build, or upstream project.")}
+          </p>
+        </div>
+      </div>
+      <div class="gallery-grid project-gallery">
+        ${projects
+          .filter((project) => project.image)
+          .map(
+            (project) =>
+              /* HTML */ `<article class="gallery-card">
+                <a
+                  class="project-gallery-image"
+                  href="${root}assets/${project.image}.jpg"
+                  >${picture(root, project.image, project.imageAlt)}</a
+                >
+                <div class="gallery-copy">
+                  <p class="eyebrow">${previewLabel(project)}</p>
+                  <h3>${escapeHtml(project.title)}</h3>
+                  <p
+                    data-copy-en="${escapeHtml(project.description)}"
+                    data-copy-de="${escapeHtml(project.descriptionDe)}"
+                  >
+                    ${escapeHtml(project.description)}
+                  </p>
+                  ${projectActions(project)}
+                </div>
+              </article>`,
+          )
+          .join("")}
+      </div>
+      <p class="caption">
+        <a href="../assets/projects/README.html"
+          >${t("gallery.previewSources", "Preview sources and capture notes")}${icon("arrow")}</a
+        >
+      </p>
+    </section>
     <div class="notice">
       ${icon("spark")}
       <p>
@@ -62,7 +109,7 @@ export function gallery() {
         </div>
       </div>
       <div class="still-grid">
-        ${stillAssets.map(([name, title]) => /* HTML */ `<a class="still-card" href="${root}assets/${name}.jpg">${picture(root, name, title)}<span>${title}${icon("arrow")}</span></a>`).join("")}
+        ${conceptAssets.map(([name, title]) => /* HTML */ `<a class="still-card" href="${root}assets/${name}.jpg">${picture(root, name, title)}<span>${title}${icon("arrow")}</span></a>`).join("")}
       </div>
     </section>
     <section class="section" aria-labelledby="vectors-title">

@@ -73,6 +73,69 @@ test("search, domain, language, and scope compose and reset correctly", async ({
   await expect(rows).toHaveCount(repositories.length);
 });
 
+test("project pictures and actions lead to the matching project on every portfolio surface", async ({
+  page,
+}) => {
+  const repository =
+    "https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game";
+  const live =
+    "https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/";
+  for (const route of [
+    "./",
+    "docs/public-language-dashboard.html",
+    "docs/animation-gallery.html",
+  ]) {
+    await page.goto(route);
+    const card = page
+      .locator(
+        route === "./"
+          ? ".featured-card"
+          : route.includes("animation")
+            ? ".project-gallery .gallery-card"
+            : ".project-row",
+      )
+      .filter({
+        has: page.getByRole("heading", {
+          name: "Resident Lovely",
+          exact: true,
+        }),
+      });
+    await expect(card.locator(".project-live")).toHaveAttribute("href", live);
+    await expect(card.locator(".project-source")).toHaveAttribute(
+      "href",
+      repository,
+    );
+    const image = card.locator("img");
+    await image.scrollIntoViewIfNeeded();
+    await expect(image).toHaveAttribute(
+      "src",
+      /assets\/projects\/resident-lovely\.jpg$/,
+    );
+    await expect(image).toHaveAttribute("alt", /Sweet Château/);
+    await expect
+      .poll(() =>
+        image.evaluate(
+          (element) => element.complete && element.naturalWidth > 0,
+        ),
+      )
+      .toBe(true);
+    await page.locator('[data-locale="de"]').click();
+    await expect(card.locator(".project-live")).toContainText(
+      "Im Browser spielen",
+    );
+    await expect(card.locator(".project-source")).toContainText("Quellcode");
+  }
+  await page.goto("./");
+  await page.locator("[data-search]").fill("Call of Shooty");
+  const localProject = page.locator("[data-project]:visible");
+  await expect(localProject).toHaveCount(1);
+  await expect(localProject.locator(".project-source")).toHaveAttribute(
+    "href",
+    "https://github.com/Pierreg99/futuristic-call-of-shooty",
+  );
+  await expect(localProject.locator(".project-live")).toHaveCount(0);
+});
+
 test("language cards filter the same original inventory", async ({ page }) => {
   await page.goto("docs/public-language-dashboard.html");
   await page.locator('[data-language-card="Unreported"]').click();

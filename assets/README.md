@@ -12,6 +12,8 @@ All original vector studies below retain their historical presentation context. 
 
 The `assets/` directory contains the visual system for the profile README.
 
+Current project pictures are documented in [`projects/README.md`](projects/README.md), with machine-readable provenance in [`projects/manifest.json`](projects/manifest.json). They are shared by the featured cards, project explorer, and project preview gallery.
+
 ## Composition
 
 - `immersive-dashboard.svg` — master entry panel and visual overview

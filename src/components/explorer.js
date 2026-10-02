@@ -1,6 +1,8 @@
 import { escapeHtml, t } from "../lib/html.js";
 import { domains } from "../data/projects.js";
 import { icon } from "./icons.js";
+import { picture } from "./media.js";
+import { projectActions, previewLabel } from "./projects.js";
 
 export function languageClass(language) {
   return (
@@ -16,7 +18,7 @@ export function languageClass(language) {
 
 export function explorer(
   projects,
-  { id = "explorer", languageCards = "" } = {},
+  { id = "explorer", languageCards = "", root = "./" } = {},
 ) {
   const languages = [
     ...new Set(projects.map((project) => project.language || "Unreported")),
@@ -81,34 +83,44 @@ export function explorer(
             ...(project.tags ?? []),
             ...(project.topics ?? []),
           ].join(" ");
-          return /* HTML */ `<a
-            class="project-row"
-            href="${escapeHtml(project.url)}"
+          return /* HTML */ `<article
+            class="project-row ${project.image ? "has-preview" : ""}"
             data-project
             data-domain-value="${project.domain}"
             data-language="${escapeHtml(project.language || "Unreported")}"
             data-fork="${project.fork}"
             data-search-text="${escapeHtml(searchable)}"
           >
-            <span
+            ${
+              project.image
+                ? `<a class="project-thumbnail" href="${escapeHtml(project.liveUrl || project.url)}">${picture(root, project.image, project.imageAlt, { sizes: "(max-width: 700px) 104px, 132px" })}</a>`
+                : `<span
               class="project-glyph ${languageClass(project.language)}"
               aria-hidden="true"
               >${project.fork ? icon("layers") : icon(project.domain === "games" ? "cube" : project.domain === "ai" ? "cpu" : project.domain === "docs" ? "book" : "code")}</span
-            >
-            <span class="project-copy"
-              ><strong>${escapeHtml(project.title)}</strong
-              ><span
+            >`
+            }
+            <div class="project-copy">
+              <h3>
+                <a href="${escapeHtml(project.liveUrl || project.url)}"
+                  >${escapeHtml(project.title)}</a
+                >
+              </h3>
+              <p
                 data-copy-en="${escapeHtml(project.description)}"
                 data-copy-de="${escapeHtml(project.descriptionDe)}"
-                >${escapeHtml(project.description)}</span
-              ></span
-            >
-            <span class="project-meta"
-              ><span class="language-dot ${languageClass(project.language)}"
-                >${escapeHtml(project.language || "Unreported")}</span
-              >${project.archived ? '<span class="tag">Archived</span>' : ""}${project.fork ? `<span class="tag fork-tag">${t("scope.fork", "Fork")}</span>` : ""}</span
-            >${icon("arrow", "project-arrow")}
-          </a>`;
+              >
+                ${escapeHtml(project.description)}
+              </p>
+              <div class="project-meta">
+                <span class="language-dot ${languageClass(project.language)}"
+                  >${escapeHtml(project.language || "Unreported")}</span
+                >${project.archived ? `<span class="tag">${t("project.archived", "Archived")}</span>` : ""}${project.fork ? `<span class="tag fork-tag">${t("scope.fork", "Fork")}</span>` : ""}
+                ${project.image ? `<span class="preview-note">${previewLabel(project)}</span>` : ""}
+              </div>
+              ${projectActions(project)}
+            </div>
+          </article>`;
         })
         .join("")}
     </div>

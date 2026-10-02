@@ -2,6 +2,8 @@
 
 Die Website vom Oktober 2026 erzeugt vollständiges HTML aus gemeinsamen JavaScript-Templates. Native Browsermodule ergänzen Filter, Sprache, Navigation und Animationen. Inhalte bleiben ohne JavaScript lesbar.
 
+`src/data/projects.js` enthält geprüfte Projektbeschreibungen, direkte Demo-Links und Bildmetadaten. Gemeinsame Projektaktionen verknüpfen Live-Projekte und Quellcode auf Projektkarten, im Explorer und in der Galerie. Der Explorer übernimmt die öffentlichen Upstream-Beschreibungen von Forks. `assets/projects/manifest.json` dokumentiert Bildquellen und Prüfsummen; der Build optimiert Projektbilder zusammen mit der separat gekennzeichneten Konzeptkunst.
+
 ## Zuständigkeiten
 
 | Verzeichnis | Aufgabe |

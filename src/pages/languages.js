@@ -43,7 +43,7 @@ export function languages({ projects, snapshot }) {
       class="section-small"
       aria-label="Language distribution and project explorer"
     >
-      ${explorer(projects, { id: "language-explorer", languageCards: cards })}
+      ${explorer(projects, { id: "language-explorer", languageCards: cards, root: "../" })}
     </section>
     <div class="source-note">
       <span class="eyebrow">DATA / PROVENANCE</span>

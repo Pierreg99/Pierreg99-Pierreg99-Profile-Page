@@ -1,9 +1,10 @@
+import { featuredProject } from "../components/projects.js";
 import { layout } from "../components/layout.js";
 import { icon } from "../components/icons.js";
-import { motion, picture } from "../components/media.js";
+import { motion } from "../components/media.js";
 import { explorer } from "../components/explorer.js";
 import { resourceCard, sectionHeading } from "../components/sections.js";
-import { t, escapeHtml } from "../lib/html.js";
+import { t } from "../lib/html.js";
 
 export function home({ projects, snapshot }) {
   const originalCount = projects.filter((project) => !project.fork).length;
@@ -93,44 +94,10 @@ export function home({ projects, snapshot }) {
     <section class="container section" id="work">
       ${sectionHeading("01", "work", "Built to be explored.", "A selection of public projects across interactive worlds, interfaces, and AI.", `<a class="text-link" href="#projects">${t("work.all", "All projects")}${icon("arrow")}</a>`)}
       <div class="featured-grid">
-        ${featured
-          .map(
-            (project) =>
-              /* HTML */ `<article class="featured-card">
-                <a
-                  class="featured-image"
-                  href="${project.url}"
-                  aria-label="${escapeHtml(project.title)} on GitHub"
-                  >${picture("./", project.image, "")}<span
-                    class="featured-number"
-                    >${project.number} / SELECTED WORK</span
-                  ><span class="image-arrow">${icon("arrow")}</span></a
-                >
-                <div class="featured-copy">
-                  <div class="featured-title">
-                    <h3>
-                      <a href="${project.url}">${escapeHtml(project.title)}</a>
-                    </h3>
-                    <span class="tag" data-i18n="domain.${project.domain}"
-                      >${escapeHtml({ games: "Games & 3D", systems: "Systems", ai: "AI & agents" }[project.domain])}</span
-                    >
-                  </div>
-                  <p
-                    data-copy-en="${escapeHtml(project.description)}"
-                    data-copy-de="${escapeHtml(project.descriptionDe)}"
-                  >
-                    ${escapeHtml(project.description)}
-                  </p>
-                  <div class="project-tags">
-                    ${project.tags.map((tag) => /* HTML */ `<span>${escapeHtml(tag)}</span>`).join("")}
-                  </div>
-                </div>
-              </article>`,
-          )
-          .join("")}
+        ${featured.map((project) => featuredProject(project)).join("")}
       </div>
       <p class="caption">
-        ${t("work.caption", "Visuals are concept artwork. Open each repository to see its source and current state.")}
+        ${t("work.caption", "Real project previews and artwork from the linked repositories. Open a project to explore it, or view its source code.")}
       </p>
     </section>
     <section class="approach-section section" id="approach">

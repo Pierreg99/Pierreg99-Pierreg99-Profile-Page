@@ -15,17 +15,28 @@ AI experiments, software, interfaces, and interactive worlds.
 
 </div>
 
-## Selected work
+## Projects & previews
 
-| Project | Explore |
-| --- | --- |
-| **KiBlox** | [A voxel world for the browser](https://github.com/Pierreg99/KiBlox-VoxelGame) |
-| **cryOS** | [An experimental phone and desktop interface](https://github.com/Pierreg99/cryos-launcher) |
-| **CryAIPulse** | [An agent mesh visualization](https://github.com/Pierreg99/CryAIPulse) |
-| **Resident Lovely** | [An interactive 3D game experiment](https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game) |
-| **Progress** | [The public portfolio and research hub](https://github.com/Pierreg99/progress) |
+| Project | Focus | Open |
+| --- | --- | --- |
+| **Resident Lovely** | Three.js · Adventure · WebGL | [Play](https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/) · [Source](https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game) |
+| **KiBlox** | TypeScript · Three.js · Voxels | [Play](https://pierreg99.github.io/KiBlox-VoxelGame/) · [Source](https://github.com/Pierreg99/KiBlox-VoxelGame) |
+| **cryOS** | TypeScript · Desktop UI · Simulation | [Explore](https://pierreg99.github.io/cryos-launcher/) · [Source](https://github.com/Pierreg99/cryos-launcher) |
+| **CryAIPulse** | JavaScript · Canvas · Visualization | [Explore](https://pierreg99.github.io/CryAIPulse/) · [Source](https://github.com/Pierreg99/CryAIPulse) |
+| **Cryoplane** | TypeScript · Flight · Three.js | [Play](https://pierreg99.github.io/Cryoplane-Polygonal-Flight/) · [Source](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight) |
+| **Cyberdash** | JavaScript · Rhythm · Level editor | [Play](https://pierreg99.github.io/Cyberdash-Rhythm-Platformer/) · [Source](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer) |
+| **Call of Groky** | TypeScript · Three.js · FPS | [Play](https://pierreg99.github.io/call-of-groky/) · [Source](https://github.com/Pierreg99/call-of-groky) |
+| **Call of Shooty** | Three.js · Cannon-es · FPS | [Source](https://github.com/Pierreg99/futuristic-call-of-shooty) |
+| **AI for Everyone** | Learning · DE / EN · Interactive docs | [Explore](https://pierreg99.github.io/AI-FOR-Everyone-Learn-Docs/en/) · [Source](https://github.com/Pierreg99/AI-FOR-Everyone-Learn-Docs) |
+| **Command Wiki** | Linux · Windows · DE / EN | [Explore](https://pierreg99.github.io/Linux-Windows-Helpful-Commands-DOCS/) · [Source](https://github.com/Pierreg99/Linux-Windows-Helpful-Commands-DOCS) |
+| **CRYOGAMEHELP** | Guides · Team builder · Fan project | [Source](https://github.com/Pierreg99/inoffical-cryogamehelp-repo) |
+| **Cryo Progress** | Progress · Public data · Research | [Explore](https://pierreg99.github.io/progress/) · [Source](https://github.com/Pierreg99/progress) |
+| **CRYO Portfolio** | JavaScript · Accessibility · Static site | [Explore](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/) · [Source](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page) |
+| **Streamflixrouge** | Android · TV · Upstream project | [Source](https://github.com/Pierreg99/Streamflixrouge-OMEGA-FORK) |
 
-The site selects featured work from the current public inventory. Project artwork is a visual concept; the linked repositories provide the source and current state.
+[![Resident Lovely — Sweet Château project artwork](assets/projects/resident-lovely.jpg)](https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/)
+
+The portfolio uses each project's own screenshots or repository artwork. Featured cards, the searchable explorer, and the gallery share reviewed descriptions, project pictures, and separate live/source links. Projects without a verified public demo lead to their repositories. [Preview sources and capture notes](assets/projects/README.md) identify local captures and upstream imagery.
 
 ## Public inventory
 

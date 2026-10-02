@@ -2,6 +2,8 @@
 
 The October 2026 site generates complete HTML from shared JavaScript templates. Native browser modules add filters, localization, navigation, and motion. Pages remain readable without JavaScript.
 
+`src/data/projects.js` holds reviewed project descriptions, direct demo links, and preview metadata. Shared project actions keep live destinations and source repositories distinct across featured cards, the explorer, and the gallery. The explorer preserves upstream descriptions for public forks. `assets/projects/manifest.json` records preview sources and checksums; the build optimizes those pictures alongside the separately labeled concept artwork.
+
 ## Source boundaries
 
 | Directory | Responsibility |

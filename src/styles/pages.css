@@ -190,7 +190,7 @@
   display: block;
   position: relative;
   overflow: hidden;
-  aspect-ratio: 1.9;
+  aspect-ratio: 16 / 9;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -199,7 +199,7 @@
 .featured-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .featured-image img {
   transition: transform 0.5s;
@@ -220,7 +220,7 @@
   bottom: 18px;
   left: 20px;
   color: #c2d7e4;
-  font: 400 8px var(--font-mono);
+  font: 400 9px var(--font-mono);
   letter-spacing: 0.1em;
 }
 .image-arrow {
@@ -271,6 +271,42 @@
 }
 .featured-copy .project-tags {
   font-size: 9px;
+}
+.featured-copy .project-links {
+  margin-top: 16px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line-soft);
+}
+.featured-copy .project-links a {
+  font-size: 12px;
+  min-height: 40px;
+}
+.preview-kind {
+  position: absolute;
+  z-index: 1;
+  top: 14px;
+  left: 14px;
+  padding: 6px 9px;
+  border: 1px solid #ffffff30;
+  border-radius: 5px;
+  background: #09121bf0;
+  color: #edf6ff;
+  font: 400 9px var(--font-mono);
+}
+.project-gallery-image {
+  display: block;
+  aspect-ratio: 16 / 9;
+  background: var(--surface);
+}
+.project-gallery-image picture,
+.project-gallery-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.project-gallery .project-links {
+  margin-top: 14px;
 }
 .approach-section {
   background: #0b131d;

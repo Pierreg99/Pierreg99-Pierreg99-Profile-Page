@@ -6,6 +6,10 @@ The source registry is `src/data/assets.js`. The build emits responsive stills u
 
 The identity mark and header were refined in October 2026. The remaining vector studies and research visuals preserve their original September 2026 context.
 
+## Project previews
+
+All 14 primary projects have a dedicated image, source record, and responsive WebP derivatives in [`projects/`](projects/README.md). Resident Lovely uses the Sweet Château artwork from its repository. Concept studies remain separately labeled in the visual laboratory.
+
 ## Canonical vector assets
 
 | Asset | Purpose |

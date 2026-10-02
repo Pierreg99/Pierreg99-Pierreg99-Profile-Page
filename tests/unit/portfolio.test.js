@@ -29,6 +29,24 @@ test("featured projects come from the public snapshot, without synthetic entries
   assert.deepEqual(enrichProjects([]), []);
 });
 
+test("forks retain useful public descriptions and remain searchable by purpose", () => {
+  const [project] = enrichProjects([
+    {
+      name: "Example-OMEGA-FORK",
+      fork: true,
+      description: "An accessible download manager",
+      language: "TypeScript",
+    },
+  ]);
+  assert.equal(project.description, "An accessible download manager");
+  assert.equal(project.descriptionDe, project.description);
+  assert.equal(project.fork, true);
+  assert.equal(
+    matchesProject(project, { query: "download manager", scope: "forks" }),
+    true,
+  );
+});
+
 test("language shares exclude forks and retain missing language metadata", () => {
   const data = [
     { language: "TypeScript", fork: false },

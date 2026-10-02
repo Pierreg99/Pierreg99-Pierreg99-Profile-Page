@@ -73,6 +73,9 @@ export async function prepareAssets(outDir = join(root, "dist/assets")) {
     await mkdir(join(cache, "media/flagships"), { recursive: true });
     await mkdir(join(cache, "motion"), { recursive: true });
     for (const [name] of stillAssets) {
+      await mkdir(dirname(join(cache, `media/${name}-480.webp`)), {
+        recursive: true,
+      });
       for (const width of sizes)
         await sharp(join(root, `assets/${name}.jpg`))
           .resize({ width })

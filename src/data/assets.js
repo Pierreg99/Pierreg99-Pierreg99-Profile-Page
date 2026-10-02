@@ -1,3 +1,5 @@
+import { projectDetails } from "./projects.js";
+
 export const motionAssets = [
   {
     name: "cryo-pulse",
@@ -54,7 +56,7 @@ export const vectorAssets = [
   ["project-grid", "Project portfolio study"],
 ];
 
-export const stillAssets = [
+export const conceptAssets = [
   ["hero", "CRYO observatory"],
   ["pulse", "Pulse identity"],
   ["orbit", "System orbit"],
@@ -64,3 +66,9 @@ export const stillAssets = [
   ["flagships/kiblox", "Voxel concept"],
   ["flagships/cryos", "Launcher concept"],
 ];
+
+export const projectAssets = Object.values(projectDetails)
+  .filter((project) => project.image)
+  .map((project) => [project.image, project.title]);
+
+export const stillAssets = [...conceptAssets, ...projectAssets];
