@@ -1,65 +1,100 @@
 #!/usr/bin/env python3
-"""Validate repository-local Markdown and HTML asset references."""
+"""Validate rendered HTML, Markdown, CSS, responsive media, and directory routes."""
 
 from __future__ import annotations
 
+import argparse
 import html
 import re
+from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 
-ROOT = Path(__file__).resolve().parents[1]
-TEXT_SUFFIXES = {".md", ".html", ".htm"}
-IGNORED_SCHEMES = ("http://", "https://", "mailto:", "#", "data:")
-
-MD_RE = re.compile(r"!?(?:\[[^\]]*\])\(([^)\s]+)(?:\s+['\"][^'\"]*['\"])?\)")
-HTML_RE = re.compile(r"(?:href|src)=[\"']([^\"']+)[\"']", re.IGNORECASE)
-
-
-def candidates() -> list[Path]:
-    return [
-        p for p in ROOT.rglob("*")
-        if p.is_file() and p.suffix.lower() in TEXT_SUFFIXES and ".git" not in p.parts
-    ]
+REPOSITORY = Path(__file__).resolve().parents[1]
+TEXT_SUFFIXES = {".md", ".html", ".htm", ".css", ".svg"}
+IGNORED_PARTS = {".git", "node_modules", ".cache", "test-results", "playwright-report", "__pycache__"}
+MD_RE = re.compile(r"!?\[[^\]]*\]\(([^)\s]+)(?:\s+['\"][^'\"]*['\"])?\)")
+CSS_RE = re.compile(r"url\(\s*['\"]?([^)'\"]+)['\"]?\s*\)", re.IGNORECASE)
 
 
-def local_target(source: Path, raw: str) -> Path | None:
-    target = html.unescape(raw).split("#", 1)[0].split("?", 1)[0].strip()
-    if not target or target.startswith(IGNORED_SCHEMES):
+class References(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.references = []
+
+    def handle_starttag(self, _tag, attrs):
+        for key, value in attrs:
+            if not value:
+                continue
+            if key in {"href", "src", "poster", "data-source"}:
+                self.references.append(value)
+            elif key == "srcset" and not value.startswith("data:"):
+                self.references.extend(part.strip().split()[0] for part in value.split(",") if part.strip())
+
+
+def local_target(source: Path, raw: str, root: Path, base: str = "") -> Path | None:
+    value = html.unescape(raw).strip()
+    if not value or value.startswith("#"):
         return None
-    if target.startswith("/"):
-        # Treat root-relative paths as repository-root paths when possible.
-        return ROOT / target.lstrip("/")
-    return source.parent / target
+    parsed = urlsplit(value)
+    if parsed.scheme or parsed.netloc or not parsed.path:
+        return None
+    path = unquote(parsed.path)
+    if base and (path == base or path.startswith(base + "/")):
+        path = path[len(base):] or "/"
+    return root / path.lstrip("/") if path.startswith("/") else source.parent / path
 
 
-def main() -> int:
-    failures: list[str] = []
+def validate(root: Path, base: str = "") -> tuple[int, list[str]]:
     checked = 0
-
-    for source in candidates():
-        text = source.read_text(encoding="utf-8", errors="strict")
-        references = MD_RE.findall(text) + HTML_RE.findall(text)
+    failures = []
+    root = root.resolve()
+    for source in sorted(root.rglob("*")):
+        if not source.is_file() or source.suffix.lower() not in TEXT_SUFFIXES:
+            continue
+        parts = source.relative_to(root).parts
+        if any(part in IGNORED_PARTS or (part == "dist" and root == REPOSITORY) for part in parts):
+            continue
+        text = source.read_text(encoding="utf-8")
+        parser = References()
+        if source.suffix != ".css":
+            parser.feed(text)
+        references = parser.references
+        if source.suffix == ".md":
+            # Code fences contain examples rather than authored links.
+            references += MD_RE.findall(re.sub(r"```.*?```", "", text, flags=re.DOTALL))
+        if source.suffix in {".css", ".svg"}:
+            references += CSS_RE.findall(text)
         for raw in references:
-            target = local_target(source, raw)
+            target = local_target(source, raw, root, base)
             if target is None:
                 continue
             checked += 1
             try:
-                target.resolve().relative_to(ROOT.resolve())
+                target.resolve().relative_to(root)
             except ValueError:
-                failures.append(f"{source.relative_to(ROOT)} -> outside repository: {raw}")
+                failures.append(f"{source.relative_to(root)} -> outside artifact: {raw}")
                 continue
             if not target.exists():
-                failures.append(f"{source.relative_to(ROOT)} -> missing: {raw}")
+                failures.append(f"{source.relative_to(root)} -> missing: {raw}")
+            elif target.is_dir() and root != REPOSITORY and not (target / "index.html").exists():
+                failures.append(f"{source.relative_to(root)} -> directory has no index.html: {raw}")
+    return checked, failures
 
-    print(f"Validated {checked} local Markdown/HTML references.")
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--root", type=Path, default=REPOSITORY / "dist")
+    parser.add_argument("--base", default="/Pierreg99-Pierreg99-Profile-Page")
+    args = parser.parse_args()
+    if not args.root.is_dir():
+        parser.error("Build the site with npm run build before validating links.")
+    checked, failures = validate(args.root, args.base.rstrip("/"))
+    print(f"Validated {checked} local presentation references.")
     if failures:
-        print("Broken references:")
-        for failure in failures:
-            print(f"- {failure}")
+        print("\n".join(f"- {failure}" for failure in failures))
         return 1
-
-    print("All local presentation references resolve.")
+    print("All local pages, assets, responsive media, and font references resolve.")
     return 0
 
 

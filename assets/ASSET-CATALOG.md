@@ -1,5 +1,11 @@
 # CRYO / Pierreg99 — Asset Catalog
 
+## Current deployment derivatives
+
+The source registry is `src/data/assets.js`. The build emits responsive stills under `assets/media/`, controlled videos and posters under `assets/motion/`, and an `assets/asset-manifest.json` with dimensions and byte counts. Generated output is not committed. Self-hosted font files and licenses are bundled from `src/styles/fonts/`.
+
+The identity mark and header were refined in October 2026. The remaining vector studies and research visuals preserve their original September 2026 context.
+
 ## Canonical vector assets
 
 | Asset | Purpose |
@@ -17,6 +23,7 @@
 | `capability-radar.svg` | Capability radar |
 | `delivery-timeline.svg` | Build / delivery flow |
 | `project-grid.svg` | Featured project selection |
+| `public-project-language-profile.svg` | Historical primary-language study |
 
 ## Canonical animated assets
 
@@ -29,6 +36,7 @@
 | `animations/cryo-kiblox.gif` | Flagship presentation: KiBlox voxel polar field (2026-09-11 pass 2) |
 | `hero.jpg` / `hero.mp4` | Cinematic observatory hero still + 6s loop |
 | `pulse.jpg` / `orbit.jpg` | Motion posters |
+| `mark.jpg` | Original identity concept |
 | `flagships/memory.jpg` | agent-memory still |
 | `flagships/nexo.jpg` | Nexo Jarvis still |
 | `flagships/kiblox.jpg` | KiBlox still |
@@ -36,7 +44,7 @@
 
 
 
-The animation layer is repository-native and dependency-free. The central integration page is [`docs/animation-gallery.html`](../docs/animation-gallery.html).
+The animation layer is repository-native and dependency-free. The central integration page is [`docs/animation-gallery.html`](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/docs/animation-gallery.html).
 
 ## Presentation hierarchy
 

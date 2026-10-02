@@ -1,46 +1,92 @@
-name: Deploy CRYO Profile to GitHub Pages
+name: Validate and Deploy CRYO Profile
 
 on:
+  pull_request:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: cryo-site-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: npm
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Ensure ffmpeg is available
+        run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Cache optimized artwork
+        uses: actions/cache@v4
+        with:
+          path: .cache/optimized-assets
+          key: cryo-artwork-${{ runner.os }}-${{ hashFiles('assets/**/*.jpg', 'assets/**/*.gif', 'scripts/prepare-assets.mjs') }}
+      - name: Install build dependencies
+        run: npm ci
+      - name: Check code, data, build, and generated links
+        run: npm run check
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Check desktop, mobile, and accessibility
+        run: npm run test:browser
+      - name: Upload reviewable site
+        uses: actions/upload-artifact@v4
+        with:
+          name: cryo-site-preview
+          path: dist/
+          retention-days: 7
+      - name: Upload browser diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-diagnostics
+          path: |
+            playwright-report/
+            test-results/
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist/
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: '3.x'
-
-      - name: Validate local presentation links
-        run: python scripts/validate-local-links.py
-
-      - name: Setup Pages
+      - name: Use workflow-based publishing for the existing Pages site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          pages_build_type=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq .build_type)
+          if [ "$pages_build_type" != "workflow" ]; then
+            gh api --method PUT "repos/$GITHUB_REPOSITORY/pages" -f build_type=workflow > /dev/null
+          fi
+      - name: Configure Pages
         uses: actions/configure-pages@v5
-
-      - name: Upload profile site
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
+      - name: Deploy validated site
         id: deployment
         uses: actions/deploy-pages@v4

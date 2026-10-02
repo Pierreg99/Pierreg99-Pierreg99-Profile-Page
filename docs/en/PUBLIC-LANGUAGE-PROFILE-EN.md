@@ -41,4 +41,4 @@ This is a **project-share metric**, not a source-line or code-byte percentage. G
 
 ## Interactive Report
 
-[Open the interactive Public Project Language Dashboard →](../public-language-dashboard.html)
+[Open the interactive Public Project Language Dashboard →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/docs/public-language-dashboard.html)

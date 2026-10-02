@@ -1,0 +1,10 @@
+dist
+node_modules
+.cache
+assets
+reports
+academic-evaluation
+docs/de
+docs/en
+package-lock.json
+

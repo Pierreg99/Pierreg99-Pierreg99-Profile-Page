@@ -46,7 +46,7 @@ Die Profilseite übernimmt bewährte Portfolio-Bausteine wie Intro, Connections,
 
 Statt auf externe Statistikdienste angewiesen zu sein, priorisiert dieses Profil repository-native Nachweise, direkte Projektlinks und stabile Shields-Badges. Das interaktive Dashboard ergänzt die sichtbare Aktivität um eine nachvollziehbare öffentliche Projektanalyse.
 
-[Interaktives Sprach-Dashboard öffnen →](../public-language-dashboard.html)
+[Interaktives Sprach-Dashboard öffnen →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/docs/public-language-dashboard.html)
 
 ## Programmiersprachen
 

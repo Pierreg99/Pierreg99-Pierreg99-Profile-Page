@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "owner": "Pierreg99",
+  "source": "https://api.github.com/users/Pierreg99/repos",
+  "repositories": [
+    {
+      "name": "7xx-Drivers-OMEGA-FORKS",
+      "url": "https://github.com/Pierreg99/7xx-Drivers-OMEGA-FORKS",
+      "description": "Collection of driver binaries for Snapdragon 7xx devices",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Ab-download-Manager-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Ab-download-Manager-OMEGA-FORK",
+      "description": "A Download Manager that speeds up your downloads",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "AdrenoGpuDriver-Omega-Fork",
+      "url": "https://github.com/Pierreg99/AdrenoGpuDriver-Omega-Fork",
+      "description": "Module template for Qualcomm Snapdragon drivers (Adreno GPU). Script for editing driver extensions is planned for the future.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "AdrenoToolsDrivers-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/AdrenoToolsDrivers-OMEGA-FORK",
+      "description": "A repository for Skyline, Strato, Vita3K and Yuzu Android compatible Adreno drivers.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "AI-FOR-Everyone-Learn-Docs",
+      "url": "https://github.com/Pierreg99/AI-FOR-Everyone-Learn-Docs",
+      "description": "",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false,
+      "stars": 2,
+      "topics": []
+    },
+    {
+      "name": "AnymeX-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/AnymeX-OMEGA-FORK",
+      "description": "An Open Source app for Tracking Multi Service (AL, MAL, SIMKL)",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "AnymeXExtensionRuntimeBridge-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/AnymeXExtensionRuntimeBridge-OMEGA-FORK",
+      "description": "",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "awesome-ai-video-generation-list-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/awesome-ai-video-generation-list-OMEGA-FORK",
+      "description": "A curated list of AI video generation tools - text-to-video, avatars, UGC ads, lip sync, and open source models.     ",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "azahar-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/azahar-OMEGA-FORK",
+      "description": "An open-source 3DS emulator project based on Citra.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Azahar-OMEGA-FORK-compatibility-list",
+      "url": "https://github.com/Pierreg99/Azahar-OMEGA-FORK-compatibility-list",
+      "description": "The compatibility list for the Azahar emulator",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "AZAHARPLUS-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/AZAHARPLUS-OMEGA-FORK",
+      "description": "Enhanced Nintendo 3DS emulator with additional features and optimizations",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "call-of-groky",
+      "url": "https://github.com/Pierreg99/call-of-groky",
+      "description": "Call of Groky — high-end Three.js FPS (browser)",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "cloudstream-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/cloudstream-OMEGA-FORK",
+      "description": "Android app for streaming and downloading media.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "codepair-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/codepair-OMEGA-FORK",
+      "description": "Build your own AI-powered collaborative markdown editor in just 5 minutes",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "CryAIPulse",
+      "url": "https://github.com/Pierreg99/CryAIPulse",
+      "description": "CryAIPulse — public brain & heart pulse visualization for the Cryo Omega / AGI-3 agentic mesh",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false,
+      "stars": 1,
+      "topics": []
+    },
+    {
+      "name": "CRYOPATRAE-OMEGA-",
+      "url": "https://github.com/Pierreg99/CRYOPATRAE-OMEGA-",
+      "description": "LINGUISTIC ENGINE FOR AI",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Cryoplane-Polygonal-Flight",
+      "url": "https://github.com/Pierreg99/Cryoplane-Polygonal-Flight",
+      "description": "Cryoplane— low-poly polar continent flyer",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "cryos-launcher",
+      "url": "https://github.com/Pierreg99/cryos-launcher",
+      "description": "cryOS — CryDroid Launcher OS: fully virtualized phone launcher + CryLinux desktop simulation. One law, many ices.",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Cyberdash-Rhythm-Platformer",
+      "url": "https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer",
+      "description": "CYBER DASH — Neon rhythm platformer with 16 levels, CRYO ice sector, full editor, and kinetic audio engine",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false,
+      "stars": 1,
+      "topics": []
+    },
+    {
+      "name": "Dartotsu-Downloader-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Dartotsu-Downloader-OMEGA-FORK",
+      "description": "",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Dartotsu-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Dartotsu-OMEGA-FORK",
+      "description": "A multiplatform tracking client based on Dantotsu",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "DartotsuExtensionBridge-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/DartotsuExtensionBridge-OMEGA-FORK",
+      "description": "",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Emulator-wtf-Actions-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Emulator-wtf-Actions-OMEGA-FORK",
+      "description": "emulator.wtf GitHub actions for running Android tests and using Android emulators.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "emupedia.github.io-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/emupedia.github.io-OMEGA-FORK",
+      "description": "The purpose of Emupedia is to serve as a nonprofit meta-resource, hub and community for those interested mainly in video game preservation which aims to digitally collect, archive and preserve games and software to make them available online accessible by a user-friendly UI that simulates several retro operating systems for educational purposes.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Freedify-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Freedify-OMEGA-FORK",
+      "description": "Stream music and podcasts from anywhere. Search songs, albums, artists, podcasts, or paste URLs from Spotify, Bandcamp, Archive.org, Phish.in, and more. Inspired by and built off of Spotiflac by afkarxyz. Like Freedify and want to buy me a coffee or beer? Click link below to donate.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "futuristic-call-of-shooty",
+      "url": "https://github.com/Pierreg99/futuristic-call-of-shooty",
+      "description": "AAA Tactical Three.js First-Person Shooter Engine - CoD Parity with PBR Sobel Normals, PMREM HDR, Spring Kinetics, Touch Controls and Robotic AI",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Github-Ranking-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Github-Ranking-OMEGA-FORK",
+      "description": ":star:Github Ranking:star: Github stars and forks ranking list. Github Top100 stars list of different languages. Automatically update daily. | Github仓库排名，每日自动更新",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "gopeedDLoadManager-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/gopeedDLoadManager-OMEGA-FORK",
+      "description": "  A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "inoffical-cryogamehelp-repo",
+      "url": "https://github.com/Pierreg99/inoffical-cryogamehelp-repo",
+      "description": "",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Kai-Release-Stream-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Kai-Release-Stream-OMEGA-FORK",
+      "description": "Official distribution hub for Kai. Download the latest APK releases and enable seamless Over-The-Air (OTA) updates for the ad-free content streaming client.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "KAIOVER9000-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/KAIOVER9000-OMEGA-FORK",
+      "description": "OpenClaw alternative in your pocket",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "KiBlox-VoxelGame",
+      "url": "https://github.com/Pierreg99/KiBlox-VoxelGame",
+      "description": "KI BLOX — Voxel-Welt zum Bauen, Fliegen und Ki-Kampf",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": [
+        "browser-game",
+        "first-person",
+        "react",
+        "threejs",
+        "typescript",
+        "voxel-game",
+        "webgl"
+      ]
+    },
+    {
+      "name": "Lazymux-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Lazymux-OMEGA-FORK",
+      "description": "termux tool installer",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Linux-Windows-Helpful-Commands-DOCS",
+      "url": "https://github.com/Pierreg99/Linux-Windows-Helpful-Commands-DOCS",
+      "description": "",
+      "language": "CSS",
+      "fork": false,
+      "archived": false,
+      "stars": 2,
+      "topics": []
+    },
+    {
+      "name": "LSFG-Android-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/LSFG-Android-OMEGA-FORK",
+      "description": "Lossless Scaling Frames Generator (LSFG) Application for Android",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Mandarine-NEO-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Mandarine-NEO-OMEGA-FORK",
+      "description": "A Citra fork with new features and hacks which are experimental and may not be present in Azahar. Continuation of Mandarine 3DS emulator.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "mangayomi-anime-extensions-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/mangayomi-anime-extensions-OMEGA-FORK",
+      "description": "A repo for mangayomi that gets tested regularly. Also works on AnymeX ",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "mixplorer-releases-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/mixplorer-releases-OMEGA-FORK",
+      "description": "Repository for the releases of the file explorer app MiXplorer.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Motrix-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Motrix-OMEGA-FORK",
+      "description": "A full-featured download manager.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "ObtaniumAndroid-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/ObtaniumAndroid-OMEGA-FORK",
+      "description": "A good config of FOSS Obtanium apps for Android",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Pierreg99-Pierreg99-Profile-Page",
+      "url": "https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page",
+      "description": "",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 1,
+      "topics": []
+    },
+    {
+      "name": "Playnite-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Playnite-OMEGA-FORK",
+      "description": "Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Pluvia-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Pluvia-OMEGA-FORK",
+      "description": "Lightweight unofficial Steam client for Android",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "progress",
+      "url": "https://github.com/Pierreg99/progress",
+      "description": "Public Cryo Omega progress % + quality audits (private projects by secret codename only)",
+      "language": "HTML",
+      "fork": false,
+      "archived": false,
+      "stars": 1,
+      "topics": []
+    },
+    {
+      "name": "ResidentLovely-Maximum-Hapiness-Game",
+      "url": "https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game",
+      "description": "Resident Lovely: 3D Survival-Joy Web Game (Resident Evil Wholesome Parody) with Three.js, Quests, Weapons, and Radar Maps",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "RetroArchJS-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/RetroArchJS-OMEGA-FORK",
+      "description": "Cross-platform, sophisticated frontend for the libretro API. Licensed GPLv3.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Rhythm-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Rhythm-OMEGA-FORK",
+      "description": "Your Music, Your Rhythm. An open-source, privacy-first Android music player featuring a beautiful Material 3 Expressive UI. Built entirely in Kotlin.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "SharpEmuPSV-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/SharpEmuPSV-OMEGA-FORK",
+      "description": "An experimental PlayStation 5 emulator for Windows, Linux and macOS.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "ShuShuzinhuu-SpotiFLAC-Extractor-Daemon-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/ShuShuzinhuu-SpotiFLAC-Extractor-Daemon-OMEGA-FORK",
+      "description": "Best Python Spotify to Hi-Res FLAC Downloader Module 2026",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "SkyEmu-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/SkyEmu-OMEGA-FORK",
+      "description": "Game Boy Advance, Game Boy, Game Boy Color, and DS Emulator",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "spotiflac-cli-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/spotiflac-cli-OMEGA-FORK",
+      "description": "Spotify downloader with  playlist sync in mind.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "SpotiFLAC-Docker-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/SpotiFLAC-Docker-OMEGA-FORK",
+      "description": "Containerized SpotiFLAC with auto-updating via GitHub Actions",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "SpotiFLAC-Extension-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/SpotiFLAC-Extension-OMEGA-FORK",
+      "description": "Extension Registry for SpotiFLAC-Mobile. Browse, submit, and download community-built extensions.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "SpotiFLAC-Mobile-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/SpotiFLAC-Mobile-OMEGA-FORK",
+      "description": "Mobile music utility built with Flutter and Go. High-quality audio management for your personal library. - open source, no ads, no subscription.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "SpotiFLAC-Module-Version-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/SpotiFLAC-Module-Version-OMEGA-FORK",
+      "description": "Python module to fetch Spotify track metadata and retrieve matching lossless audio through configurable Tidal, Qobuz, Deezer & Amazon Music providers.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "SpotiFLAC-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/SpotiFLAC-OMEGA-FORK",
+      "description": "Get Spotify tracks in true FLAC from Tidal, Qobuz & Amazon Music — no account required.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Streamflix-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Streamflix-OMEGA-FORK",
+      "description": "",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Streamflixrouge-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Streamflixrouge-OMEGA-FORK",
+      "description": "",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "termux-ai-app-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/termux-ai-app-OMEGA-FORK",
+      "description": "Termux AI Terminal App with Claude Code integration - Android app with AI-powered terminal features",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Termux-Ai-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/Termux-Ai-OMEGA-FORK",
+      "description": "Interactive AI tool for Termux with 10+ providers and 50+ image models ✨",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "termux-ai-suite-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/termux-ai-suite-OMEGA-FORK",
+      "description": "A comprehensive toolkit for running advanced AI models and automation scripts within the Termux environment.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "termux-api-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/termux-api-OMEGA-FORK",
+      "description": "Termux add-on app which exposes device functionality as API to command line programs.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "termux-api-package-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/termux-api-package-OMEGA-FORK",
+      "description": "Termux package containing scripts to call functionality in Termux:API.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "termux-app-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/termux-app-OMEGA-FORK",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "language": "Java",
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "termux-desktop-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/termux-desktop-OMEGA-FORK",
+      "description": "Install a full Linux desktop environment on your Android device with Termux X11 ( VNC optional) and also enable hardware acceleration",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "termux-packages-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/termux-packages-OMEGA-FORK",
+      "description": "A package build system for Termux.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "termux-x11-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/termux-x11-OMEGA-FORK",
+      "description": "Termux X-server add-on.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "TermuxArch-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/TermuxArch-OMEGA-FORK",
+      "description": "You can use setupTermuxArch.bash 📲 to install Arch Linux in Amazon, Android, Chromebook and Windows.  https://sdrausty.github.io/TermuxArch/docs/install",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "TermuxBlack-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/TermuxBlack-OMEGA-FORK",
+      "description": "Termux repository for hacking tools and packages",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "windows_xiaomi_platforms-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/windows_xiaomi_platforms-OMEGA-FORK",
+      "description": "Windows Drivers for Xiaomi/Redmi/Poco Platforms",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "YT-Music-SpotiFLAC-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/YT-Music-SpotiFLAC-OMEGA-FORK",
+      "description": "A high‑performance SpotiFLAC extension that adds YouTube Music as a source for search, metadata, and high‑quality audio downloads.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "zapstore-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/zapstore-OMEGA-FORK",
+      "description": "The open app store",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "ZCLAW-OMEGA-FORK",
+      "url": "https://github.com/Pierreg99/ZCLAW-OMEGA-FORK",
+      "description": "Your personal AI assistant at all-in 888KiB (~35KB in app code). Running on an ESP32. GPIO, cron, custom tools, memory, and more.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    }
+  ],
+  "updatedAt": "2026-10-01T21:23:19+00:00"
+}

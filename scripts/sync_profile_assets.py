@@ -1,44 +1,47 @@
 #!/usr/bin/env python3
-"""Pull the public account summary from progress into the profile repository."""
-from __future__ import annotations
+"""Refresh the verified public portfolio without publishing private names."""
 
-import json
-import re
-import urllib.request
-from datetime import datetime, timezone
 from pathlib import Path
 
+from profile_sync.account import (
+    OWNER, PUBLIC_SOURCE, SOURCE, fetch_json, fetch_public_repositories,
+    save_snapshot, update_readme,
+)
+
 ROOT = Path(__file__).resolve().parents[1]
-README = ROOT / "README.md"
-SUMMARY = ROOT / "assets" / "sync" / "account-summary.json"
-SOURCE = "https://raw.githubusercontent.com/Pierreg99/progress/main/site/account.json"
 
 
 def main() -> int:
-    with urllib.request.urlopen(SOURCE, timeout=20) as response:
-        data = json.loads(response.read().decode("utf-8"))
-
-    public_count = int(data["public"])
-    total = int(data["total"])
-    private_count = int(data["private"])
+    account = fetch_json(SOURCE)
+    if account.get("owner") != OWNER or account.get("privateNamesPublished") is not False:
+        raise ValueError("Unexpected account owner or publication policy.")
+    private_count = account["private"]
+    if not isinstance(private_count, int) or isinstance(private_count, bool) or private_count < 0:
+        raise ValueError("Invalid private aggregate count.")
+    repositories = fetch_public_repositories()
     summary = {
         "schemaVersion": 1,
         "source": SOURCE,
-        "syncedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "owner": data.get("owner", "Pierreg99"),
-        "total": total,
-        "public": public_count,
+        "owner": OWNER,
+        "total": len(repositories) + private_count,
+        "public": len(repositories),
         "private": private_count,
         "privateNamesPublished": False,
+        "completeAccountSync": account.get("completeAccountSync", False),
     }
-    SUMMARY.parent.mkdir(parents=True, exist_ok=True)
-    SUMMARY.write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
-    text = README.read_text(encoding="utf-8")
-    text = re.sub(r"Public%20inventory-\d+-111827", f"Public%20inventory-{public_count}-111827", text, count=1)
-    text = re.sub(r"Account%20sync-\d+%20repos-111827", f"Account%20sync-{total}%20repos-111827", text, count=1)
-    README.write_text(text, encoding="utf-8")
-    print(f"profile sync public={public_count} total={total} private={private_count}")
+    save_snapshot(ROOT / "assets/sync/account-summary.json", summary, "syncedAt")
+    save_snapshot(ROOT / "assets/sync/public-repositories.json", {
+        "schemaVersion": 1,
+        "owner": OWNER,
+        "source": PUBLIC_SOURCE,
+        "repositories": repositories,
+    }, "updatedAt")
+    readme = ROOT / "README.md"
+    text = readme.read_text(encoding="utf-8")
+    updated = update_readme(text, summary)
+    if text != updated:
+        readme.write_text(updated, encoding="utf-8")
+    print(f"Public portfolio synchronized: {len(repositories)} repositories.")
     return 0
 
 

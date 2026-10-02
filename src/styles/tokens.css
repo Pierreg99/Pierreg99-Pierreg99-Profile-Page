@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Manrope;
+  src: url("./fonts/manrope-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./fonts/space-grotesk-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+:root {
+  color-scheme: dark;
+  --bg: #080e16;
+  --surface: #0e1621;
+  --surface-hover: #121e2b;
+  --surface-raised: #162230;
+  --text: #f0f5fa;
+  --muted: #a4b2c3;
+  --quiet: #8393a7;
+  --line: #24303d;
+  --line-soft: #1b2633;
+  --accent: #91e5f7;
+  --accent-deep: #09202b;
+  --green: #a9e7c1;
+  --purple: #bfadfa;
+  --radius: 12px;
+  --font-body: Manrope, system-ui, sans-serif;
+  --font-display: "Space Grotesk", Manrope, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+  --container: 1240px;
+  --gutter: clamp(20px, 4vw, 56px);
+}
