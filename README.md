@@ -109,7 +109,7 @@ Self-hosted Manrope and Space Grotesk fonts include their SIL Open Font License 
 
 ## Delivery and data
 
-Pull requests run the full checks and browser suite, then provide a downloadable site artifact. On `main`, the Pages workflow selects workflow-based publishing for the existing Pages site and deploys the validated `dist/` artifact. The hourly profile sync updates verified public metadata and badges only when their content changes, validates the result, and requests a fresh Pages build after a change.
+Pull requests run the full checks and browser suite, then provide a downloadable site artifact. On `main`, the Pages workflow deploys the validated `dist/` artifact through the standard Pages actions using the existing site's configuration. Deployment runs from `main`, which also matches the configured source branch. The hourly profile sync updates verified public metadata and badges only when their content changes, validates the result, and requests a fresh Pages build after a change.
 
 Research documents and original SVG studies remain a dated archive. Their editorial scores and old inventories are clearly separated from the current public snapshot.
 
