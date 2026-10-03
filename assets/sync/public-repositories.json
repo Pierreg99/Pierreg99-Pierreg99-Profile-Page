@@ -184,8 +184,8 @@
       "topics": []
     },
     {
-      "name": "Cyberdash-Rhythm-Platformer",
-      "url": "https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer",
+      "name": "Cyberdash-Rhythm-Platformer-GAME",
+      "url": "https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME",
       "description": "CYBER DASH — Neon rhythm platformer with 16 levels, CRYO ice sector, full editor, and kinetic audio engine",
       "language": "JavaScript",
       "fork": false,
@@ -742,5 +742,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-02T04:52:10+00:00"
+  "updatedAt": "2026-10-03T00:41:13+00:00"
 }
