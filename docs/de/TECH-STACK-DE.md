@@ -1,3 +1,5 @@
+> Linkprüfung vom 3. Oktober 2026: Nicht öffentlich verfügbare Archivprojekte sind als Text gekennzeichnet. [Aktuelle öffentliche Projekte](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/#projects).
+
 # CRYO Technischer Stack
 
 <img src="../../assets/stack-icons.svg" alt="CRYO Stack-Icon-Wand" width="100%" />
@@ -37,7 +39,7 @@ Die Prozentwerte beschreiben die **sichtbare Portfolio-Evidenz und technische Ab
 `LLM-Anwendungen` · `Agent Memory` · `RAG` · `Context Windowing` · `Summarization` · `Embeddings` · `MCP` · `AI-Assistenten`
 
 [![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-7C3AED?style=for-the-badge)](https://modelcontextprotocol.io/)
-[![AI](https://img.shields.io/badge/AI-Agent%20Systems-06B6D4?style=for-the-badge)](https://github.com/Pierreg99/agent-memory)
+![AI](https://img.shields.io/badge/AI-Agent%20Systems-06B6D4?style=for-the-badge) *(archiviert; öffentlich nicht verfügbar)*
 
 ## Frontend / UI
 
