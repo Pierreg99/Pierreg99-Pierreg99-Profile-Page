@@ -44,6 +44,16 @@
       "topics": []
     },
     {
+      "name": "Aetherwild",
+      "url": "https://github.com/Pierreg99/Aetherwild",
+      "description": "Aetherwild: browser creature-collection RPG. Original world, no borrowed creature names.",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
       "name": "AI-FOR-Everyone-Learn-Docs",
       "url": "https://github.com/Pierreg99/AI-FOR-Everyone-Learn-Docs",
       "description": "",
@@ -762,5 +772,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-03T02:53:56+00:00"
+  "updatedAt": "2026-10-03T07:01:42+00:00"
 }
