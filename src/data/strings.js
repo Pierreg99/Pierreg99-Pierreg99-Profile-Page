@@ -62,7 +62,23 @@ export const de = {
     "Öffentliche Projekte aus interaktiven Welten, Oberflächen und KI.",
   "work.all": "Alle Projekte",
   "work.caption":
-    "Die Bilder sind Konzeptkunst. Im Repository findest du Quellcode und aktuellen Projektstand.",
+    "Portfolio-Cover auf Grundlage der eigenen Projektbilder. Öffne ein Projekt oder sieh dir seinen Quellcode an.",
+  "work.selected": "AUSGEWÄHLTE ARBEITEN",
+  "project.play": "Im Browser spielen",
+  "project.explore": "Projekt öffnen",
+  "project.read": "Guides lesen",
+  "project.source": "Quellcode",
+  "project.archived": "Archiviert",
+  "preview.artwork": "Projekt-Artwork",
+  "preview.cover": "Portfolio-Cover",
+  "preview.screenshot": "Projekt-Screenshot",
+  "preview.local": "Lokale Vorschau",
+  "preview.upstream": "Upstream-Vorschau",
+  "gallery.projectLabel": "PROJEKTVORSCHAUEN",
+  "gallery.projects": "Ein Blick in die Projekte.",
+  "gallery.projectDescription":
+    "Screenshots und Artwork aus den verlinkten Projekten. Jede Vorschau nennt ihre Herkunft: Oberfläche, Repository-Artwork, lokaler Build oder Upstream-Projekt.",
+  "gallery.previewSources": "Bildquellen und Aufnahmenotizen",
   "approach.eyebrow": "DER ANSATZ",
   "approach.title": "Viele Disziplinen. Ein neugieriger Kopf.",
   "approach.description":
@@ -134,7 +150,7 @@ export const de = {
   "gallery.eyebrow": "CRYO / VISUELLES LABOR",
   "gallery.title": "Ein System mit eigener Seele.",
   "gallery.description":
-    "Bewegung, Licht und Struktur. Die lokale Kunst hinter dem CRYO-Workspace.",
+    "Ein Blick in die Projekte und danach in die Kunst und Bewegungsstudien hinter dem CRYO-Workspace.",
   "gallery.notice":
     "Konzeptkunst und historische visuelle Studien. Jede Szene startet als Standbild; Animationen kannst du gezielt abspielen.",
   "gallery.motion": "Von der Ruhe zur Bewegung.",

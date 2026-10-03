@@ -2,6 +2,8 @@
 
 Die Website vom Oktober 2026 erzeugt vollständiges HTML aus gemeinsamen JavaScript-Templates. Native Browsermodule ergänzen Filter, Sprache, Navigation und Animationen. Inhalte bleiben ohne JavaScript lesbar.
 
+`src/data/projects.js` enthält geprüfte Projektbeschreibungen, direkte Demo-Links und Bildmetadaten. Optionale Felder `coverImage` und `coverAlt` wählen bearbeitete Startseiten-Cover aus `assets/selected-work/`; die ursprünglichen `image`-Felder liefern weiterhin die Vorschauen im Explorer und in der Galerie. Gemeinsame Projektaktionen verknüpfen Live-Projekte und Quellcode. Der Explorer übernimmt die öffentlichen Upstream-Beschreibungen von Forks. Beide Bildverzeichnisse enthalten Quellen und Prüfsummen; der Build optimiert sie zusammen mit der separat gekennzeichneten Konzeptkunst.
+
 ## Zuständigkeiten
 
 | Verzeichnis | Aufgabe |

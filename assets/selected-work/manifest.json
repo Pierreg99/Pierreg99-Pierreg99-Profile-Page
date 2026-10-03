@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "editedAt": "2026-10-03",
+  "editor": "OpenAI image generation",
+  "images": [
+    {
+      "repository": "ResidentLovely-Maximum-Hapiness-Game",
+      "title": "Resident Lovely",
+      "file": "assets/selected-work/resident-lovely.jpg",
+      "kind": "cover",
+      "alt": "Resident Lovely cover: pink-haired heroine and plush companions beside the sunlit Sweet Château.",
+      "reference": "assets/projects/resident-lovely.jpg",
+      "referenceSha256": "82b9113366e5f9b4d9c67023c28e1fc2c8644957433395497e162aa5a5cf241a",
+      "source": "https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game/blob/400cbcfc255c7233577d1316b42e1ac1df866239/assets/art/sweet-chateau.png",
+      "repositoryUrl": "https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game",
+      "editedAt": "2026-10-03",
+      "width": 1440,
+      "height": 810,
+      "sha256": "f1d9f766bbfb816e79e2e509320e9dd207357da24db44aec02cb9860c7ccf539"
+    },
+    {
+      "repository": "KiBlox-VoxelGame",
+      "title": "KiBlox",
+      "file": "assets/selected-work/kiblox.jpg",
+      "kind": "cover",
+      "alt": "KiBlox cover: sunlit voxel forest and grass-topped block cliffs beneath a cyan sky.",
+      "reference": "assets/projects/kiblox.jpg",
+      "referenceSha256": "552e2be7f4370c014ace46c88fc9390767a891b5c40e40ea199d05aee2d7f2b7",
+      "source": "https://github.com/Pierreg99/KiBlox-VoxelGame/blob/1d8543115b5fb3da1e433c8d99c81d678ce816a5/docs/title.png",
+      "repositoryUrl": "https://github.com/Pierreg99/KiBlox-VoxelGame",
+      "editedAt": "2026-10-03",
+      "width": 1440,
+      "height": 810,
+      "sha256": "7ef0f94549a19bcb1f8799387b2b30eb2cac0759c76abf22f822643115b4d41b"
+    },
+    {
+      "repository": "cryos-launcher",
+      "title": "cryOS",
+      "file": "assets/selected-work/cryos.jpg",
+      "kind": "cover",
+      "alt": "cryOS cover: an icy-blue desktop presentation with Files and Settings windows on a navy background.",
+      "reference": "assets/projects/cryos.jpg",
+      "referenceSha256": "b5d8ba2af386fb10a0343f5442834e154ddd5059006602b0a65425734b9bad3f",
+      "source": "https://pierreg99.github.io/cryos-launcher/",
+      "repositoryUrl": "https://github.com/Pierreg99/cryos-launcher",
+      "editedAt": "2026-10-03",
+      "width": 1440,
+      "height": 810,
+      "sha256": "82e20fc7c0266e655da73850067d25e168b1bb16afc01547a33d10a35f5b6859"
+    },
+    {
+      "repository": "CryAIPulse",
+      "title": "CryAIPulse",
+      "file": "assets/selected-work/cryaipulse.jpg",
+      "kind": "cover",
+      "alt": "CryAIPulse cover: cyan neural connections flow into a rose heartbeat trace above small agent figures.",
+      "reference": "assets/projects/cryaipulse.jpg",
+      "referenceSha256": "a4a6cdf5c665bf35ee031ffb6b489a0e497c26f43a27958dbf808db9598b922b",
+      "source": "https://pierreg99.github.io/CryAIPulse/",
+      "repositoryUrl": "https://github.com/Pierreg99/CryAIPulse",
+      "editedAt": "2026-10-03",
+      "width": 1440,
+      "height": 810,
+      "sha256": "2787201d724c3d026897a073bdc2cc9af7b42258effbff25806512de44795136"
+    }
+  ]
+}

@@ -13,14 +13,16 @@ export function enrichProjects(repositories) {
         domain: details.domain ?? (repo.fork ? "ecosystem" : "systems"),
         description:
           details.description ??
-          (repo.fork
-            ? "Public fork · upstream project in the CRYO ecosystem."
-            : repo.description || "An open project in the CRYO ecosystem."),
+          (repo.description ||
+            (repo.fork
+              ? "Public fork · upstream project in the CRYO ecosystem."
+              : "An open project in the CRYO ecosystem.")),
         descriptionDe:
           details.descriptionDe ??
-          (repo.fork
-            ? "Öffentlicher Fork · Upstream-Projekt im CRYO-Ökosystem."
-            : repo.description || "Ein offenes Projekt im CRYO-Ökosystem."),
+          (repo.description ||
+            (repo.fork
+              ? "Öffentlicher Fork · Upstream-Projekt im CRYO-Ökosystem."
+              : "Ein offenes Projekt im CRYO-Ökosystem.")),
       };
     })
     .sort(
