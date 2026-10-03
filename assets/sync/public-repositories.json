@@ -154,6 +154,16 @@
       "topics": []
     },
     {
+      "name": "cryo-omega-ultra",
+      "url": "https://github.com/Pierreg99/cryo-omega-ultra",
+      "description": "CryoOmega ULTRA — unified CLI, TUI and Web IDE workspace",
+      "language": "Python",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
       "name": "CRYOPATRAE-OMEGA-",
       "url": "https://github.com/Pierreg99/CRYOPATRAE-OMEGA-",
       "description": "LINGUISTIC ENGINE FOR AI",
@@ -397,6 +407,16 @@
       "description": "A full-featured download manager.",
       "language": null,
       "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "Nexo-Jarvis-AI-Futuristic-Assistant-Alpha",
+      "url": "https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha",
+      "description": "Futuristische, browserbasierte AI-Personal-Assistant-Dashboard-Oberfläche mit holografischem Kern, Voice-UI und HUD-Modulen.",
+      "language": "TypeScript",
+      "fork": false,
       "archived": false,
       "stars": 0,
       "topics": []
@@ -742,5 +762,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-03T00:41:13+00:00"
+  "updatedAt": "2026-10-03T02:53:56+00:00"
 }
