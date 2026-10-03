@@ -307,7 +307,7 @@
       "name": "inoffical-cryogamehelp-repo",
       "url": "https://github.com/Pierreg99/inoffical-cryogamehelp-repo",
       "description": "",
-      "language": "HTML",
+      "language": "JavaScript",
       "fork": false,
       "archived": false,
       "stars": 0,
@@ -772,5 +772,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-03T07:01:42+00:00"
+  "updatedAt": "2026-10-03T12:41:25+00:00"
 }
