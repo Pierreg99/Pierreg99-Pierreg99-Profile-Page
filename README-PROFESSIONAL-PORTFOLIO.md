@@ -1,3 +1,5 @@
+> Link review / Linkprüfung · 2026-10-03: Unavailable archive projects are shown as text / Nicht verfügbare Archivprojekte sind als Text gekennzeichnet. [Current public projects / Aktuelle öffentliche Projekte](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/#projects).
+
 <div align="center">
 
 # Pierreg99 / Cryopg.it
@@ -32,13 +34,13 @@ Der Ansatz verbindet technische Umsetzung mit Recherche, Prototyping, Dokumentat
 ## Ausgewählte Arbeiten
 
 ### AI & Automation
-[agent-memory](https://github.com/Pierreg99/agent-memory) · [CryAIPulse](https://github.com/Pierreg99/CryAIPulse) · [Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha)
+agent-memory *(archiviert; öffentlich nicht verfügbar)* · [CryAIPulse](https://github.com/Pierreg99/CryAIPulse) · [Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha)
 
 ### Games & Interactive Systems
-[KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame) · [Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork) · [Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer) · [Cryo-Card-V2-Cardgame](https://github.com/Pierreg99/Cryo-Card-V2-Cardgame)
+[KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame) · Chronicles-of-Lumina-GameRPGwork *(archiviert; öffentlich nicht verfügbar)* · [Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME) · Cryo-Card-V2-Cardgame *(archiviert; öffentlich nicht verfügbar)*
 
 ### Creative & Productivity Ecosystem
-[Agi3-AI-Music-Player](https://github.com/Pierreg99/Agi3-AI-Music-Player) · [Cryodesignhub](https://github.com/Pierreg99/Cryodesignhub) · [libreoffice-masterclass-web](https://github.com/Pierreg99/libreoffice-masterclass-web)
+Agi3-AI-Music-Player *(archiviert; öffentlich nicht verfügbar)* · Cryodesignhub *(archiviert; öffentlich nicht verfügbar)* · libreoffice-masterclass-web *(archiviert; öffentlich nicht verfügbar)*
 
 ## Arbeitsmodell
 
@@ -74,13 +76,13 @@ The approach combines engineering with research, prototyping, documentation and 
 ## Selected Work
 
 ### AI & Automation
-[agent-memory](https://github.com/Pierreg99/agent-memory) · [CryAIPulse](https://github.com/Pierreg99/CryAIPulse) · [Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha)
+agent-memory *(archived; public repository unavailable)* · [CryAIPulse](https://github.com/Pierreg99/CryAIPulse) · [Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha)
 
 ### Games & Interactive Systems
-[KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame) · [Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork) · [Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer) · [Cryo-Card-V2-Cardgame](https://github.com/Pierreg99/Cryo-Card-V2-Cardgame)
+[KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame) · Chronicles-of-Lumina-GameRPGwork *(archived; public repository unavailable)* · [Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME) · Cryo-Card-V2-Cardgame *(archived; public repository unavailable)*
 
 ### Creative & Productivity Ecosystem
-[Agi3-AI-Music-Player](https://github.com/Pierreg99/Agi3-AI-Music-Player) · [Cryodesignhub](https://github.com/Pierreg99/Cryodesignhub) · [libreoffice-masterclass-web](https://github.com/Pierreg99/libreoffice-masterclass-web)
+Agi3-AI-Music-Player *(archived; public repository unavailable)* · Cryodesignhub *(archived; public repository unavailable)* · libreoffice-masterclass-web *(archived; public repository unavailable)*
 
 ## Working Model
 

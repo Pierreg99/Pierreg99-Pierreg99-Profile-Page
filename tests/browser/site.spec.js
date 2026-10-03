@@ -46,6 +46,26 @@ for (const route of routes) {
   });
 }
 
+test("Go deeper cards open the documentation, gallery, and research pages", async ({
+  page,
+}) => {
+  for (const [index, route, heading] of [
+    [0, "docs/index.html", "The thinking behind the building."],
+    [1, "docs/animation-gallery.html", "A system with a little soul."],
+    [2, "dashboard/index.html", "A look at the work before."],
+  ]) {
+    await page.goto("./");
+    const card = page.locator("#resources .resource-card").nth(index);
+    await expect(card).toHaveAttribute("href", `./${route}`);
+    await card.click();
+    await expect(page).toHaveURL(
+      new RegExp(`${route.replaceAll(".", "\\.")}$`),
+    );
+    await expect(page.locator("main h1")).toHaveText(heading);
+    await expect(page.locator(".site-footer")).toBeVisible();
+  }
+});
+
 test("search, domain, language, and scope compose and reset correctly", async ({
   page,
 }) => {

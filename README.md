@@ -48,7 +48,7 @@ The four selected-work covers are edited from each project's own visuals. Their 
 | **CRYO Portfolio** | JavaScript · Accessibility · Static site | [Explore](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/) · [Source](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page) |
 | **Streamflixrouge** | Android · TV · Upstream project | [Source](https://github.com/Pierreg99/Streamflixrouge-OMEGA-FORK) |
 
-All 14 primary projects have reviewed descriptions, dedicated previews, and separate live/source links. English and German descriptions are shared across the homepage, searchable explorer, and visual gallery. Projects without a verified public demo lead to their repositories. [Preview sources and capture notes](assets/projects/README.md) identify repository artwork, public screenshots, local captures, and upstream imagery.
+The 14 reviewed projects have descriptions, dedicated previews, and separate live/source links. English and German descriptions are shared across the homepage, searchable explorer, and visual gallery. Projects without a verified public demo lead to their repositories. [Preview sources and capture notes](assets/projects/README.md) identify repository artwork, public screenshots, local captures, and upstream imagery.
 
 ## Public inventory
 

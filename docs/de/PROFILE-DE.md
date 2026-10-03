@@ -1,3 +1,5 @@
+> Linkprüfung vom 3. Oktober 2026: Nicht öffentlich verfügbare Archivprojekte sind als Text gekennzeichnet. [Aktuelle öffentliche Projekte](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/#projects).
+
 # CRYO / Pierreg99 — Profil
 
 <div align="center">
@@ -96,15 +98,15 @@ Die immersive Domäne umfasst dort, wo Repository-Evidenz vorliegt, **Three.js, 
 
 ## Ausgewählte öffentliche Projekte
 
-- [agent-memory](https://github.com/Pierreg99/agent-memory) — AI / Agent Memory
+- agent-memory *(archiviert; öffentlich nicht verfügbar)* — AI / Agent Memory
 - [Nexo-Jarvis-AI-Futuristic-Assistant-Alpha](https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha) — AI Assistant / HUD
 - [KiBlox-VoxelGame](https://github.com/Pierreg99/KiBlox-VoxelGame) — Voxel / Game / 3D
-- [Chronicles-of-Lumina-GameRPGwork](https://github.com/Pierreg99/Chronicles-of-Lumina-GameRPGwork) — RPG / World
+- Chronicles-of-Lumina-GameRPGwork *(archiviert; öffentlich nicht verfügbar)* — RPG / World
 - [ResidentLovely-Maximum-Hapiness-Game](https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game) — Interactive Three.js Game
 - [Cryoplane-Polygonal-Flight](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight) — 3D / Flight
-- [Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer) — Game / Rhythm
+- [Cyberdash-Rhythm-Platformer](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME) — Game / Rhythm
 - [call-of-groky](https://github.com/Pierreg99/call-of-groky) — Browser FPS / Three.js
-- [Cryo-Motion-Studio-Concept-Websuite](https://github.com/Pierreg99/Cryo-Motion-Studio-Concept-Websuite) — Creative Web / Motion
+- Cryo-Motion-Studio-Concept-Websuite *(archiviert; öffentlich nicht verfügbar)* — Creative Web / Motion
 
 ## Visuelles System
 
