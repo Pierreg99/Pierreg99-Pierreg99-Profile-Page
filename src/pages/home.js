@@ -97,7 +97,7 @@ export function home({ projects, snapshot }) {
         ${featured.map((project) => featuredProject(project)).join("")}
       </div>
       <p class="caption">
-        ${t("work.caption", "Real project previews and artwork from the linked repositories. Open a project to explore it, or view its source code.")}
+        ${t("work.caption", "Portfolio covers inspired by each project's own visuals. Open a project to explore it, or view its source code.")}
       </p>
     </section>
     <section class="approach-section section" id="approach">

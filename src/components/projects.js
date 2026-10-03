@@ -21,14 +21,15 @@ export function projectActions(project) {
   </div>`;
 }
 
-export function previewLabel(project) {
+export function previewLabel(project, kind = project.imageKind) {
   const labels = {
+    cover: ["preview.cover", "Portfolio cover"],
     artwork: ["preview.artwork", "Project artwork"],
     screenshot: ["preview.screenshot", "Project screenshot"],
     local: ["preview.local", "Local preview"],
     upstream: ["preview.upstream", "Upstream preview"],
   };
-  const [key, label] = labels[project.imageKind] ?? labels.screenshot;
+  const [key, label] = labels[kind] ?? labels.screenshot;
   return t(key, label);
 }
 
@@ -39,8 +40,10 @@ export function featuredProject(project, root = "./") {
     data-featured-project="${escapeHtml(project.name)}"
   >
     <a class="featured-image" href="${destination}">
-      ${picture(root, project.image, project.imageAlt)}
-      <span class="preview-kind">${previewLabel(project)}</span>
+      ${picture(root, project.coverImage || project.image, project.coverAlt || project.imageAlt)}
+      <span class="preview-kind"
+        >${previewLabel(project, project.coverImage ? "cover" : project.imageKind)}</span
+      >
       <span class="featured-number"
         >${project.number} / ${t("work.selected", "SELECTED WORK")}</span
       >

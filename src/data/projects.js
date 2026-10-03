@@ -7,10 +7,13 @@ export const projectDetails = {
     imageAlt:
       "Pink-haired heroine and plush companions overlooking the Sweet Château.",
     imageKind: "artwork",
+    coverImage: "selected-work/resident-lovely",
+    coverAlt:
+      "Resident Lovely cover: pink-haired heroine and plush companions beside the sunlit Sweet Château.",
     description:
-      "A pastel château, curious companions, and a world to explore. A 3D survival-joy adventure with quests, crafting, and connected destinations.",
+      "Explore the Sweet Château in a pastel 3D adventure. Meet companions, complete quests, and experiment with crafting across connected destinations.",
     descriptionDe:
-      "Ein pastellfarbenes Château, neugierige Begleiter und eine Welt zum Erkunden. Ein 3D-Abenteuer mit Quests, Alchemie und verbundenen Reisezielen.",
+      "Erkunde das Sweet Château in einem pastellfarbenen 3D-Abenteuer. Triff Begleiter, erfülle Quests und entdecke Alchemie an miteinander verbundenen Reisezielen.",
     tags: ["Three.js", "Adventure", "WebGL"],
     liveUrl:
       "https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/",
@@ -25,10 +28,13 @@ export const projectDetails = {
     imageAlt:
       "KiBlox title screen with a voxel forest and campaign, creative, and free-play modes.",
     imageKind: "screenshot",
+    coverImage: "selected-work/kiblox",
+    coverAlt:
+      "KiBlox cover: sunlit voxel forest and grass-topped block cliffs beneath a cyan sky.",
     description:
-      "Build, fly, and explore five voxel worlds. Campaign, creative, and free-play modes bring construction and Ki combat into the browser.",
+      "Build your own voxel world, take flight, and explore five themed realms. Campaign, creative, and free-play modes combine construction with Ki combat.",
     descriptionDe:
-      "Bauen, fliegen und fünf Voxelwelten erkunden. Kampagne, Kreativmodus und freies Spiel verbinden Bauen und Ki-Kämpfe im Browser.",
+      "Baue deine eigene Voxelwelt, fliege und erkunde fünf Themenwelten. Kampagne, Kreativmodus und freies Spiel verbinden Bauen mit Ki-Kämpfen.",
     tags: ["TypeScript", "Three.js", "Voxels"],
     liveUrl: "https://pierreg99.github.io/KiBlox-VoxelGame/",
     action: "play",
@@ -42,10 +48,13 @@ export const projectDetails = {
     imageAlt:
       "cryOS desktop simulation with its app launcher and windowed interface.",
     imageKind: "screenshot",
+    coverImage: "selected-work/cryos",
+    coverAlt:
+      "cryOS cover: an icy-blue desktop presentation with Files and Settings windows on a navy background.",
     description:
-      "A browser simulation of a phone launcher and Linux-style desktop, with switchable environments, app windows, and gesture navigation.",
+      "Switch between a phone launcher and Linux-inspired desktops in your browser. Explore app windows, themes, and gesture navigation in an interactive interface simulation.",
     descriptionDe:
-      "Browser-Simulation eines Smartphone-Launchers und Linux-artigen Desktops mit wechselbaren Umgebungen, App-Fenstern und Gestensteuerung.",
+      "Wechsle im Browser zwischen Smartphone-Launcher und Linux-inspirierten Desktops. Entdecke App-Fenster, Designs und Gestensteuerung in einer interaktiven Oberflächensimulation.",
     tags: ["TypeScript", "Desktop UI", "Simulation"],
     liveUrl: "https://pierreg99.github.io/cryos-launcher/",
     action: "explore",
@@ -59,10 +68,13 @@ export const projectDetails = {
     imageAlt:
       "CryAIPulse interface with neural activity, heartbeat traces, and agent avatars.",
     imageKind: "screenshot",
+    coverImage: "selected-work/cryaipulse",
+    coverAlt:
+      "CryAIPulse cover: cyan neural connections flow into a rose heartbeat trace above small agent figures.",
     description:
-      "Explore an agent mesh through neural signals, heartbeat traces, and an interactive playground. A public visualization with illustrative activity counters.",
+      "Explore an agent mesh through glowing neural connections and heartbeat traces. An interactive playground presents illustrative activity in a distinctive cyan-and-rose interface.",
     descriptionDe:
-      "Ein Agentennetz mit neuronalen Signalen, Herzschlagkurven und interaktivem Playground. Öffentliche Visualisierung mit illustrativen Aktivitätsanzeigen.",
+      "Erkunde ein Agentennetz mit leuchtenden neuronalen Verbindungen und Herzschlagkurven. Ein interaktiver Playground zeigt illustrative Aktivität in Cyan und Rosé.",
     tags: ["JavaScript", "Canvas", "Visualization"],
     liveUrl: "https://pierreg99.github.io/CryAIPulse/",
     action: "explore",
@@ -84,7 +96,7 @@ export const projectDetails = {
     liveUrl: "https://pierreg99.github.io/Cryoplane-Polygonal-Flight/",
     action: "play",
   },
-  "Cyberdash-Rhythm-Platformer": {
+  "Cyberdash-Rhythm-Platformer-GAME": {
     title: "Cyberdash",
     domain: "games",
     image: "projects/cyberdash",
@@ -96,7 +108,7 @@ export const projectDetails = {
     descriptionDe:
       "Neon-Rhythmus-Plattformspiel mit 16 Levels, CRYO-Eissektor, Level-Editor und reaktiver Audio-Engine.",
     tags: ["JavaScript", "Rhythm", "Level editor"],
-    liveUrl: "https://pierreg99.github.io/Cyberdash-Rhythm-Platformer/",
+    liveUrl: "https://pierreg99.github.io/Cyberdash-Rhythm-Platformer-GAME/",
     action: "play",
   },
   "call-of-groky": {

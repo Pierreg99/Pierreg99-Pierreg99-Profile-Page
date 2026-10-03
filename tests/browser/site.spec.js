@@ -109,7 +109,9 @@ test("project pictures and actions lead to the matching project on every portfol
     await image.scrollIntoViewIfNeeded();
     await expect(image).toHaveAttribute(
       "src",
-      /assets\/projects\/resident-lovely\.jpg$/,
+      route === "./"
+        ? /assets\/selected-work\/resident-lovely\.jpg$/
+        : /assets\/projects\/resident-lovely\.jpg$/,
     );
     await expect(image).toHaveAttribute("alt", /Sweet Château/);
     await expect
@@ -126,6 +128,52 @@ test("project pictures and actions lead to the matching project on every portfol
     await expect(card.locator(".project-source")).toContainText("Quellcode");
   }
   await page.goto("./");
+  await page.locator('[data-locale="en"]').click();
+  for (const [title, slug, repositoryName] of [
+    [
+      "Resident Lovely",
+      "resident-lovely",
+      "ResidentLovely-Maximum-Hapiness-Game",
+    ],
+    ["KiBlox", "kiblox", "KiBlox-VoxelGame"],
+    ["cryOS", "cryos", "cryos-launcher"],
+    ["CryAIPulse", "cryaipulse", "CryAIPulse"],
+  ]) {
+    const card = page.locator(".featured-card").filter({
+      has: page.getByRole("heading", { name: title, exact: true }),
+    });
+    const projectUrl = `https://pierreg99.github.io/${repositoryName}/`;
+    await expect(card.locator(".featured-image")).toHaveAttribute(
+      "href",
+      projectUrl,
+    );
+    await expect(card.locator(".project-live")).toHaveAttribute(
+      "href",
+      projectUrl,
+    );
+    await expect(card.locator(".project-source")).toHaveAttribute(
+      "href",
+      `https://github.com/Pierreg99/${repositoryName}`,
+    );
+    await expect(card.locator(".preview-kind")).toHaveText("Portfolio cover");
+    const image = card.locator("img");
+    await image.scrollIntoViewIfNeeded();
+    await expect(image).toHaveAttribute(
+      "src",
+      `./assets/selected-work/${slug}.jpg`,
+    );
+    await expect
+      .poll(() => image.evaluate((element) => element.naturalWidth > 0))
+      .toBe(true);
+  }
+  await page.locator('[data-locale="de"]').click();
+  await expect(page.locator(".featured-card .preview-kind")).toHaveText([
+    "Portfolio-Cover",
+    "Portfolio-Cover",
+    "Portfolio-Cover",
+    "Portfolio-Cover",
+  ]);
+  await page.locator('[data-locale="en"]').click();
   await page.locator("[data-search]").fill("Call of Shooty");
   const localProject = page.locator("[data-project]:visible");
   await expect(localProject).toHaveCount(1);

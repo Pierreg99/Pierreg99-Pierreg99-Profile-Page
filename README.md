@@ -4,7 +4,7 @@
 
 # CRYO / Pierreg99
 
-AI experiments, software, interfaces, and interactive worlds.
+A bilingual portfolio of browser games, interface experiments, and AI visualizations — built to explore, with direct links to every project's source.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-080e16?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Explore-91e5f7?style=for-the-badge)](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/)
@@ -15,7 +15,21 @@ AI experiments, software, interfaces, and interactive worlds.
 
 </div>
 
-## Projects & previews
+## Selected work
+
+| Resident Lovely | KiBlox |
+| --- | --- |
+| [![Resident Lovely — Sweet Château portfolio cover](assets/selected-work/resident-lovely.jpg)](https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/) | [![KiBlox — voxel forest portfolio cover](assets/selected-work/kiblox.jpg)](https://pierreg99.github.io/KiBlox-VoxelGame/) |
+| Explore the Sweet Château in a pastel 3D adventure. Meet companions, complete quests, and experiment with crafting across connected destinations. | Build your own voxel world, take flight, and explore five themed realms. Campaign, creative, and free-play modes combine construction with Ki combat. |
+| [Play](https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/) · [Source](https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game) | [Play](https://pierreg99.github.io/KiBlox-VoxelGame/) · [Source](https://github.com/Pierreg99/KiBlox-VoxelGame) |
+| **cryOS** | **CryAIPulse** |
+| [![cryOS — desktop interface portfolio cover](assets/selected-work/cryos.jpg)](https://pierreg99.github.io/cryos-launcher/) | [![CryAIPulse — neural connections and heartbeat portfolio cover](assets/selected-work/cryaipulse.jpg)](https://pierreg99.github.io/CryAIPulse/) |
+| Switch between a phone launcher and Linux-inspired desktops in your browser. Explore app windows, themes, and gesture navigation in an interactive interface simulation. | Explore an agent mesh through glowing neural connections and heartbeat traces. An interactive playground presents illustrative activity in a distinctive cyan-and-rose interface. |
+| [Explore](https://pierreg99.github.io/cryos-launcher/) · [Source](https://github.com/Pierreg99/cryos-launcher) | [Explore](https://pierreg99.github.io/CryAIPulse/) · [Source](https://github.com/Pierreg99/CryAIPulse) |
+
+The four selected-work covers are edited from each project's own visuals. Their composition, lighting, and detail are refined for portfolio cards; they are labeled **Portfolio cover** on the website. [Cover sources and editing notes](assets/selected-work/README.md) describe the changes. The explorer and gallery retain the original screenshots and repository artwork.
+
+## Project collection
 
 | Project | Focus | Open |
 | --- | --- | --- |
@@ -24,7 +38,7 @@ AI experiments, software, interfaces, and interactive worlds.
 | **cryOS** | TypeScript · Desktop UI · Simulation | [Explore](https://pierreg99.github.io/cryos-launcher/) · [Source](https://github.com/Pierreg99/cryos-launcher) |
 | **CryAIPulse** | JavaScript · Canvas · Visualization | [Explore](https://pierreg99.github.io/CryAIPulse/) · [Source](https://github.com/Pierreg99/CryAIPulse) |
 | **Cryoplane** | TypeScript · Flight · Three.js | [Play](https://pierreg99.github.io/Cryoplane-Polygonal-Flight/) · [Source](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight) |
-| **Cyberdash** | JavaScript · Rhythm · Level editor | [Play](https://pierreg99.github.io/Cyberdash-Rhythm-Platformer/) · [Source](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer) |
+| **Cyberdash** | JavaScript · Rhythm · Level editor | [Play](https://pierreg99.github.io/Cyberdash-Rhythm-Platformer-GAME/) · [Source](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME) |
 | **Call of Groky** | TypeScript · Three.js · FPS | [Play](https://pierreg99.github.io/call-of-groky/) · [Source](https://github.com/Pierreg99/call-of-groky) |
 | **Call of Shooty** | Three.js · Cannon-es · FPS | [Source](https://github.com/Pierreg99/futuristic-call-of-shooty) |
 | **AI for Everyone** | Learning · DE / EN · Interactive docs | [Explore](https://pierreg99.github.io/AI-FOR-Everyone-Learn-Docs/en/) · [Source](https://github.com/Pierreg99/AI-FOR-Everyone-Learn-Docs) |
@@ -34,9 +48,7 @@ AI experiments, software, interfaces, and interactive worlds.
 | **CRYO Portfolio** | JavaScript · Accessibility · Static site | [Explore](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/) · [Source](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page) |
 | **Streamflixrouge** | Android · TV · Upstream project | [Source](https://github.com/Pierreg99/Streamflixrouge-OMEGA-FORK) |
 
-[![Resident Lovely — Sweet Château project artwork](assets/projects/resident-lovely.jpg)](https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/)
-
-The portfolio uses each project's own screenshots or repository artwork. Featured cards, the searchable explorer, and the gallery share reviewed descriptions, project pictures, and separate live/source links. Projects without a verified public demo lead to their repositories. [Preview sources and capture notes](assets/projects/README.md) identify local captures and upstream imagery.
+All 14 primary projects have reviewed descriptions, dedicated previews, and separate live/source links. English and German descriptions are shared across the homepage, searchable explorer, and visual gallery. Projects without a verified public demo lead to their repositories. [Preview sources and capture notes](assets/projects/README.md) identify repository artwork, public screenshots, local captures, and upstream imagery.
 
 ## Public inventory
 
@@ -88,7 +100,9 @@ scripts/
   prepare-assets.mjs   Responsive WebP, MP4, SVG optimization, and asset manifest
   dev.mjs / serve.mjs   Development rebuilds and a subpath-compatible preview server
   profile_sync/        Validated public metadata synchronization
-assets/                Canonical artwork, motion originals, and public snapshots
+assets/selected-work/  Edited covers for the four selected projects
+assets/projects/       Original project previews and source records
+assets/                Identity artwork, motion originals, and public snapshots
 docs/en/ / docs/de/     Separate English and German source documents
 academic-evaluation/   Original historical research datasets and downloads
 reports/               Original daily reports and inventories
@@ -100,7 +114,7 @@ The legacy page URLs remain available in the generated site. Markdown sources ar
 
 ## Documentation / Dokumentation
 
-Visual review: [desktop preview](./docs/previews/desktop.webp) · [mobile preview](./docs/previews/mobile.webp).
+Visual review: [desktop preview](./docs/previews/desktop.webp) · [mobile preview](./docs/previews/mobile.webp) · selected work [desktop](./docs/previews/projects-desktop.webp) / [mobile](./docs/previews/projects-mobile.webp).
 
 | Reference | English | Deutsch |
 | --- | --- | --- |

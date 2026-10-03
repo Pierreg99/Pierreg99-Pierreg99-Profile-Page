@@ -62,7 +62,7 @@ export const de = {
     "Öffentliche Projekte aus interaktiven Welten, Oberflächen und KI.",
   "work.all": "Alle Projekte",
   "work.caption":
-    "Echte Projektvorschauen und Artwork aus den verlinkten Repositories. Öffne ein Projekt oder sieh dir seinen Quellcode an.",
+    "Portfolio-Cover auf Grundlage der eigenen Projektbilder. Öffne ein Projekt oder sieh dir seinen Quellcode an.",
   "work.selected": "AUSGEWÄHLTE ARBEITEN",
   "project.play": "Im Browser spielen",
   "project.explore": "Projekt öffnen",
@@ -70,6 +70,7 @@ export const de = {
   "project.source": "Quellcode",
   "project.archived": "Archiviert",
   "preview.artwork": "Projekt-Artwork",
+  "preview.cover": "Portfolio-Cover",
   "preview.screenshot": "Projekt-Screenshot",
   "preview.local": "Lokale Vorschau",
   "preview.upstream": "Upstream-Vorschau",

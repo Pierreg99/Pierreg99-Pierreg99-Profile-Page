@@ -1,6 +1,6 @@
 # Project preview sources
 
-Reviewed on 2026-10-02. These images show the linked projects and their own artwork. Original concept studies remain in the visual laboratory.
+Reviewed on 2026-10-02. These images show the linked projects and their own artwork in the explorer and gallery. The homepage uses separately edited [selected-work covers](../selected-work/README.md). Original concept studies remain in the visual laboratory.
 
 | Project | Preview | Source |
 | --- | --- | --- |
@@ -9,7 +9,7 @@ Reviewed on 2026-10-02. These images show the linked projects and their own artw
 | [cryOS](https://github.com/Pierreg99/cryos-launcher) | Project screenshot | [Image or page](https://pierreg99.github.io/cryos-launcher/) |
 | [CryAIPulse](https://github.com/Pierreg99/CryAIPulse) | Project screenshot | [Image or page](https://pierreg99.github.io/CryAIPulse/) |
 | [Cryoplane](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight) | Project screenshot | [Image or page](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight/blob/b51293443e84f35b44395b701a624a79c000a5b8/docs/images/play.png) |
-| [Cyberdash](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer) | Project screenshot | [Image or page](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer/blob/b28de2ff4c74164cf7cbecc7022b848da1bbf5b0/docs/images/cover-gameplay.jpg) |
+| [Cyberdash](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME) | Project screenshot | [Image or page](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME/blob/b28de2ff4c74164cf7cbecc7022b848da1bbf5b0/docs/images/cover-gameplay.jpg) |
 | [Call of Groky](https://github.com/Pierreg99/call-of-groky) | Project screenshot | [Image or page](https://github.com/Pierreg99/call-of-groky/blob/a9777e0bfc6f6fe00965b5106983cc68ea6d13a1/docs/shots/01-mid-greybox.png) |
 | [Call of Shooty](https://github.com/Pierreg99/futuristic-call-of-shooty) | Local source preview | [Image or page](https://github.com/Pierreg99/futuristic-call-of-shooty/blob/bb761a3fd5b0c30700fc8e87d223dfe84589fbb1/index.html) |
 | [AI for Everyone](https://github.com/Pierreg99/AI-FOR-Everyone-Learn-Docs) | Project screenshot | [Image or page](https://pierreg99.github.io/AI-FOR-Everyone-Learn-Docs/en/) |

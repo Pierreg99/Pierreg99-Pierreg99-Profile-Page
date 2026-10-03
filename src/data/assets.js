@@ -71,4 +71,8 @@ export const projectAssets = Object.values(projectDetails)
   .filter((project) => project.image)
   .map((project) => [project.image, project.title]);
 
-export const stillAssets = [...conceptAssets, ...projectAssets];
+export const coverAssets = Object.values(projectDetails)
+  .filter((project) => project.coverImage)
+  .map((project) => [project.coverImage, `${project.title} portfolio cover`]);
+
+export const stillAssets = [...conceptAssets, ...projectAssets, ...coverAssets];

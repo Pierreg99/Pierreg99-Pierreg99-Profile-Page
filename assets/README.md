@@ -12,7 +12,7 @@ All original vector studies below retain their historical presentation context. 
 
 The `assets/` directory contains the visual system for the profile README.
 
-Current project pictures are documented in [`projects/README.md`](projects/README.md), with machine-readable provenance in [`projects/manifest.json`](projects/manifest.json). They are shared by the featured cards, project explorer, and project preview gallery.
+The four edited portfolio covers are documented in [`selected-work/README.md`](selected-work/README.md) and used on the homepage and root README. Original project pictures are documented in [`projects/README.md`](projects/README.md), with machine-readable provenance in [`projects/manifest.json`](projects/manifest.json), and used by the explorer and preview gallery. Both sets receive responsive WebP derivatives.
 
 ## Composition
 

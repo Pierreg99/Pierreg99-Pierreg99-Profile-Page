@@ -92,6 +92,8 @@ export async function renderDocuments(output, pages) {
       "docs/README.md",
       "assets/README.md",
       "assets/ASSET-CATALOG.md",
+      "assets/projects/README.md",
+      "assets/selected-work/README.md",
       "docs/en/ARCHITECTURE-EN.md",
       "docs/de/ARCHITECTURE-DE.md",
       "docs/en/PROFILE-DESIGN-SYSTEM-EN.md",

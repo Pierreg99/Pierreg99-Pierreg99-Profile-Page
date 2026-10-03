@@ -63,12 +63,12 @@
       "sha256": "0eb232ec69dc14d3d04c1c0d0b9437a313114787113e97b00159fc9e7168eb55"
     },
     {
-      "repository": "Cyberdash-Rhythm-Platformer",
+      "repository": "Cyberdash-Rhythm-Platformer-GAME",
       "title": "Cyberdash",
       "file": "assets/projects/cyberdash.jpg",
       "kind": "screenshot",
-      "source": "https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer/blob/b28de2ff4c74164cf7cbecc7022b848da1bbf5b0/docs/images/cover-gameplay.jpg",
-      "repositoryUrl": "https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer",
+      "source": "https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME/blob/b28de2ff4c74164cf7cbecc7022b848da1bbf5b0/docs/images/cover-gameplay.jpg",
+      "repositoryUrl": "https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME",
       "reviewedAt": "2026-10-02",
       "width": 1376,
       "height": 768,
