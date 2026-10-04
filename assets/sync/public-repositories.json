@@ -164,16 +164,6 @@
       "topics": []
     },
     {
-      "name": "cryo-omega-ultra",
-      "url": "https://github.com/Pierreg99/cryo-omega-ultra",
-      "description": "CryoOmega ULTRA — unified CLI, TUI and Web IDE workspace",
-      "language": "Python",
-      "fork": false,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "CRYOPATRAE-OMEGA-",
       "url": "https://github.com/Pierreg99/CRYOPATRAE-OMEGA-",
       "description": "LINGUISTIC ENGINE FOR AI",
@@ -772,5 +762,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-03T12:41:25+00:00"
+  "updatedAt": "2026-10-04T15:28:34+00:00"
 }
