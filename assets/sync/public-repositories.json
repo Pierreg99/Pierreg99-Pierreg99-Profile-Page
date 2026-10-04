@@ -154,6 +154,16 @@
       "topics": []
     },
     {
+      "name": "core-termux-OMEGAFORK",
+      "url": "https://github.com/Pierreg99/core-termux-OMEGAFORK",
+      "description": "Turn Termux into a complete development workstation with AI coding agents, a modern code editor, databases, automation, and developer tools.",
+      "language": null,
+      "fork": true,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
       "name": "CryAIPulse",
       "url": "https://github.com/Pierreg99/CryAIPulse",
       "description": "CryAIPulse — public brain & heart pulse visualization for the Cryo Omega / AGI-3 agentic mesh",
@@ -762,5 +772,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-04T15:28:34+00:00"
+  "updatedAt": "2026-10-04T22:28:15+00:00"
 }
