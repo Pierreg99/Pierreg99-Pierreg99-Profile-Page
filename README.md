@@ -1,5 +1,62 @@
 <div align="center">
 
+<img src="./assets/readme-banner.svg" alt="Pierreg99-Pierreg99-Profile-Page" width="100%">
+
+# Pierreg99-Pierreg99-Profile-Page
+
+Eigenes Repository. GitHub hat noch keine Beschreibung gesetzt.
+
+[![branch](https://img.shields.io/badge/branch-main-7EB8C9?style=flat-square)](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page)
+[![sichtbarkeit](https://img.shields.io/badge/sichtbarkeit-öffentlich-141414?style=flat-square&labelColor=0A0A0A)](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page)
+[![sprache](https://img.shields.io/badge/sprache-JavaScript-2A2A28?style=flat-square&labelColor=0A0A0A)](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page)
+
+</div>
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+### Bestand
+
+Keine Beschreibung im Repo-Metadatum. Dieses README erfindet deshalb keine Funktionen, Releases oder Laufzeiten.
+
+Der Default-Branch `main` ist die Fläche, die zählt. Was nicht in diesem Baum liegt, ist kein Feature dieses Repos.
+
+</td>
+<td width="42%" valign="top">
+
+### Fakten
+
+| Feld | Wert |
+| --- | --- |
+| Owner | Pierreg99 |
+| Branch | `main` |
+| Sichtbarkeit | öffentlich |
+| Sprache | JavaScript |
+| Archiv | nein |
+
+</td>
+</tr>
+</table>
+
+## Lesen
+
+1. Default-Branch öffnen.
+2. Nur Dateien in diesem Baum als Beleg nehmen.
+3. Issues und Diskussionen nur nutzen, wenn sie im Repo eingeschaltet sind.
+
+## Grenze
+
+Keine Qualitätszahl, kein Paketstand und keine Runtime, die nicht als Datei in diesem Repo steht.
+
+<p align="center"><sub>Fläche nach Cryo Core Lite v1.5 · Tokens #0A0A0A / #141414 / #7EB8C9</sub></p>
+
+
+<details>
+<summary>Bisheriger README-Text</summary>
+
+<div align="center">
+
 <img src="./assets/cryo-header.svg" alt="CRYO / Pierreg99 — Ideas into code. Code into experiences." width="100%" />
 
 # CRYO / Pierreg99
@@ -89,53 +146,8 @@ The runtime uses plain HTML, CSS, and native browser modules. Dependencies are u
 
 ```text
 src/
-  components/          Shared layout, icons, media, explorer, and section templates
-  pages/               Home, resources, gallery, languages, research, and reports
-  client/              Navigation, localization, project filters, and motion controls
-  styles/              Design tokens, base, layout, components, and page styles
-  data/                Editorial projects, bilingual UI, documents, and asset registry
-  lib/                 HTML helpers and pure portfolio calculations
-scripts/
-  build.mjs            Static page generation, document rendering, and browser bundles
-  prepare-assets.mjs   Responsive WebP, MP4, SVG optimization, and asset manifest
-  dev.mjs / serve.mjs   Development rebuilds and a subpath-compatible preview server
-  profile_sync/        Validated public metadata synchronization
-assets/selected-work/  Edited covers for the four selected projects
-assets/projects/       Original project previews and source records
-assets/                Identity artwork, motion originals, and public snapshots
-docs/en/ / docs/de/     Separate English and German source documents
-academic-evaluation/   Original historical research datasets and downloads
-reports/               Original daily reports and inventories
-tests/                 Data, synchronization, link, browser, and accessibility checks
-dist/                  Generated deployment artifact (not committed)
-```
+  c
 
-The legacy page URLs remain available in the generated site. Markdown sources are retained, and the build creates readable HTML documents with working relative links. Directory entry pages cover resources, reports, task records, and the asset library.
+… gekürzt, Original bleibt in der Git-Historie.
 
-## Documentation / Dokumentation
-
-Visual review: [desktop preview](./docs/previews/desktop.webp) · [mobile preview](./docs/previews/mobile.webp) · selected work [desktop](./docs/previews/projects-desktop.webp) / [mobile](./docs/previews/projects-mobile.webp).
-
-| Reference | English | Deutsch |
-| --- | --- | --- |
-| Architecture | [EN](./docs/en/ARCHITECTURE-EN.md) | [DE](./docs/de/ARCHITECTURE-DE.md) |
-| Profile | [EN](./docs/en/PROFILE-EN.md) | [DE](./docs/de/PROFILE-DE.md) |
-| Technical stack | [EN](./docs/en/TECH-STACK-EN.md) | [DE](./docs/de/TECH-STACK-DE.md) |
-| Design system | [EN](./docs/en/PROFILE-DESIGN-SYSTEM-EN.md) | [DE](./docs/de/PROFILE-DESIGN-SYSTEM-DE.md) |
-| Historical academic methodology | [EN](./docs/en/ACADEMIC-EVALUATION-EN.md) | [DE](./docs/de/ACADEMIC-EVALUATION-DE.md) |
-
-[Complete document library](./docs/README.md) · [Visual laboratory](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/docs/animation-gallery.html) · [Asset catalog](./assets/ASSET-CATALOG.md) · [Research archive](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/dashboard/) · [Daily reports](./reports/daily/)
-
-## Assets and motion
-
-Canonical JPGs, GIFs, MP4, and vectors retain their stable paths. The build prepares responsive WebP images, compressed MP4 versions of all five GIF studies, and an inspectable asset manifest. Motion starts from a still and loads only after playback is requested; leaving the viewport pauses it. Reduced-motion preferences are respected.
-
-Self-hosted Manrope and Space Grotesk fonts include their SIL Open Font License files. The interface uses local fonts, artwork, and data, with no analytics or live API calls. Historical documents retain their GitHub reference badges.
-
-## Delivery and data
-
-Pull requests run the full checks and browser suite, then provide a downloadable site artifact. On `main`, the Pages workflow deploys the validated `dist/` artifact through the standard Pages actions using the existing site's configuration. Deployment runs from `main`, which also matches the configured source branch. The hourly profile sync updates verified public metadata and badges only when their content changes, validates the result, and requests a fresh Pages build after a change.
-
-Research documents and original SVG studies remain a dated archive. Their editorial scores and old inventories are clearly separated from the current public snapshot.
-
-[GitHub](https://github.com/Pierreg99) · [X / cryofreee](https://x.com/cryofreee) · [Beacons](https://beacons.ai/cryopg.it)
+</details>
