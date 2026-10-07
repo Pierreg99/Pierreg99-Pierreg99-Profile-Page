@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/readme-banner.svg" alt="Pierreg99-Pierreg99-Profile-Page" width="100%">
+
 # CRYO / Pierreg99
 
 <p><strong>Zweisprachiges Portfolio mit Browser-Spielen, Interface-Experimenten und AI-Visualisierungen.</strong></p>
@@ -16,10 +18,38 @@
 <p><a href="#schnellstart">Schnellstart</a> · <a href="#projektstruktur">Projektstruktur</a> · <a href="#english-summary">English</a></p>
 </div>
 
+<table>
+<tr>
+<td width="58%" valign="top">
+
+### Bestand
+
+Keine Beschreibung im Repo-Metadatum. Dieses README erfindet deshalb keine Funktionen, Releases oder Laufzeiten.
+
+Der Default-Branch `main` ist die Fläche, die zählt. Was nicht in diesem Baum liegt, ist kein Feature dieses Repos.
+
+</td>
+<td width="42%" valign="top">
+
+### Fakten
+
+| Feld | Wert |
+| --- | --- |
+| Owner | Pierreg99 |
+| Branch | `main` |
+| Sichtbarkeit | öffentlich |
+| Sprache | JavaScript |
+| Archiv | nein |
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## Inhaltsverzeichnis
 
+- [Bestand und Fakten](#bestand)
 - [Überblick](#überblick)
 - [Features](#features)
 - [Schnellstart](#schnellstart)
@@ -36,7 +66,7 @@ Zweisprachiges Portfolio mit Browser-Spielen, Interface-Experimenten und AI-Visu
 | Merkmal | Wert |
 | --- | --- |
 | Sprachen | JavaScript (70%), CSS (21%), Python (10%) |
-| Dateien im Repository | 175 |
+| Dateien im Repository | 176 |
 | Version (`package.json`) | 2.0.0 |
 | CI-Workflows | 2 |
 
@@ -49,7 +79,7 @@ Zweisprachiges Portfolio mit Browser-Spielen, Interface-Experimenten und AI-Visu
 - Automatisierung über GitHub Actions: `deploy-pages.yml`, `profile-sync.yml`
 - Veröffentlichung über GitHub Pages
 - 4 Testdateien im Repository
-- 14 SVG-Grafiken
+- 15 SVG-Grafiken
 - 52 Markdown-Dokumente
 
 ## Schnellstart
@@ -97,7 +127,7 @@ npm run check
 ```mermaid
 flowchart LR
     R(["Pierreg99-Pierreg99-Profile-Page"])
-    R --> D0["assets/<br/>54 Dateien"]
+    R --> D0["assets/<br/>55 Dateien"]
     R --> D1["docs/<br/>35 Dateien"]
     R --> D2["src/<br/>34 Dateien"]
     R --> D3["academic-evaluation/<br/>13 Dateien"]
@@ -117,14 +147,14 @@ Pierreg99-Pierreg99-Profile-Page/
 ├── academic-evaluation/  (13 Dateien)
 │   ├── dev-team/
 │   └── task-time-progress/
-├── assets/  (54 Dateien)
+├── assets/  (55 Dateien)
 │   ├── animations/
 │   ├── flagships/
 │   ├── projects/
 │   ├── selected-work/
 │   ├── sync/
 │   ├── ASSET-CATALOG.md
-│   └── … (20 weitere)
+│   └── … (21 weitere)
 ├── docs/  (35 Dateien)
 │   ├── de/
 │   ├── en/
