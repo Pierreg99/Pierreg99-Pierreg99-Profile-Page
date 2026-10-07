@@ -1,8 +1,182 @@
 <div align="center">
 
-<img src="./assets/cryo-header.svg" alt="CRYO / Pierreg99 — Ideas into code. Code into experiences." width="100%" />
-
 # CRYO / Pierreg99
+
+<p><strong>Zweisprachiges Portfolio mit Browser-Spielen, Interface-Experimenten und AI-Visualisierungen.</strong></p>
+<p>
+<img alt="JavaScript: 70%" src="https://img.shields.io/badge/JavaScript-70%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+<img alt="CSS: 21%" src="https://img.shields.io/badge/CSS-21%25-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img alt="Python: 10%" src="https://img.shields.io/badge/Python-10%25-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img alt="Sichtbarkeit: Öffentlich" src="https://img.shields.io/badge/Sichtbarkeit-%C3%96ffentlich-0B7285?style=for-the-badge">
+</p>
+<p>
+<a href="https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page/actions/workflows/deploy-pages.yml"><img alt="deploy-pages.yml" src="https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page/actions/workflows/deploy-pages.yml/badge.svg"></a>
+<a href="https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page/actions/workflows/profile-sync.yml"><img alt="profile-sync.yml" src="https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page/actions/workflows/profile-sync.yml/badge.svg"></a>
+</p>
+<p><a href="#schnellstart">Schnellstart</a> · <a href="#projektstruktur">Projektstruktur</a> · <a href="#english-summary">English</a></p>
+</div>
+
+---
+
+## Inhaltsverzeichnis
+
+- [Überblick](#überblick)
+- [Features](#features)
+- [Schnellstart](#schnellstart)
+- [Architektur](#architektur)
+- [Projektstruktur](#projektstruktur)
+- [Dokumentation](#dokumentation)
+- [Projektdetails](#projektdetails)
+- [English summary](#english-summary)
+
+## Überblick
+
+Zweisprachiges Portfolio mit Browser-Spielen, Interface-Experimenten und AI-Visualisierungen.
+
+| Merkmal | Wert |
+| --- | --- |
+| Sprachen | JavaScript (70%), CSS (21%), Python (10%) |
+| Dateien im Repository | 175 |
+| Version (`package.json`) | 2.0.0 |
+| CI-Workflows | 2 |
+
+## Features
+
+- End-to-End-Tests mit Playwright
+- Linting mit ESLint
+- Lokale Speicherung im Browser (localStorage)
+- Kommandozeilen-Interface (argparse)
+- Automatisierung über GitHub Actions: `deploy-pages.yml`, `profile-sync.yml`
+- Veröffentlichung über GitHub Pages
+- 4 Testdateien im Repository
+- 14 SVG-Grafiken
+- 52 Markdown-Dokumente
+
+## Schnellstart
+
+```bash
+git clone https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page.git
+cd Pierreg99-Pierreg99-Profile-Page
+```
+
+**Node.js**
+
+```bash
+npm install
+npm run dev
+npm run build
+npm run preview
+npm run test
+npm run lint
+npm run check
+```
+
+<details>
+<summary>Alle Skripte aus <code>package.json</code></summary>
+
+| Skript | Befehl |
+| --- | --- |
+| `dev` | `node scripts/dev.mjs` |
+| `build` | `node scripts/build.mjs` |
+| `preview` | `node scripts/serve.mjs` |
+| `assets` | `node scripts/prepare-assets.mjs` |
+| `sync` | `python3 scripts/sync_profile_assets.py` |
+| `lint` | `eslint . && prettier --check src scripts/*.mjs tests package.json eslint.config.js play...` |
+| `format` | `prettier --write src scripts/*.mjs tests package.json eslint.config.js playwright.confi...` |
+| `test` | `node --test tests/unit/*.test.js && python3 -m unittest discover -s tests/python` |
+| `test:browser` | `playwright test` |
+| `validate` | `python3 scripts/validate-local-links.py --root . && python3 scripts/validate-local-link...` |
+| `check` | `npm run lint && npm test && npm run build && npm run validate` |
+
+</details>
+
+## Architektur
+
+Übersicht der wichtigsten Verzeichnisse nach Anzahl der enthaltenen Dateien.
+
+```mermaid
+flowchart LR
+    R(["Pierreg99-Pierreg99-Profile-Page"])
+    R --> D0["assets/<br/>54 Dateien"]
+    R --> D1["docs/<br/>35 Dateien"]
+    R --> D2["src/<br/>34 Dateien"]
+    R --> D3["academic-evaluation/<br/>13 Dateien"]
+    R --> D4["scripts/<br/>11 Dateien"]
+    R --> D5["reports/<br/>10 Dateien"]
+    R --> D6["tests/<br/>4 Dateien"]
+    CI[["GitHub Actions<br/>2 Workflows"]] -.-> R
+```
+
+## Projektstruktur
+
+```text
+Pierreg99-Pierreg99-Profile-Page/
+├── .github/  (3 Dateien)
+│   ├── workflows/
+│   └── pull_request_template.md
+├── academic-evaluation/  (13 Dateien)
+│   ├── dev-team/
+│   └── task-time-progress/
+├── assets/  (54 Dateien)
+│   ├── animations/
+│   ├── flagships/
+│   ├── projects/
+│   ├── selected-work/
+│   ├── sync/
+│   ├── ASSET-CATALOG.md
+│   └── … (20 weitere)
+├── docs/  (35 Dateien)
+│   ├── de/
+│   ├── en/
+│   ├── previews/
+│   └── README.md
+├── reports/  (10 Dateien)
+│   ├── daily/
+│   └── raud/
+├── scripts/  (11 Dateien)
+│   ├── profile_sync/
+│   ├── build.mjs
+│   ├── dev.mjs
+│   ├── prepare-assets.mjs
+│   ├── render-documents.mjs
+│   ├── serve.mjs
+│   └── … (4 weitere)
+├── src/  (34 Dateien)
+│   ├── client/
+│   ├── components/
+│   ├── data/
+│   ├── lib/
+│   ├── pages/
+│   └── styles/
+├── tests/  (4 Dateien)
+│   ├── browser/
+│   ├── python/
+│   └── unit/
+├── .gitignore
+├── CHANGELOG-DE.md
+├── CHANGELOG.md
+├── eslint.config.js
+├── package-lock.json
+├── package.json
+├── playwright.config.js
+├── README-PROFESSIONAL-PORTFOLIO.md
+└── README.md
+```
+
+## Dokumentation
+
+- [CHANGELOG-DE.md](CHANGELOG-DE.md)
+- [CHANGELOG.md](CHANGELOG.md)
+- [README-PROFESSIONAL-PORTFOLIO.md](README-PROFESSIONAL-PORTFOLIO.md)
+- [docs/README.md](docs/README.md)
+
+## Projektdetails
+
+Der folgende Abschnitt übernimmt die bisherige Projektdokumentation.
+
+<div align="center">
+
+<img src="./assets/cryo-header.svg" alt="CRYO / Pierreg99 — Ideas into code. Code into experiences." width="100%" />
 
 A bilingual portfolio of browser games, interface experiments, and AI visualizations — built to explore, with direct links to every project's source.
 
@@ -139,3 +313,9 @@ Pull requests run the full checks and browser suite, then provide a downloadable
 Research documents and original SVG studies remain a dated archive. Their editorial scores and old inventories are clearly separated from the current public snapshot.
 
 [GitHub](https://github.com/Pierreg99) · [X / cryofreee](https://x.com/cryofreee) · [Beacons](https://beacons.ai/cryopg.it)
+
+## English summary
+
+Bilingual portfolio of browser games, interface experiments and AI visualizations.
+
+Clone the repository and follow the commands in [Schnellstart](#schnellstart); the [project layout](#projektstruktur) shows where the code lives. Further documents are listed under [Dokumentation](#dokumentation).
