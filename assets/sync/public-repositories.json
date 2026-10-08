@@ -415,7 +415,7 @@
       "name": "NEXUS-AI-SENSORIC",
       "url": "https://github.com/Pierreg99/NEXUS-AI-SENSORIC",
       "description": "CryAIPulse — public brain & heart pulse visualization for the Cryo Omega / AGI-3 agentic mesh",
-      "language": "JavaScript",
+      "language": "HTML",
       "fork": false,
       "archived": false,
       "stars": 1,
@@ -772,5 +772,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-07T09:10:05+00:00"
+  "updatedAt": "2026-10-08T16:50:51+00:00"
 }
