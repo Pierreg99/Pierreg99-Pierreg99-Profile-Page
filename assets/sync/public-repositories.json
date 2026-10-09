@@ -127,7 +127,7 @@
       "name": "CryoNexis-Lunar-Eclispe",
       "url": "https://github.com/Pierreg99/CryoNexis-Lunar-Eclispe",
       "description": "",
-      "language": null,
+      "language": "JavaScript",
       "fork": false,
       "archived": false,
       "stars": 0,
@@ -654,5 +654,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-09T16:29:51+00:00"
+  "updatedAt": "2026-10-09T21:10:24+00:00"
 }
