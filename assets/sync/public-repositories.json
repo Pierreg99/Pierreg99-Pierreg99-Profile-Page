@@ -14,16 +14,6 @@
       "topics": []
     },
     {
-      "name": "Ab-download-Manager-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/Ab-download-Manager-OMEGA-FORK",
-      "description": "A Download Manager that speeds up your downloads",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "AdrenoGpuDriver-Omega-Fork",
       "url": "https://github.com/Pierreg99/AdrenoGpuDriver-Omega-Fork",
       "description": "Module template for Qualcomm Snapdragon drivers (Adreno GPU). Script for editing driver extensions is planned for the future.",
@@ -61,36 +51,6 @@
       "fork": false,
       "archived": false,
       "stars": 1,
-      "topics": []
-    },
-    {
-      "name": "AnymeX-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/AnymeX-OMEGA-FORK",
-      "description": "An Open Source app for Tracking Multi Service (AL, MAL, SIMKL)",
-      "language": "Dart",
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "AnymeXExtensionRuntimeBridge-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/AnymeXExtensionRuntimeBridge-OMEGA-FORK",
-      "description": "",
-      "language": "Kotlin",
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "awesome-ai-video-generation-list-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/awesome-ai-video-generation-list-OMEGA-FORK",
-      "description": "A curated list of AI video generation tools - text-to-video, avatars, UGC ads, lip sync, and open source models.     ",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
       "topics": []
     },
     {
@@ -194,6 +154,26 @@
       "topics": []
     },
     {
+      "name": "CryoSecOPS-RTASE",
+      "url": "https://github.com/Pierreg99/CryoSecOPS-RTASE",
+      "description": "",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "CryOVSeries-MarketingOfficial",
+      "url": "https://github.com/Pierreg99/CryOVSeries-MarketingOfficial",
+      "description": "CryOVSeries Marketing Official — public CryoSys Enterprise v3 claims, author sales pages, and validated source register. No prices, no private packets.",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
       "name": "Cyberdash-Rhythm-Platformer-GAME",
       "url": "https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME",
       "description": "CYBER DASH — Neon rhythm platformer with 16 levels, CRYO ice sector, full editor, and kinetic audio engine",
@@ -206,26 +186,6 @@
     {
       "name": "Dartotsu-Downloader-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/Dartotsu-Downloader-OMEGA-FORK",
-      "description": "",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "Dartotsu-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/Dartotsu-OMEGA-FORK",
-      "description": "A multiplatform tracking client based on Dantotsu",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "DartotsuExtensionBridge-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/DartotsuExtensionBridge-OMEGA-FORK",
       "description": "",
       "language": null,
       "fork": true,
@@ -324,24 +284,6 @@
       "topics": []
     },
     {
-      "name": "KiBlox-VoxelGame",
-      "url": "https://github.com/Pierreg99/KiBlox-VoxelGame",
-      "description": "KI BLOX — Voxel-Welt zum Bauen, Fliegen und Ki-Kampf",
-      "language": "TypeScript",
-      "fork": false,
-      "archived": false,
-      "stars": 0,
-      "topics": [
-        "browser-game",
-        "first-person",
-        "react",
-        "threejs",
-        "typescript",
-        "voxel-game",
-        "webgl"
-      ]
-    },
-    {
       "name": "Lazymux-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/Lazymux-OMEGA-FORK",
       "description": "termux tool installer",
@@ -412,18 +354,8 @@
       "topics": []
     },
     {
-      "name": "NEXUS-AI-SENSORIC",
-      "url": "https://github.com/Pierreg99/NEXUS-AI-SENSORIC",
-      "description": "CryAIPulse — public brain & heart pulse visualization for the Cryo Omega / AGI-3 agentic mesh",
-      "language": "HTML",
-      "fork": false,
-      "archived": false,
-      "stars": 1,
-      "topics": []
-    },
-    {
-      "name": "Nexus-Lunas-GPAI-Fan-Present",
-      "url": "https://github.com/Pierreg99/Nexus-Lunas-GPAI-Fan-Present",
+      "name": "Pierreg99-GPAI-CommunityPresent-P-Series",
+      "url": "https://github.com/Pierreg99/Pierreg99-GPAI-CommunityPresent-P-Series",
       "description": "",
       "language": "JavaScript",
       "fork": false,
@@ -432,23 +364,13 @@
       "topics": []
     },
     {
-      "name": "ObtaniumAndroid-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/ObtaniumAndroid-OMEGA-FORK",
-      "description": "A good config of FOSS Obtanium apps for Android",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "Pierreg99-Pierreg99-Profile-Page",
-      "url": "https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page",
+      "name": "Pierreg99-Profile-Page",
+      "url": "https://github.com/Pierreg99/Pierreg99-Profile-Page",
       "description": "",
       "language": "JavaScript",
       "fork": false,
       "archived": false,
-      "stars": 1,
+      "stars": 0,
       "topics": []
     },
     {
@@ -476,16 +398,6 @@
       "url": "https://github.com/Pierreg99/progress",
       "description": "Public Cryo Omega progress % + quality audits (private projects by secret codename only)",
       "language": "HTML",
-      "fork": false,
-      "archived": false,
-      "stars": 1,
-      "topics": []
-    },
-    {
-      "name": "ResidentLovely-Maximum-Hapiness-Game",
-      "url": "https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game",
-      "description": "Resident Lovely: 3D Survival-Joy Web Game (Resident Evil Wholesome Parody) with Three.js, Quests, Weapons, and Radar Maps",
-      "language": "JavaScript",
       "fork": false,
       "archived": false,
       "stars": 0,
@@ -548,7 +460,7 @@
       "language": null,
       "fork": true,
       "archived": false,
-      "stars": 0,
+      "stars": 1,
       "topics": []
     },
     {
@@ -642,16 +554,6 @@
       "topics": []
     },
     {
-      "name": "termux-ai-suite-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/termux-ai-suite-OMEGA-FORK",
-      "description": "A comprehensive toolkit for running advanced AI models and automation scripts within the Termux environment.",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "termux-api-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/termux-api-OMEGA-FORK",
       "description": "Termux add-on app which exposes device functionality as API to command line programs.",
@@ -682,29 +584,9 @@
       "topics": []
     },
     {
-      "name": "termux-desktop-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/termux-desktop-OMEGA-FORK",
-      "description": "Install a full Linux desktop environment on your Android device with Termux X11 ( VNC optional) and also enable hardware acceleration",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "termux-packages-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/termux-packages-OMEGA-FORK",
       "description": "A package build system for Termux.",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "termux-x11-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/termux-x11-OMEGA-FORK",
-      "description": "Termux X-server add-on.",
       "language": null,
       "fork": true,
       "archived": false,
@@ -742,16 +624,6 @@
       "topics": []
     },
     {
-      "name": "YT-Music-SpotiFLAC-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/YT-Music-SpotiFLAC-OMEGA-FORK",
-      "description": "A high‑performance SpotiFLAC extension that adds YouTube Music as a source for search, metadata, and high‑quality audio downloads.",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "zapstore-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/zapstore-OMEGA-FORK",
       "description": "The open app store",
@@ -772,5 +644,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-08T16:50:51+00:00"
+  "updatedAt": "2026-10-09T09:32:21+00:00"
 }
