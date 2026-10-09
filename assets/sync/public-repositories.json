@@ -124,6 +124,16 @@
       "topics": []
     },
     {
+      "name": "CryoNexis-Lunar-Eclispe",
+      "url": "https://github.com/Pierreg99/CryoNexis-Lunar-Eclispe",
+      "description": "",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
       "name": "CRYOPATRAE-OMEGA-",
       "url": "https://github.com/Pierreg99/CRYOPATRAE-OMEGA-",
       "description": "LINGUISTIC ENGINE FOR AI",
@@ -460,7 +470,7 @@
       "language": null,
       "fork": true,
       "archived": false,
-      "stars": 1,
+      "stars": 0,
       "topics": []
     },
     {
@@ -644,5 +654,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-09T09:32:21+00:00"
+  "updatedAt": "2026-10-09T16:29:51+00:00"
 }

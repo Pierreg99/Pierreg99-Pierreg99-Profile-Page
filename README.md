@@ -65,8 +65,8 @@ A bilingual portfolio of browser games, interface experiments, and AI visualizat
 
 [![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-080e16?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Explore-91e5f7?style=for-the-badge)](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/)
-[![Public inventory](https://img.shields.io/badge/Public%20inventory-64-111827?style=for-the-badge)](https://github.com/Pierreg99?tab=repositories)
-[![Account sync](https://img.shields.io/badge/Account%20sync-123%20repos-111827?style=for-the-badge)](https://github.com/Pierreg99/progress)
+[![Public inventory](https://img.shields.io/badge/Public%20inventory-65-111827?style=for-the-badge)](https://github.com/Pierreg99?tab=repositories)
+[![Account sync](https://img.shields.io/badge/Account%20sync-124%20repos-111827?style=for-the-badge)](https://github.com/Pierreg99/progress)
 
 [Open the portfolio →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/) · [Resources](./docs/) · [Public data](./assets/sync/public-repositories.json)
 
@@ -110,7 +110,7 @@ The 14 reviewed projects have descriptions, dedicated previews, and separate liv
 ## Public inventory
 
 <!-- inventory:start -->
-The synchronized inventory contains **64 public repositories**. The account summary records **123 repositories** (**59 private**); private names are never published. The public list comes from GitHub's public user API; the private count is a preserved aggregate from the progress hub.
+The synchronized inventory contains **65 public repositories**. The account summary records **124 repositories** (**59 private**); private names are never published. The public list comes from GitHub's public user API; the private count is a preserved aggregate from the progress hub.
 <!-- inventory:end -->
 
 One versioned snapshot powers the project explorer, public totals, and language distribution. Original projects and public forks are separately filterable. Missing language metadata remains visible. The chart describes project share by primary language, rather than lines of code.
