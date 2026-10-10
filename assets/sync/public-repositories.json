@@ -164,16 +164,6 @@
       "topics": []
     },
     {
-      "name": "CryoSecOPS-RTASE",
-      "url": "https://github.com/Pierreg99/CryoSecOPS-RTASE",
-      "description": "",
-      "language": "TypeScript",
-      "fork": false,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "CryOVSeries-MarketingOfficial",
       "url": "https://github.com/Pierreg99/CryOVSeries-MarketingOfficial",
       "description": "CryOVSeries Marketing Official — public CryoSys Enterprise v3 claims, author sales pages, and validated source register. No prices, no private packets.",
@@ -654,5 +644,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-09T21:10:24+00:00"
+  "updatedAt": "2026-10-10T14:39:28+00:00"
 }
